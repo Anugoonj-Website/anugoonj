@@ -1,0 +1,14 @@
+@import "./common.css"; 
+
+.navbar{
+    display: flex;
+    position: fixed;
+    height: 25vh;
+    width: 100vw;
+    min-height: fit-content;
+    padding: 3vh 3vw;
+}
+
+.navbar_links{
+    
+}
