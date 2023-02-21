@@ -1,9 +1,5 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Fullpage, {
-  FullPageSections,
-  FullpageSection,
-} from "@ap.cx/react-fullpage";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Event from "./pages/Event";
