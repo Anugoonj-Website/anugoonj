@@ -1,12 +1,13 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from '../components/Navbar'
+import "../styles/home.css";
 
 
 const Home = () => {
     return(
-        <div>
-            <Navbar />
+        <div className='home'>
+            <div className='home_inside'>
+            </div>
         </div>
     );
 }

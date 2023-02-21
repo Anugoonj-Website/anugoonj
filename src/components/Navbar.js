@@ -11,12 +11,12 @@ const Navbar = () => {
             <div className='navbar'>
                 <img src={logo} alt="img" className='logo_img'/>
 
-                <div className='navbar_links'>
-                    <NavLink className="navbar-link" to="/">Home</NavLink>
-                    <NavLink className="navbar-link" to="/">Events</NavLink>
-                    <NavLink className="navbar-link" to="/">Sponsors</NavLink>
-                    <NavLink className="navbar-link" to="/">Legacy</NavLink>
-                    <NavLink className="navbar-link" to="/">Contact Us</NavLink>
+                <div className='navbar_route'>
+                    <NavLink className="navbar_link"  to="/home">Home</NavLink>
+                    <NavLink className="navbar_link"  to="/events">Events</NavLink>
+                    <NavLink className="navbar_link"  to="/sponsors">Sponsors</NavLink>
+                    <NavLink className="navbar_link"  to="/legacy">Legacy</NavLink>
+                    <NavLink className="navbar_link"  to="/contact_us">Contact Us</NavLink>
                 </div>
 
             </div>

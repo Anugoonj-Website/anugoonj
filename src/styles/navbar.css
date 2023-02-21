@@ -1,14 +1,52 @@
 @import "./common.css"; 
 
 .navbar{
-    display: flex;
     position: fixed;
-    height: 25vh;
     width: 100vw;
-    min-height: fit-content;
-    padding: 3vh 3vw;
+    height: fit-content;
+    padding: 3vh 0 0 3vw;
+    z-index: +4;
+
 }
 
-.navbar_links{
+
+.logo_img
+{
+    height: 18vh;
+    min-height: 180px;
+}
+
+.navbar_route{
+    float: right;
+    color: white;
+    display: grid;
+    grid-auto-flow: column;
+    width: 50vw;
+    gap: auto;
+    background-color: #ffffff3d;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.navbar_link
+{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+
+}
+
+.navbar_link:hover
+{
+    background-color: #c1d03782;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+a.navbar_link.active {
+    background-color: #E63B81;
     
 }
