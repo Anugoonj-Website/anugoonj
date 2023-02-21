@@ -1,5 +1,4 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "../styles/home.css";
 import arman_malik from "../images/am3.png";
 
