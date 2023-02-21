@@ -7,10 +7,13 @@ const Home = () => {
     return(
         <div className='home'>
             <div className='home_inside'>
-                <div className='home_page_label'>
+                <spam className='home_page_label'>
                     <h1 className='home_page_label_anugoonj'>ANUGOONJ</h1>
-                </div>
+                </spam>
                 <img src={arman_malik} alt="img" className='home_arman_malik_image'/>
+            </div>
+            <div className='home_about_us'>
+
             </div>
         </div>
     );

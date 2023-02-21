@@ -2,54 +2,52 @@
 
 .home
 {
-    position: fixed;
     height: 100vh;
     width: 100vw;
     background-image: url("/src/images/home_page_background.jpeg");
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
-    
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
-
 
 .home_inside
 {
     background-color: var(--color-bg);
-    position: fixed;
     height: 100vh;
     width: 100vw;
     opacity: 0.7;
+    /* display: flex; */
+    overflow: hidden;
+}
+
+.home_about_us
+{
+    background-color: var(--color-bg);
+    height: 100vh;
+    width: 100vw;
 }
 
 .home_arman_malik_image
 {
     z-index: +5;
     height: 70%;
-    position: absolute;
-    bottom: 0;
-    right: 7vw;
+    margin-top: 20vh;
+    margin-right: 4vw;
+    float: right;
 }
 
 .home_page_label{
-    /* color: rgba(255, 255, 255, 0.388); */
-    /* background: #030303; */
-    position: absolute;
+  
+    position: relative;
     top: 25vh;
     left: 7vw;
-    
 }
 
 .home_page_label_anugoonj{
-    /* -webkit-text-stroke: 2px rgb(240, 245, 97); */
     font-size: 8rem;
     font-weight: bold;
-    /* background: #ffffff -webkit-gradient(linear, left top, right top, from(#ffffff), to(#ffffff), color-stop(0.7, #e6e03b)) 0 0 no-repeat;
-    -webkit-background-size: 150px;
-    background-size: 150px;
-    color: rbga(255, 255, 255, 0.1);
-    -webkit-background-clip: text;
-    animation: animate 5s infinite; */
     text-shadow:  0 0 10px #ffffff,
     0 0 20px #ffffff,
     0 0 40px #ffffff,
@@ -58,21 +56,6 @@
     0 0 160px #ffffff
     ;
 
-}
-
-@keyframes animate{
-    0%, 100%{
-        background-position: -1000px;
-    }
-    20%{
-        background-position: top left;
-    }
-    90%{
-        background-position: top right;
-    }
-    100%{
-        background-position: 1000px;
-    }
 }
 
 .home_arrow{

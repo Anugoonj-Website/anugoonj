@@ -4,14 +4,14 @@
     position: fixed;
     width: 100vw;
     height: fit-content;
-    padding: 3vh 0 0 3vw;
+    padding: 3vh 0 0 0;
     z-index: +10;
-
 }
 
 
 .logo_img
 {
+    padding-left: 3vw;
     height: 18vh;
     min-height: 100px;
 }
@@ -19,7 +19,7 @@
 .navbar_route{
     float: right;
     color: white;
-    display: grid;
+    display: flex;
     grid-auto-flow: column;
     width: 50vw;
     gap: auto;
@@ -30,6 +30,8 @@
     text-align: center;
     overflow: hidden;
     box-shadow: 4px 4px 2px rgba(255, 255, 255, 0.15);
+    overflow: hidden;
+
 }
 
 .navbar_link
@@ -38,7 +40,6 @@
     font-family: sans-serif;
     font-size: 1.5rem;
     padding: 1rem;
-
 }
 
 .navbar_link:hover
