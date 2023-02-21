@@ -1,0 +1,178 @@
+@import "./common.css";
+
+.milestones
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/src/images/design-3.jpg");
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.milestones_inside
+{
+    background-color: var(--color-bg);
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.7;
+    /* display: flex; */
+    overflow: hidden;
+}
+
+.home_about_us
+{
+    background-color: var(--color-bg);
+    height: 100vh;
+    width: 100vw;
+}
+
+.text-year{
+
+    background-color: rgba(255,255,255,0.3);
+    backdrop-filter: blur(6px);
+    box-sizing: border-box;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 4px 2px rgba(255, 255, 255, 0.15);
+    overflow: hidden;
+
+}
+
+.button button {
+    margin: 0;
+    background-color:transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  
+
+.column {
+    float: center;
+    width: 33.33%;
+    color: white;
+    text-align: center;
+    column-gap: 40px;
+
+    padding-right: 50px;
+    padding-left: 30px;
+    overflow: hidden;
+    
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.home_page_label{
+  
+    position: relative;
+    top: 25vh;
+    text-align: center;
+}
+
+.milestones_page_label_anugoonj{
+    font-size: 8rem;
+    font-weight: bold;
+    text-shadow:  0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 40px #ffffff,
+    0 0 80px #ffffff,
+    0 0 120px #ffffff,
+    0 0 160px #ffffff
+    ;
+    text-align: center;
+
+}
+
+.home_arrow{
+    position: absolute;
+    bottom: 1vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home_down_arrow{
+    height: 10vh;
+}
+
+
+
+/* About Us Animation Area */
+
+.animation-area {
+	/* background: linear-gradient(to left, #8942a8, #ba382f); */
+	width: 100%;
+	height: 100vh;
+}
+.box-area {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.box-area li {
+	position: absolute;
+	display: block;
+	list-style: none;
+	width: 25px;
+	height: 25px;
+    border-radius: 100%;
+	background: rgba(255, 147, 239, 0.689);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+}
+.box-area li:nth-child(1) {
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(2) {
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+}
+.box-area li:nth-child(3) {
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 5.5s;
+}
+.box-area li:nth-child(4) {
+	left: 42%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 15s;
+}
+.box-area li:nth-child(5) {
+	left: 65%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(6) {
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 3.5s;
+}
+@keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}

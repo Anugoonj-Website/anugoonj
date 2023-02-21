@@ -6,6 +6,7 @@ import Event from "./pages/Event";
 import Sponsor from "./pages/Sponsor";
 import Legacy from "./pages/Legacy";
 import Contact from "./pages/Contact";
+import Milestones from "./pages/Milestones";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/sponsors" element={<Sponsor />} />
           <Route path="/legacy" element={<Legacy />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/milestones" element={<Milestones />} />
         </Routes>
       </Router>
     </>
