@@ -14,3 +14,13 @@
     --color-bg: #150567;
     
 }
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:inherit;
+}

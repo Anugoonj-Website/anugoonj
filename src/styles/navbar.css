@@ -32,6 +32,7 @@
 .navbar_link
 {
     color: white;
+    font-weight: 700;
     font-family: sans-serif;
     font-size: 1.5rem;
     padding: 1rem;
@@ -40,7 +41,7 @@
 
 .navbar_link:hover
 {
-    background-color: #c1d03782;
+    background-color: #c1d037d3;
     -webkit-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
