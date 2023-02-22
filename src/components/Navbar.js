@@ -22,8 +22,8 @@ const Navbar = () => {
           <NavLink className="navbar_link" to="/legacy">
             Legacy
           </NavLink>
-          <NavLink className="navbar_link" to="/contact">
-            Contact Us
+          <NavLink className="navbar_link" to="/milestones">
+             Milestones
           </NavLink>
         </div>
       </div>

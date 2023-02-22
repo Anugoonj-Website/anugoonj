@@ -1,0 +1,42 @@
+.left_event_body{
+    display: flex;
+    box-sizing: border-box;
+    width: fit-content;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+.event_content{
+    float: right;
+    margin-left: 2vw;
+    background-color: #e63b8281;
+    z-index: 10;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+}
+
+.event_heading
+{
+    font-weight: 700;
+}
+
+.location_time
+{
+    display: grid;
+    grid-auto-flow: column;
+    gap: auto;
+    font-weight: 600;
+}
+.event_time
+{
+    text-align: right;
+}
+
+.image
+{
+    width: 120px;
+}
+

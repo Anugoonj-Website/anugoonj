@@ -9,6 +9,7 @@
     0 0 160px #ffffff,
     0 0 180px #ffffff;
     font-size: 0rem;
+    font-family: Carlson;
     animation: loading_animation;
     animation-duration: 3000ms;
     animation-iteration-count: 1;
