@@ -10,7 +10,7 @@ const Navbar = () => {
         <img src={logo} alt="img" className="logo_img" />
 
         <div className="navbar_route">
-          <NavLink className="navbar_link" to="/">
+          <NavLink className="navbar_link" to="/">  
             Home
           </NavLink>
           <NavLink className="navbar_link" to="/events">

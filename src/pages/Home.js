@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/home.css";
 import arman_malik from "../images/am3.png";
-import arrow from "../images/arrow.gif";
+import arrow from "../images/arrow.png";
 import Fullpage, {
   FullPageSections,
   FullpageSection,
