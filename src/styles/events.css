@@ -2,7 +2,7 @@
 
 .events_page
 {
-	background-image: url("../images/events_page_background.webp");
+	/* background-image: url("../images/events_page_background.webp"); */
     width: 100%;
     min-height: 100vh;
     background-position: center;
