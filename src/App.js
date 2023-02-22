@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Event from "./pages/Event";
+import Event from "./pages/Events";
 import Sponsor from "./pages/Sponsor";
 import Legacy from "./pages/Legacy";
 import Contact from "./pages/Contact";
