@@ -1,20 +1,46 @@
-import React from 'react'
+import React from "react";
 import "../styles/home.css";
 import arman_malik from "../images/am3.png";
-
+import arrow from "../images/arrow.gif";
+import Fullpage, {
+  FullPageSections,
+  FullpageSection,
+} from "@ap.cx/react-fullpage";
 
 const Home = () => {
-    return (
-        <div className='home'>
-            <div className='home_inside'>
-                <spam className='home_page_label'>
-                    <h1 className='home_page_label_anugoonj'>ANUGOONJ</h1>
-                </spam>
-                <img src={arman_malik} alt="img" className='home_arman_malik_image' />
-            </div>
-            <div className='home_about_us'>
-                
+  return (
+    <Fullpage>
+      <FullPageSections>
+        <FullpageSection style={{ height: "100vh " }}>
+          <div className="home">
+            <div className="home_inside">
+              <div className="home_page_label">
+                <h1 className="home_page_label_anugoonj">ANUGOONJ</h1>
+              </div>
+              <img
+                src={arman_malik}
+                alt="img"
+                className="home_arman_malik_image"
+              />
 
+              <div className="home_arrow">
+                <img src={arrow} alt="arrow" className="home_down_arrow" />
+              </div>
+            </div>
+          </div>
+        </FullpageSection>
+        <FullpageSection style={{ height: "100vh " }}>
+          <h1>Guest Performance</h1>
+        </FullpageSection>
+        <FullpageSection style={{ height: "100vh " }}>
+          <h1>Page2</h1>
+        </FullpageSection>
+      </FullPageSections>
+    </Fullpage>
+  );
+};
+
+<<<<<<< HEAD
                 <div class="animation-area">
                 {/* <h1 className='home_page_label_anugoonj'>About Us</h1>
                     <ul class="box-area">
@@ -35,3 +61,6 @@ const Home = () => {
 }
 
 export default Home
+=======
+export default Home;
+>>>>>>> 4a6ea035a52b8404d0d435fff6acfc665754cdcc
