@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import "../styles/events.css";
 import Loader from '../components/Loader';
-import SmallEventLeft from '../components/SmallEventLeft'
-import SmallEventRight from '../components/SmallEventRight';
 
-const Event = () => {
+const Events = () => {
 
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -17,35 +15,33 @@ const Event = () => {
 
   return (
     <div className='events_page'>
-        {loading && <Loader heading="EVENTS" />}
-        <div className='event_page_options'>
-          <NavLink className="navbar_link" to="/"> Day-1</NavLink>
-          <NavLink className="navbar_link" to="/events">Day-2</NavLink>
-          <NavLink className="navbar_link" to="/sponsors">Day-3</NavLink>
-        </div>
+      <div className='events_page_insde'>
+      {loading && <Loader heading="EVENTS" />}
 
-        <div className="events">
-          <SmallEventLeft />
-          <SmallEventRight />
-        </div>
+      <div className='event_page_options'>
+        <NavLink className="navbar_link" to="/events/day_1"> Day-1</NavLink>
+        <NavLink className="navbar_link" to="/events/day_2">Day-2</NavLink>
+        <NavLink className="navbar_link" to="/events/day_3">Day-3</NavLink>
+      </div>
 
-
+      <Outlet />
+ 
       <div class="animation-area">
-      <ul class="box-area">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-
+        <ul class="box-area">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
 
 
       </div>
+    </div>
 
   )
 }
 
-export default Event
+export default Events;
