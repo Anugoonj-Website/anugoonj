@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/home.css";
 import arman_malik from "../images/am3.png";
-// import neon_circle from "../images/neon-circle.png";
-import arrow from "../images/arrow.gif";
+import neon_circle from "../images/neon-circle.png";
+// import arrow from "../images/arrow.png";
 import Fullpage, {
   FullPageSections,
   FullpageSection,
@@ -31,9 +31,9 @@ const Home = () => {
                 className="home_arman_malik_image"
               />
 
-              <div className="home_arrow">
+              {/* <div className="home_arrow">
                 <img src={arrow} alt="arrow" className="home_down_arrow" />
-              </div> */}
+              </div>  */}
             </div>
           </div>
         </FullpageSection>
