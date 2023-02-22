@@ -1,8 +1,19 @@
 import React from "react";
-import "../styles/home.css";
+import "../styles/sponsors.css";
 
 const Sponsor = () => {
-  return <div>Sponsor</div>;
+  return (
+    <div>
+      <div>
+        <h1>Sponsors</h1>
+      </div>
+
+      
+
+
+      
+    </div>
+  );
 };
 
 export default Sponsor;

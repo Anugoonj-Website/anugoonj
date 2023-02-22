@@ -12,8 +12,9 @@
 .logo_img
 {
     padding-left: 3vw;
-    height: 18vh;
+    height: 14vh;
     min-height: 100px;
+    filter: drop-shadow(1px 1px 3px rgba(255, 255, 255, 0.64));
 }
 
 .navbar_route{
@@ -45,10 +46,15 @@
 .navbar_link:hover
 {
     /* background-color: #c1d037d3; */
-    background-color: #fff280c3;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
+    background-color: #ffffff;
+    color: #15054a;
+    /* transform: scale(1.01); */
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    /* font-weight: 600; */
+    -webkit-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
 }
 
 a.navbar_link.active {
