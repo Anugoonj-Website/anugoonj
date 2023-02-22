@@ -11,7 +11,7 @@
 .event_content{
     float: right;
     margin-left: 2vw;
-    background-color: #e63b8281;
+    background-color: #150567a4;
     z-index: 10;
     border-radius: 5px;
     color: white;
@@ -37,6 +37,6 @@
 
 .image
 {
-    width: 120px;
+    width: 140px;
 }
 
