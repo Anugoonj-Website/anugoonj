@@ -50,7 +50,7 @@
 	margin-top: 5vh;
 	display: grid;
 	grid-template-columns: auto auto ;
-	gap: 7vh;
+	gap: 5%;
 }
 .nav_link_events
 {
