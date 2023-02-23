@@ -1,10 +1,10 @@
 import React from 'react'
 import "../styles/home.css";
 
-const Legacy = () => {
+const Team = () => {
   return (
-    <div>Legacy</div>
+    <div>Team</div>
   )
 }
 
-export default Legacy
+export default Team;
