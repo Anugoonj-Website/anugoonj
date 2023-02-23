@@ -15,7 +15,7 @@ const Events = () => {
 
   return (
     <div className='events_page'>
-      <div className='events_page_insde'>
+      
       {loading && <Loader heading="EVENTS" />}
 
       <div className='event_page_options'>
@@ -34,11 +34,10 @@ const Events = () => {
           <li></li>
           <li></li>
           <li></li>
+          
         </ul>
       </div>
 
-
-      </div>
     </div>
 
   )

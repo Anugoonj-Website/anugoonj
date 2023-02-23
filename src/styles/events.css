@@ -2,45 +2,18 @@
 
 .events_page
 {
-	/* background-image: url("../images/events_page_background.webp"); */
-    width: 100%;
-    min-height: 100vh;
-    background-position: center;
-    background-repeat: repeat-y; 
-	overflow: auto;	
-
-}
-
-.events_page_insde
-{
 	padding-top: 25vh;
 	width: 100%;
     min-height: 100vh;
-	background-color: #150567e2;
+	background-color: #2E044C;
 	overflow: auto;	
-}
 
-
-
-
-.event_page_lapal
-{
-    position: relative;
-    /* top: 25vh; */
-    left: 6vw;
-    font-size: 6rem;
-    text-shadow:  0 0 10px #ffffff,
-    0 0 20px #ffffff,
-    0 0 40px #ffffff,
-    0 0 80px #ffffff,
-    0 0 120px #ffffff,
-    0 0 160px #ffffff,
-    0 0 180px #ffffff;
 }
 
 .event_page_options
 {
-    float: right;
+	position: fixed;
+	right: 0;
     display: grid;
     background-color: rgba(255, 255, 255, 0.09);
     border-radius: 2px;
@@ -52,13 +25,18 @@
 {
 	display: grid;
 	gap: 7vh;
-	padding-left: 5vw;
-	padding-right: 5vw;
+	width: auto;
+	padding-left: 10vw;
+	padding-right: 10vw;
 }
 
 /* About Us Animation Area */
 
 
+ul
+{
+	padding: 0;
+}
 .animation-area {
     top: 0;
     bottom: 0;

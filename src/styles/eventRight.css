@@ -1,0 +1,50 @@
+.left_event_body{
+    display: grid;
+box-sizing: border-box;
+grid-auto-flow: column;
+gap: 3%;
+background-color: rgba(255, 255, 255, 0.2);
+box-shadow: 4px 4px 2px rgb(255 255 255 / 15%);
+border-radius: 5px;
+
+}
+
+
+
+.event_content{
+float: right;
+/* background-color: rgba(255, 255, 255, 0.2);
+box-shadow: 4px 4px 2px rgb(255 255 255 / 15%); */
+z-index: 10;
+border-radius: 5px;
+color: white;
+padding: 20px 20px 20px 0;
+}
+
+.event_heading
+{
+font-weight: 700;
+}
+
+.location_time
+{
+display: grid;
+grid-auto-flow: column;
+gap: auto;
+font-weight: 600;
+font-size: 20px;
+}
+.event_time
+{
+text-align: right;
+}
+
+
+
+.Posters_right
+{
+margin: 5% 0;
+border-radius: 50%;
+border: 20px solid #2E044C;
+margin-right: -20px;
+}

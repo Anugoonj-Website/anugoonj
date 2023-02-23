@@ -1,6 +1,6 @@
 import React from 'react';
-import Event from './EventLeft';
-import EventRight from '../components/EventRight'
+import EventLeft from './EventLeft';
+import EventRight from './EventRight'
 import "../styles/events.css";
 
 
@@ -9,11 +9,11 @@ function Events()
     return(
         
         <div className="events">
-          <Event />
+          <EventLeft />
           <EventRight />
-          <Event />
+          <EventLeft />
           <EventRight />
-          <Event />
+          <EventLeft />
         </div>
     )
 }
