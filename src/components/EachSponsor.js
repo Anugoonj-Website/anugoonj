@@ -9,6 +9,8 @@ const EachSponsor = () => {
       <img src={coca_cola} alt="img" className='spon_image' />
     </div>
 
+    
+
 
   )
 }
