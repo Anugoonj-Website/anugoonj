@@ -1,0 +1,13 @@
+.eachSponsorComponent{
+    background-image: url("../images/neon_square_frame.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* display: inline; */
+    background-size: contain;
+    height:20vh;
+
+}
+
+.spon_image{
+    height: 10vh;
+}
