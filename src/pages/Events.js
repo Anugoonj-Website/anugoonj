@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { NavLink, Outlet } from "react-router-dom";
 import "../styles/events.css";
-import Loader from '../components/Loader';
 
 const Events = () => {
 
@@ -15,8 +14,6 @@ const Events = () => {
 
   return (
     <div className='events_page'>
-      
-      {loading && <Loader heading="EVENTS" />}
 
       <div className='event_page_options'>
         <NavLink className="navbar_link" to="/events/day_1"> Day-1</NavLink>
