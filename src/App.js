@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Events from "./pages/Events";
 import Events_Component from "./components/Events";
 import Sponsor from "./pages/Sponsor";
-import Legacy from "./pages/Legacy";
+import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import Milestones from "./pages/Milestones";
 
@@ -24,8 +24,7 @@ function App() {
             <Route path="day_3" element={<Events_Component day="3" date="4th"/>}/>
           </Route>
           <Route path="/sponsors" element={<Sponsor />} />
-          <Route path="/legacy" element={<Legacy />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/team" element={<Team/>} />
           <Route path="/milestones" element={<Milestones />} />
         </Routes>
       </Router>
