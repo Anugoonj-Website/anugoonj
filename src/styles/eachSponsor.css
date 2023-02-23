@@ -6,12 +6,14 @@
     background-size:cover;
     width: fit-content;
     height: fit-content;
-    padding: 20px;
+    opacity: 0.8;
+    padding: 10%;
     transform: rotate(15deg);
 }
 
 .spon_image{
     height: 10vh;
     transform: rotate(-15deg);
+    
 }
 

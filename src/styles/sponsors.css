@@ -13,6 +13,7 @@
 	display: grid;
 	grid-template-columns: auto auto auto;
 	gap: 5vh;
+	margin-top: 2%;
 }
 
 
@@ -51,7 +52,7 @@ ul
 	background: rgb(255 255 255 / 5%);;
 	animation: animate 20s linear infinite;
 	bottom: -150px;
-	color: white;
+	color: rgb(253, 117, 253);
 	/* text-align: center; */
 	/* justify-content: center;*/
 	font-size: xx-small; 
