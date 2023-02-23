@@ -22,6 +22,21 @@
 	z-index: 9;
 }
 
+.heading_events
+{
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff, 0 0 120px #ffffff, 0 0 160px #ffffff;
+    text-align: center;
+    font-size: 2 rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sub_heading_event
+{
+    text-align: center;
+    color: white;
+}
+
 .events
 {
 	display: grid;
@@ -30,6 +45,21 @@
 	padding-left: 20vw;
 	padding-right: 20vw;
 	padding-bottom: 5vh;
+}
+
+.nav_link_events
+{
+	text-align: center;
+}
+
+.nav_link_date
+{
+	font-size: x-small;
+}
+
+.nav_link_day
+{
+	font-size: medium;
 }
 
 /* About Us Animation Area */

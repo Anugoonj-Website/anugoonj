@@ -19,9 +19,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} >
             <Route index element={<Navigate to="day_1" />} />
-            <Route path="day_1" element={<Events_Component/>}/>
-            <Route path="day_2" element={<Events_Component/>}/>
-            <Route path="day_3" element={<Events_Component/>}/>
+            <Route path="day_1" element={<Events_Component day="1" date="2nd"/>}/>
+            <Route path="day_2" element={<Events_Component day="2" date="3rd"/>}/>
+            <Route path="day_3" element={<Events_Component day="3" date="4th"/>}/>
           </Route>
           <Route path="/sponsors" element={<Sponsor />} />
           <Route path="/legacy" element={<Legacy />} />

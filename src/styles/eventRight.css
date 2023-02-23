@@ -9,22 +9,12 @@ border-radius: 20px;
 
 }
 
-
-
 .right_event_content{
 float: right;
 z-index: 10;
 border-radius: 5px;
 color: white;
 padding: 20px 0 20px 20px;
-}
-
-
-.event_heading_component
-{
-    text-align: center;
-    /* border: 10px solid #2E044C;
-    border-radius: 20px; */
 }
 
 .event_heading

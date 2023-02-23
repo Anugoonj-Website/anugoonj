@@ -16,9 +16,16 @@ const Events = () => {
     <div className='events_page'>
 
       <div className='event_page_options'>
-        <NavLink className="navbar_link" to="/events/day_1"> Day-1</NavLink>
-        <NavLink className="navbar_link" to="/events/day_2">Day-2</NavLink>
-        <NavLink className="navbar_link" to="/events/day_3">Day-3</NavLink>
+        <NavLink className="navbar_link nav_link_events" to="/events/day_1"> 
+        <div className='nav_link_day'>Day-1</div>
+        <div className='nav_link_date'>2nd March</div>
+        </NavLink>
+        <NavLink className="navbar_link" to="/events/day_2"> 
+        <div className='nav_link_day'>Day-2</div>
+        <div className='nav_link_date'>3rd March</div></NavLink>
+        <NavLink className="navbar_link" to="/events/day_3"> 
+        <div className='nav_link_day'>Day-3</div>
+        <div className='nav_link_date'>4th March</div></NavLink>
       </div>
 
       <Outlet />
