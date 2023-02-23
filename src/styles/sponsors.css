@@ -1,11 +1,16 @@
 .sponsors_page
 {
+	padding: 5%;
 	padding-top: 20vh;
 	width: 100%;
     min-height: 100vh;
 	background-color: #2E044C;
 	overflow: auto;	
+	z-index: -1;
 }
 
-
+.eachSponsor{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
 
