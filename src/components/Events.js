@@ -13,12 +13,21 @@ function Events(props) {
         <h6 className='sub_heading_event'>Day-{props.day} ({props.date} March 2023)</h6>
       </div>
 
+      <div className='events_events'>
+        <EventLeft />
+        <EventRight />
+        <EventLeft />
+        <EventRight />
+        <EventLeft />
+        <EventRight />
+        <EventLeft />
+        <EventRight />
+        <EventLeft />
+        <EventRight />
 
-      <EventLeft />
-      <EventRight />
-      <EventLeft />
-      <EventRight />
-      <EventLeft />
+
+      </div>
+
     </div>
   )
 }
