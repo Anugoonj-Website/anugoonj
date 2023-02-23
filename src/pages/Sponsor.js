@@ -18,8 +18,49 @@ const Sponsor = () => {
         <EachSponsor />
         <EachSponsor />
         <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
         </div>
+
+        <div class="animation-area">
+        <ul class="box-area">
+          <li ></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          
+        </ul>
+      </div>
         
+
+        <div class="animation-area">
+        <ul class="box-area">
+          <li ></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          
+        </ul>
+      </div>
+
     </div>
   );
 };
