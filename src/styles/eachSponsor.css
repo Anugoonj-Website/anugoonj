@@ -2,12 +2,15 @@
     background-image: url("../images/neon_square_frame.png");
     background-repeat: no-repeat;
     background-position: center;
-    /* display: inline; */
-    background-size: contain;
-    height:20vh;
-
+    background-size:cover;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    transform: rotate(15deg);
 }
 
 .spon_image{
     height: 10vh;
+    transform: rotate(-15deg);
 }
+

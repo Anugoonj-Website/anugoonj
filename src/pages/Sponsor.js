@@ -18,6 +18,14 @@ const Sponsor = () => {
         <EachSponsor />
         <EachSponsor />
         <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
+        <EachSponsor />
         </div>
         
     </div>

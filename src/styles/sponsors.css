@@ -12,5 +12,6 @@
 .eachSponsor{
 	display: grid;
 	grid-template-columns: auto auto auto;
+	gap: 5vh;
 }
 
