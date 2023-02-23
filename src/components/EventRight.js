@@ -7,7 +7,7 @@ import poster from "../images/poster.jpg";
 
 const Event = (props) => {
   return (
-    <div className='left_event_body'>
+    <div className='right_event_body'>
 
       <div className='event_content event_conent_bondary'>
         <h1 className='event_heading'>Event1</h1>

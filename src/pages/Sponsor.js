@@ -3,9 +3,9 @@ import "../styles/sponsors.css";
 
 const Sponsor = () => {
   return (
-    <div>
-      <div>
-        <h1>Sponsors</h1>
+    <div className="sponsors_page">
+      <div className="sponsor_heading_box">
+        <h1 className="sponsor_heading text-[50px] text-center text-[white]">Sponsors</h1>
       </div>
 
       
