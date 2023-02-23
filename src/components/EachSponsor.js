@@ -15,4 +15,4 @@ const EachSponsor = () => {
   )
 }
 
-export default EachSponsor
+export default EachSponsor;
