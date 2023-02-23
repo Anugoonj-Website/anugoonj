@@ -19,6 +19,14 @@ color: white;
 padding: 20px 0 20px 20px;
 }
 
+
+.event_heading_component
+{
+    text-align: center;
+    /* border: 10px solid #2E044C;
+    border-radius: 20px; */
+}
+
 .event_heading
 {
 font-weight: 700;
