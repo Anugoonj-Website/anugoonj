@@ -10,13 +10,16 @@ const Event = (props) => {
     <div className='left_event_body'>
 
 
-      <div className='poster_container'>
-        <img src={poster} className="Posters" />
+      <div className='left_poster_container'>
+        <img src={poster} className="left_posters" />
       </div>
 
-      <div className='event_content event_conent_bondary'>
-        <h1 className='event_heading'>Event1</h1>
-        <p className='event_paragraph'>Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit. Voluptate dolores epturi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores epturi</p>
+      <div className='left_event_content'>
+        <div className='event_heading_component'>
+          <h1 className='event_heading'>Event1</h1>
+        </div>
+
+        <p className='event_paragraph'>Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.</p>
         <div className='location_time'>
           <div><FontAwesomeIcon icon={faLocationDot} /> Location : D-Block</div>
           <div className='event_time'><FontAwesomeIcon icon={faClock} /> Time : 2:30 Pm</div>

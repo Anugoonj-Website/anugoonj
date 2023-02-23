@@ -4,21 +4,19 @@ box-sizing: border-box;
 grid-auto-flow: column;
 gap: 3%;
 background-color: rgba(255, 255, 255, 0.2);
-box-shadow: 4px 4px 2px rgb(255 255 255 / 15%);
-border-radius: 5px;
+box-shadow: 4px 4px 10px 2px rgb(255 255 255 / 15%);
+border-radius: 20px;
 
 }
 
 
 
-.event_content{
+.right_event_content{
 float: right;
-/* background-color: rgba(255, 255, 255, 0.2);
-box-shadow: 4px 4px 2px rgb(255 255 255 / 15%); */
 z-index: 10;
 border-radius: 5px;
 color: white;
-padding: 20px 20px 20px 0;
+padding: 20px 0 20px 20px;
 }
 
 .event_heading
@@ -31,8 +29,8 @@ font-weight: 700;
 display: grid;
 grid-auto-flow: column;
 gap: auto;
-font-weight: 600;
-font-size: 20px;
+font-weight: 500;
+font-size: 15px;
 }
 .event_time
 {
@@ -41,10 +39,18 @@ text-align: right;
 
 
 
-.Posters_right
+.right_poster_container
 {
-margin: 5% 0;
-border-radius: 50%;
-border: 20px solid #2E044C;
-margin-right: -20px;
+    background-color:#2E044C;
+    border-radius: 50% 50% 0 50%;
+    margin-left: -10px;
+    /* margin-bottom: -10px; */
+
+}
+.right_posters
+{
+    margin: 0;
+    border-radius: 50%;
+    padding: 10px;
+  
 }

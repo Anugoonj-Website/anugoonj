@@ -9,8 +9,10 @@ const Event = (props) => {
   return (
     <div className='right_event_body'>
 
-      <div className='event_content event_conent_bondary'>
-        <h1 className='event_heading'>Event1</h1>
+      <div className='right_event_content '>
+        <div className='event_heading_component'>
+          <h1 className='event_heading'>Event1</h1>
+        </div>
         <p className='event_paragraph'>Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit. Voluptate dolores epturi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores epturi</p>
         <div className='location_time'>
           <div><FontAwesomeIcon icon={faLocationDot} /> Location : D-Block</div>
@@ -18,7 +20,9 @@ const Event = (props) => {
         </div>
       </div>
 
-      <img src={poster} className="Posters_right" />
+      <div className='right_poster_container'>
+        <img src={poster} className="right_posters" />
+      </div>
 
     </div>
   )
