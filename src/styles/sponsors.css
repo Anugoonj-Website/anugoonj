@@ -25,12 +25,15 @@
     0 0 12px #fff,
     0 0 16px #520888,
     0 0 20px #520888;
-	padding: 2% 0;
+	padding: 2%;
 	border-radius: 20px;
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	gap: 5vh;
 	margin-top: 2%;
+	text-align: center;
+	align-items: center;
+	
 }
 
 .SponsorTitle{
@@ -52,6 +55,22 @@
 .sponsors_title_line{
 	font-weight: 700;
 }
+
+/*=============== MEDIA QUERIES ==================*/
+
+/* For 600px */
+
+@media screen and (max-width:600px) {
+	.eachSponsorMain{
+		padding: 0;
+		gap: 1vh;
+	}
+
+	.sponsors_content{
+		font-size: medium;
+	}
+}
+
 
 
 /* About Us Animation Area */

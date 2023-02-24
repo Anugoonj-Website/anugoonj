@@ -12,4 +12,29 @@
     /* color: ; */
 }
 
+/* .image_div{
+    display: flex;
+    align-items: center;
+} */
+
+/*=============== MEDIA QUERIES ==================*/
+
+/* For 600px */
+
+@media screen and (max-width:600px) {
+
+	.spon_image{
+		height: 15vh;
+		
+	}
+}
+
+
+/* For 468px */
+
+@media screen and (max-width:468px) {
+	.spon_image{
+		height: 10vh;
+	}
+}
 
