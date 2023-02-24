@@ -8,7 +8,7 @@ const Sponsor = () => {
   return (
     <div className="sponsors_page">
       <div className="sponsor_heading_box">
-        <h1 className="sponsor_heading ">SPONSORS</h1>
+        <h1 className="sponsor_heading ">PARTNERS</h1>
       </div>
 
       <div className="sponsors_content">
