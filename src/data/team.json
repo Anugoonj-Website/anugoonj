@@ -1,0 +1,276 @@
+{
+    
+        
+        "organising":{                
+            "core":[
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                }
+            ],
+            "members":[
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                }
+            ]
+
+        },
+
+        "web":{                
+            "core":[
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                }
+            ],
+            "members":[
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                }
+            ]
+
+        },
+
+        "disipline":{                
+            "core":[
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                }
+            ],
+            "members":[
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                }
+            ]
+
+        },
+
+        "hospitality":{                
+            "core":[
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                }
+            ],
+            "members":[
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                }
+            ]
+
+        },
+        "office":{                
+            "core":[
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                }
+            ],
+            "members":[
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                }
+            ]
+
+        },
+        "ground":{                
+            "core":[
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                }
+            ],
+            "members":[
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                }
+            ]
+
+        },
+        "media":{                
+            "core":[
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                }
+            ],
+            "members":[
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                }
+            ]
+
+        }    
+}
