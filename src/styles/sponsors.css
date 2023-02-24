@@ -1,7 +1,13 @@
 @import "./common.css";
 
-.sponsors_page {
+.sponsors_all{
 	padding: 5%;
+	padding-top: 2%;
+}
+
+.sponsors_page {
+	/* padding: 5%; */
+	padding-bottom: 0;
 	padding-top: 22vh;
 	width: 100%;
 	min-height: 100vh;
@@ -45,6 +51,7 @@
 }
 
 .sponsors_content {
+	padding: 0 5%;
 	margin-top: 5vh;
 	text-align: center;
 	color: #ffffff;

@@ -101,6 +101,13 @@
 }
 
 
+/* Footer */
 
+.event_footer{
+    padding: 2rem 6rem;
+    color: white;
+}
 
-
+.sponsor_rights_text{
+	text-align: center;
+}

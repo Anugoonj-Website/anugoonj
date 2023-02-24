@@ -1,11 +1,16 @@
-import React from 'react'
-
-const SponsorFooter = () => {
+import React from "react";
+import "../styles/sponsorFooter.css";
+function Footer() {
   return (
-    <div>
-        <p>As a sponsor, you will play a vital role in helping us achieve our goals, whether it's funding important initiatives, supporting community outreach programs, or raising awareness for an important cause. Your generosity and partnership will not only benefit our organization but also the communities and individuals we serve</p>
+    <div className="sponsor_footer">
+      <p class="sponsor_rights-text">
+      If any organization is interested in sponsoring the cultural fest of GGSIPU - <b>Anugoonj</b>. They can contact us at <a href="tel:+123456789">+91 123456789</a> or mail us at <a href="mailto:anugoonj@gmail.com">anugoonj@gmail.com</a>
+      </p>
+      <p class="sponsor_rights-text">
+        © 2023 Created By <b>Anugoonj</b> All Rights Reserved.
+      </p>
     </div>
-  )
+  );
 }
 
-export default SponsorFooter
+export default Footer;
