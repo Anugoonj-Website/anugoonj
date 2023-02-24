@@ -6,8 +6,8 @@ function team() {
     return (
         <div className='team'>
             <Profile />
-            <Profile />
-            <Profile />
+            {/* <Profile />
+            <Profile /> */}
         </div>
     )
 }
