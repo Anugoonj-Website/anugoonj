@@ -2,10 +2,10 @@
 
 .eachSponsorComponent{
     margin-top: 2vh;
-    text-align: -webkit-center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .spon_image{
@@ -38,5 +38,10 @@
 	.spon_image{
 		height: 10vh;
 	}
+
+    .eachSponsorComponent
+    {
+        width: 300px;
+    }
 }
 
