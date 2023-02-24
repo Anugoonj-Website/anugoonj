@@ -1,0 +1,62 @@
+@import "./common.css";
+
+.teams {
+    padding-top: 22vh;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #2E044C;
+}
+
+
+.heading_teams {
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff, 0 0 120px #ffffff, 0 0 160px #ffffff;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.team_page_options {
+    position: fixed;
+    right: 0;
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+    z-index: 9;
+    width: 150px;
+}
+
+.nav_link_teams {
+    font-size: medium;
+    text-align: center;
+}
+.nav_link_teams:hover {
+    font-size: large;
+}
+
+@media screen and (max-width: 1200px) {
+    .team_page_options {
+        position: static;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+       
+        background-color: #2E044C;
+        overflow: hidden;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-top: 25px;
+    }
+
+    .nav_link_teams {
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.09);
+        border-radius:5px ;
+        font-size: medium;
+
+    }
+    .nav_link_teams:hover {
+        font-size: medium;
+
+    }
+}
