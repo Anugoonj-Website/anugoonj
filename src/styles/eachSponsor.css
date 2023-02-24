@@ -2,20 +2,41 @@
 
 .eachSponsorComponent{
     margin-top: 2vh;
-    background-image: url("../images/neon_square_frame.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    width: fit-content;
-    height: fit-content;
-    opacity: 0.8;
-    padding: 10%;
-    transform: rotate(15deg);
+    text-align: -webkit-center
 }
 
 .spon_image{
-    height: 10vh;
-    transform: rotate(-15deg);
-    
+    height: 15vh; 
+}
+
+.image_name{
+    font-size: larger;
+    /* color: ; */
+}
+
+/* .image_div{
+    display: flex;
+    align-items: center;
+} */
+
+/*=============== MEDIA QUERIES ==================*/
+
+/* For 600px */
+
+@media screen and (max-width:600px) {
+
+	.spon_image{
+		height: 15vh;
+		
+	}
+}
+
+
+/* For 468px */
+
+@media screen and (max-width:468px) {
+	.spon_image{
+		height: 10vh;
+	}
 }
 

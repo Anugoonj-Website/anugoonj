@@ -3,7 +3,7 @@
 .sponsors_page
 {
 	padding: 5%;
-	padding-top: 20vh;
+	padding-top: 22vh;
 	width: 100%;
     min-height: 100vh;
 	background-color: #2E044C;
@@ -11,12 +11,66 @@
 	z-index: -1;
 }
 
-.eachSponsor{
-	display: grid;
-	grid-template-columns: auto auto auto;
-	gap: 5vh;
-	margin-top: 2%;
+.sponsor_heading{
+	text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff, 0 0 120px #ffffff, 0 0 160px #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
+.eachSponsorMain{
+	background-color: #ffffff67;
+	box-shadow:
+    0 0 4px #fff,
+    0 0 8px #fff,
+    0 0 12px #fff,
+    0 0 16px #520888,
+    0 0 20px #520888;
+	padding: 2%;
+	border-radius: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	gap: 5vh;
+	margin-top: 2%;
+	text-align: center;
+	align-items: center;
+	
+}
+
+.SponsorTitle{
+	color: white;
+	margin-top: 10vh;
+	font-weight: 700;
+	font-size: x-large;
+	text-align: center;
+}
+
+.sponsors_content{
+	margin-top: 5vh;
+	text-align: center;
+	color: #ffffff;
+	font-size: large;
+
+}
+
+.sponsors_title_line{
+	font-weight: 700;
+}
+
+/*=============== MEDIA QUERIES ==================*/
+
+/* For 600px */
+
+@media screen and (max-width:600px) {
+	.eachSponsorMain{
+		padding: 0;
+		gap: 1vh;
+	}
+
+	.sponsors_content{
+		font-size: medium;
+	}
+}
 
 

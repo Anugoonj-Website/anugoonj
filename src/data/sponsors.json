@@ -1,0 +1,88 @@
+{
+    "sponsor_data":[
+        {
+            "title": "TITLE SPONSOR",
+            "data":[
+                {
+                    "names": "Lenskart",
+                    "image": "lenskart.png"
+                },
+                {
+                    "names": "Coke Studio",
+                    "image": "coke_studio.png"
+                },
+                {
+                    "names": "Coca Cola",
+                    "image": "coca_cola.png"
+                },
+                {
+                    "names": "Lenskart",
+                    "image": "lenskart.png"
+                },
+                {
+                    "names": "Coke Studio",
+                    "image": "coke_studio.png"
+                }
+            ]
+        },
+        {
+            "title": "PLATINUM SPONSOR",
+            "data":[
+                {
+                    "names": "Coca Cola",
+                    "image": "coca_cola.png"
+                },
+                {
+                    "names": "Lenskart",
+                    "image": "lenskart.png"
+                },
+                {
+                    "names": "Coke Studio",
+                    "image": "coke_studio.png"
+                },
+                {
+                    "names": "Coca Cola",
+                    "image": "coca_cola.png"
+                },
+                {
+                    "names": "Lenskart",
+                    "image": "lenskart.png"
+                },
+                {
+                    "names": "Coke Studio",
+                    "image": "coke_studio.png"
+                }
+            ]
+        },
+        {
+            "title": "GOLD SPONSOR",
+            "data":[
+                {
+                    "names": "Coca Cola",
+                    "image": "coca_cola.png"
+                },
+                {
+                    "names": "Lenskart",
+                    "image": "lenskart.png"
+                },
+                {
+                    "names": "Coke Studio",
+                    "image": "coke_studio.png"
+                },
+                {
+                    "names": "Coca Cola",
+                    "image": "coca_cola.png"
+                },
+                {
+                    "names": "Lenskart",
+                    "image": "lenskart.png"
+                },
+                {
+                    "names": "Coke Studio",
+                    "image": "coke_studio.png"
+                }
+            ]
+        }
+    ]
+
+}
