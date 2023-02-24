@@ -7,8 +7,8 @@ const EachSponsor = (props) => {
   return (
 
     <div className="eachSponsorComponent">
-    <div className="image_div"><img src={require(`../images/sponsors_image/${image}`)} alt="img" className='spon_image' /></div>
-      
+   
+      <img src={require(`../images/sponsors_image/${image}`)} alt="img" className='spon_image' />     
       <p className="image_name text-[white]">{names}</p>
     </div>
 

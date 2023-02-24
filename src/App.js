@@ -29,6 +29,7 @@ function App() {
           <Route path="/team" element={<Teams />} >
             <Route index element={<Navigate to="organising" />} />
             <Route path="organising" element={<Team/>} />
+            <Route path="web" element={<Team/>} />
             <Route path="disipline" element={<Team/>} />
             <Route path="hospitality" element={<Team/>} />
             <Route path="office" element={<Team/>} />

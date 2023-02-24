@@ -11,6 +11,7 @@ const Team = () => {
 
       <div className='team_page_options'>
         <NavLink className="navbar_link nav_link_teams" to="/team/organising">Organising Team</NavLink>
+        <NavLink className="navbar_link nav_link_teams" to="/team/web">Web Team</NavLink>
         <NavLink className="navbar_link nav_link_teams" to="/team/disipline">Discipline Team</NavLink>
         <NavLink className="navbar_link nav_link_teams" to="/team/hospitality">Hospitality Team</NavLink>
         <NavLink className="navbar_link nav_link_teams" to="/team/office">Office Team</NavLink>
@@ -21,7 +22,6 @@ const Team = () => {
       </div>
 
       <Outlet/>
-
 
       <div class="animation-area">
         <ul class="box-area">

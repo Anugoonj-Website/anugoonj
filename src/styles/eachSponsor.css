@@ -2,7 +2,10 @@
 
 .eachSponsorComponent{
     margin-top: 2vh;
-    text-align: -webkit-center
+    text-align: -webkit-center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .spon_image{
@@ -14,10 +17,7 @@
     /* color: ; */
 }
 
-/* .image_div{
-    display: flex;
-    align-items: center;
-} */
+
 
 /*=============== MEDIA QUERIES ==================*/
 
