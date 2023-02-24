@@ -4,7 +4,10 @@ import Profile from '../components/Profile';
 
 function team(props) {
     const core_memeber_data = props.data.core;
-    const memebers_data = props.data.memebers;
+    const members_data = props.data.members;
+
+    console.log(core_memeber_data);
+    console.log(members_data);
 
     
     return (

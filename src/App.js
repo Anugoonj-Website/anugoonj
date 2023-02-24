@@ -8,8 +8,10 @@ import Events_Component from "./components/Events";
 import Sponsor from "./pages/Sponsor";
 import Teams from "./pages/Teams";
 import events_data from "./data/events.json"
+import teams_data from "./data/team.json";
 import Milestones from "./pages/Milestones";
 import Team from "./components/Team";
+
 
 function App() {
   return (
@@ -28,13 +30,13 @@ function App() {
           <Route path="/sponsors" element={<Sponsor />} />
           <Route path="/team" element={<Teams />} >
             <Route index element={<Navigate to="organising" />} />
-            <Route path="organising" element={<Team/>} />
-            <Route path="web" element={<Team/>} />
-            <Route path="disipline" element={<Team/>} />
-            <Route path="hospitality" element={<Team/>} />
-            <Route path="office" element={<Team/>} />
-            <Route path="ground" element={<Team/>} />
-            <Route path="media" element={<Team/>} />
+            <Route path="organising" element={<Team data={teams_data.organising}/>} />
+            <Route path="web" element={<Team data={teams_data.web}/>} />
+            <Route path="disipline" element={<Team data={teams_data.disipline}/>} />
+            <Route path="hospitality" element={<Team data={teams_data.hospitality}/>} />
+            <Route path="office" element={<Team data={teams_data.office}/>} />
+            <Route path="ground" element={<Team data={teams_data.ground}/>} />
+            <Route path="media" element={<Team data={teams_data.media}/>} />
           </Route>
           <Route path="/milestones" element={<Milestones />} />
         </Routes>
