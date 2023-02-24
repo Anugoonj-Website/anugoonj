@@ -89,6 +89,16 @@
 {
 	font-size: small;
 }
+
+.event_page_options{
+	width: 70px;
+	text-align: center;
+}
+
+.events
+{
+	padding-left: 40px;
+}
 }
 
 
