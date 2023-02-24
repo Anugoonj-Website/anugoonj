@@ -1,12 +1,17 @@
 import React from 'react'
-import coca_cola from '../images/sponsors_image/coca_cola.png'
 import '../styles/eachSponsor.css'
 
-const EachSponsor = () => {
+const EachSponsor = (props) => {
+  // const data = props.data;
+  const names = props.names;
+  const image= props.image;
+  // const name = 'Coca Cola';
+  // const image = 'coca_cola.png';
   return (
 
     <div className="eachSponsorComponent">
-      <img src={coca_cola} alt="img" className='spon_image' />
+      <img src={require(`../images/sponsors_image/${image}`)} alt="img" className='spon_image' />
+      <p className="image_name text-[white]">{names}</p>
     </div>
 
     
