@@ -1,5 +1,5 @@
 .right_event_body{
-    display: grid;
+display: grid;
 box-sizing: border-box;
 grid-auto-flow: column;
 gap: 3%;
@@ -57,4 +57,50 @@ text-align: right;
     padding: 10px;
     width: fit-content;
   
+}
+
+/*============media queries===========*/
+
+/* For 600px */
+
+@media screen and (max-width: 600px) {
+    .right_event_body {
+        grid-auto-flow: row;
+        justify-content: center;
+        text-align: center;
+        box-shadow: 0 0 10px 7px rgb(255 255 255 / 15%);
+        border-radius: 20px!important;
+    }
+
+    .right_poster_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .event_location, .event_time{
+        font-size: 16px;
+    }
+
+    .right_posters{
+        width: 200px;
+    }
+    
+    .right_event_content{
+        padding: 20px 10px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .location_time{
+        grid-template-rows: auto auto;
+        text-align: center;
+    }
+
+    .event_time {
+        text-align: center!important;
+    }
 }

@@ -21,7 +21,7 @@ const Event = (props) => {
 
         <p className='event_paragraph'>Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.</p>
         <div className='location_time'>
-          <div><FontAwesomeIcon icon={faLocationDot} /> Location : D-Block</div>
+          <div className="event_location"><FontAwesomeIcon icon={faLocationDot} /> Location : D-Block</div>
           <div className='event_time'><FontAwesomeIcon icon={faClock} /> Time : 2:30 Pm</div>
         </div>
       </div>
