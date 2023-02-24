@@ -1,32 +1,36 @@
 @import "./common.css";
 
-.sponsors_page
-{
+.sponsors_all{
 	padding: 5%;
+	padding-top: 2%;
+}
+
+.sponsors_page {
+	/* padding: 5%; */
+	padding-bottom: 0;
 	padding-top: 22vh;
 	width: 100%;
-    min-height: 100vh;
+	min-height: 100vh;
 	background-color: #2E044C;
-	overflow: auto;	
+	overflow: auto;
 	z-index: -1;
 }
 
-.sponsor_heading{
+.sponsor_heading {
 	text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff, 0 0 120px #ffffff, 0 0 160px #ffffff;
-    text-align: center;
-    font-size: 2rem;
-    font-size: 2rem;
-    font-weight: 700;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 700;
 }
 
-.eachSponsorMain{
-	background-color: #ffffff67;
+.eachSponsorMain {
+	background-color: rgb(255, 255, 255, 0.2);
 	box-shadow:
-    0 0 4px #fff,
-    0 0 8px #fff,
-    0 0 12px #fff,
-    0 0 16px #520888,
-    0 0 20px #520888;
+		0 0 4px #fff,
+		0 0 8px #fff,
+		0 0 12px #fff,
+		0 0 16px #520888,
+		0 0 20px #520888;
 	padding: 2%;
 	border-radius: 20px;
 	display: grid;
@@ -35,18 +39,19 @@
 	margin-top: 2%;
 	text-align: center;
 	align-items: center;
-	
+
 }
 
-.SponsorTitle{
+.SponsorTitle {
 	color: white;
 	margin-top: 10vh;
 	font-weight: 700;
-	font-size: x-large;
+	font-size: 2rem;
 	text-align: center;
 }
 
-.sponsors_content{
+.sponsors_content {
+	padding: 0 5%;
 	margin-top: 5vh;
 	text-align: center;
 	color: #ffffff;
@@ -54,7 +59,7 @@
 
 }
 
-.sponsors_title_line{
+.sponsors_title_line {
 	font-weight: 700;
 }
 
@@ -63,14 +68,22 @@
 /* For 600px */
 
 @media screen and (max-width:600px) {
-	.eachSponsorMain{
-		padding: 0;
+	.eachSponsorMain {
+		padding: 0 20px;
 		gap: 1vh;
 	}
 
-	.sponsors_content{
+	.sponsors_content {
 		font-size: medium;
 	}
 }
 
-
+@media screen and (max-width:468px) {
+	.eachSponsorMain {
+		display: flex;
+		flex-direction: column;
+		gap: 1vh;
+		text-align: center;
+		align-items: center;
+	}
+}

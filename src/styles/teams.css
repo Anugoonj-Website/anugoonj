@@ -11,7 +11,7 @@
 .heading_teams {
     text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff, 0 0 120px #ffffff, 0 0 160px #ffffff;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -38,7 +38,7 @@
     .team_page_options {
         position: static;
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
        
         background-color: #2E044C;
@@ -53,10 +53,31 @@
         background-color: rgba(255, 255, 255, 0.09);
         border-radius:5px ;
         font-size: medium;
+        display:flex;
+        align-items: center;
+        justify-content: center;
 
     }
     .nav_link_teams:hover {
         font-size: medium;
 
     }
+}
+
+@media screen and (max-width: 600px) {
+    .heading_teams
+    {
+        font-size: 2rem;
+    }
+
+    .nav_link_teams {
+        font-size: small;
+     
+
+    }
+    .nav_link_teams:hover {
+        font-size: smaller;
+
+    }
+
 }

@@ -17,7 +17,6 @@ const Team = () => {
         <NavLink className="navbar_link nav_link_teams" to="/team/office">Office Team</NavLink>
         <NavLink className="navbar_link nav_link_teams" to="/team/mr_and_ms_anugoonj">Mr and Ms Anugoonj Team</NavLink>
         <NavLink className="navbar_link nav_link_teams" to="/team/ground">Ground Team</NavLink>
-        <div></div>
         <NavLink className="navbar_link nav_link_teams" to="/team/media">Media Team</NavLink>
       </div>
 

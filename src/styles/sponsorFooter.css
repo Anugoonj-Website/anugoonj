@@ -1,0 +1,14 @@
+.sponsor_footer {
+    padding: 2rem 6rem;
+    color: white;
+  }
+  
+  .sponsor_rights-text {
+    text-align: center;
+  }
+
+  .sponsor_rights-text a{
+    color: white;
+    font-weight: 700;
+  }
+
