@@ -28,6 +28,7 @@ function App() {
           <Route path="/milestones" element={<Milestones />} />
         </Routes>
       </Router>
+      
     </>
   );
 }
