@@ -2,11 +2,11 @@
 
 .events_page
 {
-	padding-top: 25vh;
+	padding-top: 28vh;
 	width: 100%;
     min-height: 100vh;
 	background-color: #2E044C;
-	overflow: auto;	
+	/* overflow: auto;	 */
 
 }
 
@@ -20,6 +20,7 @@
     border-radius: 10px 0 0 10px;
     overflow: hidden;
 	z-index: 9;
+	width: 80px;
 }
 
 .heading_events
@@ -39,14 +40,19 @@
 
 .events
 {
-	display: grid;
-	gap: 7vh;
 	width: auto;
-	padding-left: 20vw;
-	padding-right: 20vw;
-	padding-bottom: 5vh;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-bottom: 10vh;
 }
 
+.events_events
+{
+	margin-top: 5vh;
+	display: grid;
+	grid-template-columns: auto auto ;
+	gap: 5%;
+}
 .nav_link_events
 {
 	text-align: center;
@@ -61,6 +67,31 @@
 {
 	font-size: medium;
 }
+
+/*============media queries===========*/
+/* For 1200px */
+
+@media screen and (max-width: 1200px) {
+.events_events
+{
+	grid-template-columns: auto;
+}
+}
+
+/* For 500px */
+
+@media screen and (max-width: 500px) {
+	.nav_link_date
+{
+	font-size: xx-small;
+}
+
+.nav_link_day
+{
+	font-size: small;
+}
+}
+
 
 /* About Us Animation Area */
 
