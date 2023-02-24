@@ -1,5 +1,16 @@
 @import "./common.css";
 
+.sponsors_page
+{
+	padding: 5%;
+	padding-top: 22vh;
+	width: 100%;
+    min-height: 100vh;
+	background-color: #2E044C;
+	overflow: auto;	
+	z-index: -1;
+}
+
 .milestones {
   height: 100vh;
   width: 100vw;
@@ -12,7 +23,7 @@
 
 .milestones_inside {
   background-color: var(--color-bg);
-  height: 100vh;
+  height: 70vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,6 +37,24 @@
   background-color: var(--color-bg);
   height: 100vh;
   width: 100vw;
+}
+
+.carousel .thumb img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.carousel .slide img {
+  max-height: 300px;  /* change this to whatever you want */
+  max-width: 1000px;
+}
+
+.carousel_size{
+
+  margin: auto;
+  height:300px;
+  width:1000px;
+
 }
 
 /* .text-year {
@@ -97,11 +126,11 @@
 }
 
 .milestones_page_label_anugoonj {
-  font-size: 8rem;
-  font-weight: bold;
-  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff,
-    0 0 80px #ffffff, 0 0 120px #ffffff, 0 0 160px #ffffff;
-  text-align: center;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff, 0 0 120px #ffffff, 0 0 160px #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .home_arrow {

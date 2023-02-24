@@ -17,7 +17,7 @@ const Milestones = () => {
   //   box.scrollLeft = box.scrollLeft + width;
   // }
   return (
-    <div className="milestones">
+    <div className="sponsors_page">
       <div className="milestones_inside">
         <spam>
           <br></br>
@@ -36,45 +36,82 @@ const Milestones = () => {
         <div class="row">
           <div class="column">
             <div class="button">
-              <button type="submit" class="2020-btn">
+              <button type="submit" className="2020-btn">
                 2020
               </button>
             </div>
           </div>
           <div class="column">
             <div class="button">
-              <button type="submit" class="2019-btn">
+              <button type="submit" className="2019-btn">
                 2019
               </button>
             </div>
           </div>
           <div class="column">
             <div class="button">
-              <button type="submit" class="2018-btn">
+              <button type="submit" className="2018-btn">
                 2018
               </button>
             </div>
           </div>
         </div>
       </div>
-      <Carousel
-        autoPlay
-        infiniteLoop
-        showStatus={false}
-        showIndicators={false}
-        showThumbs={false}
-        interval={5000}
-      >
-        <div>
-          <img loading="lazy" src="https://links.papareact.com/gi1" alt="" />
-        </div>
-        <div>
-          <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
-        </div>
-        <div>
-          <img loading="lazy" src="https://links.papareact.com/7ma" alt="" />
-        </div>
-      </Carousel>
+      <div className="carousel_size">
+        <Carousel
+          autoPlay
+          infiniteLoop
+          showStatus={false}
+          showIndicators={false}
+          showThumbs={false}
+          interval={5000}
+        >
+          <div>
+            <img loading="lazy" src="https://links.papareact.com/gi1" alt="" />
+          </div>
+          <div>
+            <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
+          </div>
+          <div>
+            <img loading="lazy" src="https://links.papareact.com/7ma" alt="" />
+          </div>
+        </Carousel>
+      </div>
+
+      <div class="animation-area">
+        <ul class="box-area">
+          <li ></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          
+        </ul>
+      </div>
+        
+
+        <div class="animation-area">
+        <ul class="box-area">
+          <li ></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          
+        </ul>
+      </div>
+
+
     </div>
   );
 };
