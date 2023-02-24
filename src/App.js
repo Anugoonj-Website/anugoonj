@@ -7,7 +7,7 @@ import Events from "./pages/Events";
 import Events_Component from "./components/Events";
 import Sponsor from "./pages/Sponsor";
 import Team from "./pages/Team";
-import Contact from "./pages/Contact";
+import events_data from "./data/events.json"
 import Milestones from "./pages/Milestones";
 
 function App() {
@@ -19,9 +19,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} >
             <Route index element={<Navigate to="day_1" />} />
-            <Route path="day_1" element={<Events_Component day="1" date="2nd"/>}/>
-            <Route path="day_2" element={<Events_Component day="2" date="3rd"/>}/>
-            <Route path="day_3" element={<Events_Component day="3" date="4th"/>}/>
+            <Route path="day_1" element={<Events_Component day="1" date="2nd" data={events_data.day_1} />}/>
+            <Route path="day_2" element={<Events_Component day="2" date="3rd" data={events_data.day_2}/>}/>
+            <Route path="day_3" element={<Events_Component day="3" date="4th" data={events_data.day_3}/>}/>
           </Route>
           <Route path="/sponsors" element={<Sponsor />} />
           <Route path="/team" element={<Team/>} />

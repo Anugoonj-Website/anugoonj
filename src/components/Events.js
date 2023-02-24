@@ -2,9 +2,15 @@ import React from 'react';
 import EventLeft from './EventLeft';
 import EventRight from './EventRight'
 import "../styles/events.css";
+import { useMediaQuery } from '@react-hook/media-query';
+
 
 
 function Events(props) {
+  const data = props.data;
+  const isMobile = useMediaQuery('only screen and (max-width: 600px)');
+  
+
   return (
 
     <div className="events">
@@ -14,18 +20,17 @@ function Events(props) {
       </div>
 
       <div className='events_events'>
-        <EventLeft />
-        <EventRight />
-        <EventLeft />
-        <EventRight />
-        <EventLeft />
-        <EventRight />
-        <EventLeft />
-        <EventRight />
-        <EventLeft />
-        <EventRight />
+        {isMobile && data.map((item) => {
+          return <EventLeft data={item} />;
+        })}
 
 
+        {!isMobile && data.map((item, index) => {
+          if (index % 2 == 0) { return <EventLeft data={item} />; }
+
+          else { return <EventRight data={item} /> }
+
+        })}
       </div>
 
     </div>
