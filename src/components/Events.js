@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useEffect } from "react";
+import { useLocation } from 'react-router-dom';
 import EventLeft from './EventLeft';
 import EventRight from './EventRight'
 import "../styles/events.css";
@@ -9,6 +10,12 @@ import { useMediaQuery } from '@react-hook/media-query';
 function Events(props) {
   const data = props.data;
   const isMobile = useMediaQuery('only screen and (max-width: 600px)');
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   
 
   return (
