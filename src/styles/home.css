@@ -275,13 +275,25 @@
 		opacity: 0;
 	}
 }
-
+/* Teaser Section Area */
+.teaser-sec{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 28%, rgba(72,0,96,1) 100%);
+}
 /* Stars Section Area */
 
 .stars{
 	background: rgb(2,0,36);
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 28%, rgba(72,0,96,1) 100%);
 }
+.stars .artists::-webkit-scrollbar-track{
+	display: none;
+}	
+
+.stars .artists::-webkit-scrollbar-thumb{
+	display: none;
+}	
+
 .stars .left .artist_image{
 	width: 17vw;
 	height: 100%;

@@ -5,8 +5,9 @@
 }
   
   /* Track */
-::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background: #2e044c4b; 
+    /* display: none; */
   
 }
    

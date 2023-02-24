@@ -71,14 +71,22 @@ const Home = () => {
           </div>
         </FullpageSection>
         <FullpageSection style={{ height: "100vh " }}>
-          <h1>Guest Performance</h1>
+          <div className="teaser-sec h-[100vh] pt-32 pl-24 flex gap-20 items-center">
+            <div className="frame rounded-3xl overflow-hidden w-max shadow-xl shadow-red-500">
+              <iframe className=" h-[60vh] aspect-video" src="https://www.youtube.com/embed/iNPC_UH_3d4" title="YouTube video     player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;    picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          <div className="cont text-white w-[30vw]">
+            <h1 className="font-[Norwester] text-justify">TEASER</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, cumque velit perspiciatis impedit, et incidunt amet a accusamus aspernatur molestiae facere esse minima, delectus ipsam suscipit soluta cupiditate porro magnam.</p>
+          </div>
+          </div>
         </FullpageSection>
         <FullpageSection style={{ height: "100vh " }}>
           <div className="stars h-[100vh] pt-[20vh] flex flex-row-reverse">
             <div className="music-box h-[90vh] relative right-[-7vw]">
               <img src={require("../images/music-speaker.png")} className="h-[100%]" alt="" />
             </div>
-            <div className="h-[100vh] mt-[-20vh] overflow-auto">
+            <div className="h-[100vh] mt-[-20vh] overflow-y-scroll artists">
               { starsArray.map((item) => (
                 <div className="flex flex-row translate-y-[20vh] items-start justify-center" key={item.image}>
                 <div className="left mr-16">
