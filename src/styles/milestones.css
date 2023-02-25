@@ -54,14 +54,6 @@
   max-width: 700px;
 }
 
-/* .text-year {
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(6px);
-  box-sizing: border-box;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 4px 4px 2px rgba(255, 255, 255, 0.15);
-  overflow: hidden;
-}
 
 .text-year_link:hover {
   background-color: #fff280c3;
@@ -70,44 +62,6 @@
   transition: background-color 1000ms linear;
 } */
 
-.button button {
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(6px);
-  box-sizing: border-box;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 4px 4px 2px rgba(255, 255, 255, 0.15);
-  overflow: hidden;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
-  color: white;
-  text-align: center;
-  font-size: 32px;
-  cursor: pointer;
-  display: inline-block;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-/* button:hover {
-  background-color: #fff280c3;
-  -webkit-transition: background-color 1000ms linear;
-  -ms-transition: background-color 1000ms linear;
-  transition: background-color 1000ms linear;
-} */
-
-/* .column {
-  float: center;
-  width: 33.33%;
-  color: white;
-  text-align: center;
-  column-gap: 40px;
-
-  padding-right: 50px;
-  padding-left: 30px;
-  overflow: hidden;
-} */
 
 .column-left {
   float: center;
@@ -264,3 +218,82 @@
 }
 
 /* carousel */
+
+
+@media screen and (max-width: 600px) {
+  .milstone_paragraph
+{
+  font-size: 14px;
+}
+
+}
+
+
+
+
+
+
+/* ////////////////// */
+
+.milstone_button
+{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+  z-index: 3;
+}
+
+.navbar_link_milestone
+{
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 4px 4px 2px rgba(255, 255, 255, 0.15);
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 0 20px;
+}
+
+
+.slider
+{
+  height: 260px;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  float:right
+}
+
+.slider_track
+{
+  display: flex;
+  gap: 20px;
+  width: calc(10 * 250px);
+  animation-name: scroll;
+  animation-iteration-count: infinite;
+  animation-duration: 5000ms;
+  background-color: rgba(255, 255, 255, 0.204);
+  position: relative;
+  z-index: 10;
+}
+
+.slide_track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 5));
+  }
+
+  /* 100% {
+    transform: translateX(0);
+  } */
+}

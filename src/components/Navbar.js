@@ -26,19 +26,19 @@ const Navbar = () => {
 
         {!(navbars && isMobile) && <div className="navbar_route">
           {isMobile && <FontAwesomeIcon className="cross_icon" icon={faTimes}  onClick={()=>{SetNavbars(!navbars)}}/>}
-          <NavLink className="navbar_link" to="/">  
+          <NavLink className="navbar_link " to="/">  
             Home
           </NavLink>
-          <NavLink className="navbar_link" to="/events">
+          <NavLink className="navbar_link " to="/events">
             Events
           </NavLink>
-          <NavLink className="navbar_link" to="/sponsors">
+          <NavLink className="navbar_link " to="/sponsors">
             Sponsors
           </NavLink>
-          <NavLink className="navbar_link" to="/milestones">
+          <NavLink className="navbar_link " to="/milestones">
              Milestones
           </NavLink>
-          <NavLink className="navbar_link" to="/team">
+          <NavLink className="navbar_link " to="/team">
             Team
           </NavLink>
         </div>}         

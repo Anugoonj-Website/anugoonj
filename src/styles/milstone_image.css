@@ -1,0 +1,19 @@
+.milstone_image_container
+{
+    width: fit-content;
+    height: 246px;
+    /* background-image: url("../images/milstone_image_background.jpg"); */
+    /* background-color: black; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 23px 0;
+}
+
+.milstone_image
+{
+    height: 200px;
+    z-index: 1;
+
+}
+
