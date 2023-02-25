@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/home.css";
 import arman_malik from "../images/am3.png";
 import neon_circle from "../images/neon-circle.png";
+import Footer from "../components/Footer";
 
 const starsArray = [
   {
@@ -133,7 +134,7 @@ const Home = () => {
     </section>
     <section className="teaser-sec" style={{ height: "max-content ", overflowX: "hidden" }}>
       <div className=" h-[100vh] pt-32 pl-24 flex gap-20 items-center teaserr">
-        <div className="frame rounded-3xl overflow-hidden aspect-video w-max shadow-xl shadow-red-500">
+        <div className="frame rounded-3xl overflow-hidden aspect-video w-max shadow-xl teaser_vidio">
           <iframe className=" h-[60vh] aspect-video" src="https://www.youtube.com/embed/iNPC_UH_3d4" title="YouTube video     player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;    picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div className="cont text-white w-[30vw]">
@@ -164,6 +165,9 @@ const Home = () => {
           ))}
         </div>
       </div>
+
+      <Footer/>
+
     </section>
   </>
   );

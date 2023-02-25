@@ -165,9 +165,9 @@
 	src: url("../norwester.otf");
 }
 
-.home_page_label_anugoonj {
-	font-family: Carlson;
-	font-size: 8rem;
+.home_page_label_anugoonj{
+	font-family: cursive;
+    font-size: 8rem;
 	color: black;
 	/* opacity: 100; */
 	/* font-weight: bold; */
@@ -187,9 +187,6 @@
 	transform: translateX(-50%);
 }
 
-.home_down_arrow {
-	height: 10vh;
-}
 
 
 
@@ -543,4 +540,14 @@
 		right: 4vh !important;
 		/* bottom: -5vh; */
 	}
+}
+
+.teaser_vidio
+{
+	box-shadow:
+		0 0 4px #fff,
+		0 0 8px #fff,
+		0 0 12px #fff,
+		0 0 16px #520888,
+		0 0 20px #520888;
 }
