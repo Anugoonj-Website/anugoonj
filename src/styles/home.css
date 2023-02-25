@@ -156,7 +156,7 @@
 }
 
 .home_page_label_anugoonj{
-	font-family: Carlson;
+	font-family: cursive;
     font-size: 8rem;
 	color: black;
 	/* opacity: 100; */
@@ -178,9 +178,7 @@
     transform: translateX(-50%);
 }
 
-.home_down_arrow{
-    height: 10vh;
-}
+
 
 
 
@@ -475,4 +473,14 @@
 		right: inherit;
 		/* bottom: -5vh; */
 	}
+}
+
+.teaser_vidio
+{
+	box-shadow:
+		0 0 4px #fff,
+		0 0 8px #fff,
+		0 0 12px #fff,
+		0 0 16px #520888,
+		0 0 20px #520888;
 }
