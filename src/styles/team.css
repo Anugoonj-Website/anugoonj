@@ -1,6 +1,29 @@
 .team
 {
-    display: grid;
-    grid-auto-flow: column;
-    margin: 0 10%;
+    padding: 8vh 0;
 }
+
+
+.group_team
+{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.core_team_heading
+{
+    text-align: center;
+    color: white;
+}
+
+.group_team_memebers
+{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    margin-top: 2vh;
+    color: white;
+}
+

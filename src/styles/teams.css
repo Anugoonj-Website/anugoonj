@@ -24,23 +24,24 @@
     overflow: hidden;
     z-index: 9;
     width: 150px;
+    bottom: 5vh;
 }
 
 .nav_link_teams {
-    font-size: medium;
+    font-size: 14px;
     text-align: center;
 }
 .nav_link_teams:hover {
-    font-size: large;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 1200px) {
     .team_page_options {
         position: static;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        align-items: center;
+        /* grid-template-columns: 1fr 1fr 1fr; */
         gap: 20px;
-       
         background-color: #2E044C;
         overflow: hidden;
         width: 80vw;
@@ -49,13 +50,18 @@
     }
 
     .nav_link_teams {
-        padding: 5px;
+        padding: 10px;
         background-color: rgba(255, 255, 255, 0.09);
         border-radius:5px ;
         font-size: medium;
         display:flex;
         align-items: center;
         justify-content: center;
+        /* min-width: 60px; */
+        /* max-width: 100px; */
+        /* height: auto; */
+        width: 130px;
+        height: 60px;
 
     }
     .nav_link_teams:hover {
