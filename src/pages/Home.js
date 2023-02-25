@@ -130,9 +130,6 @@ const Home = () => {
       </div>
     </section>
     <section className="teaser-sec" style={{ height: "max-content ", overflowX: "hidden" }}>
-    <div className="line" />
-      <h1 className="font-[Norwester] text-7xl text-center text-white gest-head py-2">Teaser</h1>
-      <div className="line" />
       <div className=" h-[100vh] pt-32 pl-24 flex gap-20 items-center teaserr">
         <div className="frame rounded-3xl overflow-hidden w-max shadow-xl shadow-red-500">
           <iframe className=" h-[60vh] aspect-video" src="https://www.youtube.com/embed/iNPC_UH_3d4" title="YouTube video     player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;    picture-in-picture; web-share" allowfullscreen></iframe>
@@ -144,9 +141,6 @@ const Home = () => {
       </div>
     </section>
     <section className="stars" style={{ height: "max-content ", overflowX: "hidden",overflowY:"hidden" }}>
-      <div className="line" />
-      <h1 className="font-[Norwester] text-7xl text-center text-white gest-head py-2">Our Guest Stars</h1>
-      <div className="line" />
       <div className="h-max items-center flex flex-row-reverse pt-10 pb-10 starsmain">
         <div className="music-box h-[90vh] relative right-[-7vw]">
           <img src={require("../images/music-speaker.png")} className="h-[100%]" alt="" />
