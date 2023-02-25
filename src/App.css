@@ -22,3 +22,15 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #f80067; 
 }
+
+/* Loader css */
+.video_div{
+  background: linear-gradient(#250F35, black);
+  height: 100vh;
+  width: 100vw;
+}
+
+.anugoonj_loader{
+  height: 100%;
+  width: 100%;
+}
