@@ -50,7 +50,6 @@ const Milestones = () => {
           © 2023 Created By <b>Anugoonj</b> All Rights Reserved.
         </p>
       </div>
-
     </div>
   );
 };
