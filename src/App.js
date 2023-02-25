@@ -13,7 +13,7 @@ import teams_data from "./data/team.json";
 import Milestones from "./pages/Milestones";
 import Team from "./components/Team";
 import Cardcarousel from "./components/Carousel";
-import loader from './images/anugoonj_loader.mp4';
+import loader from './images/anugoonj_loader1.mp4';
 
 function App() {
 
@@ -21,10 +21,9 @@ function App() {
 
   useEffect(()=>{
     setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      // setTimeout(toggleMute,3000);
-    }, 7000);
+    // setTimeout(() => {
+    //   setLoading(false);
+    // }, 7000);
   }, [])
 
   const Milestones_Data =[
@@ -81,20 +80,5 @@ function App() {
     </>
   );
 }
-
-// document.getElementById('myvideo').play();
-// function toggleMute() {
-
-//   var video=document.getElementById("videoId");
-
-//   if(video.muted){
-//     video.muted = false;
-//   } else {
-//     debugger;
-//     video.muted = true;
-//     video.play()
-//   }
-
-// }
 
 export default App;
