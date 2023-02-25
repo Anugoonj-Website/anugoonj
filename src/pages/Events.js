@@ -3,7 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 import "../styles/events.css";
 
 const Events = () => {
-
+  // eslint-disable-next-line
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setLoading(true);

@@ -78,27 +78,8 @@
     width: 100%;
 }
 
-.home_arman_malik_image
-{
-	position: relative;
-    z-index: 5;
-    height: 70%;
-    margin-top: -15vh;
-    margin-right: 4vw;
-	bottom: -50vh;
-    float: right;
-	right: -10vh;
-}
 .neon-circle
 {
-	position: absolute;
-	display: block;
-	right: -10vw;
-	z-index: 1;
-	bottom: -20vh;
-	height: 100%;
-	opacity: 0.7;
-	width: auto;
 	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
 	animation: heartbeat 1.5s ease-in-out infinite both;
 }
@@ -161,9 +142,7 @@
   }
 
 .home_page_label{
-  
     position: relative;
-    top: 25vh;
     left: 0vw;
 }
 
@@ -387,43 +366,55 @@
   }
 
 @media screen and (max-width:850px) {
-	.description{
-      width: 130%;
-	}
-	 .images
-{
-    
-	bottom: 0;
-	right: 0vh;
-}
+
 .home_inside
 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column !important;
+	/* width: 100vw !important; */
+	justify-content: center;
+}
+.description{
+	text-align: center;
 }
 	.home_page_label{
-		margin-left: 18vw;
+		margin-left: 0;
+		width: 70vw;
+		padding-right: 0;
 	}
 	.home_page_label_anugoonj{
 		font-size: 18vw;
 	}
-	.home_inside img{
+	.home_inside .images{
+			position: relative;
 			height: 40vh;
-			bottom: -10vh;
-			position: absolute;
-			right: 0;
 	}
 	.home_inside .neon-circle
 	{
-		bottom: -15vh;
+		height: 100%;
+		/* width: 100%; */
+		/* display: none; */
+		bottom: 0;
+	}
+	.home_arman_malik_image
+	{
+		height: 100%;
 	}
 	.teaserr{
 		flex-direction: column;
 		align-items: center;
 		padding-left: 0;
+		height: max-content;
+		text-align: center;
 	}
 	.teaserr .frame{
-		width: 80vw;
+		/* width: 80vw; */
+		/* aspect-ratio: 16/9; */
+	}
+	.teaserr iframe
+	{
+		height: -webkit-fill-available;
+		width: auto;
 	}
 	.teaserr .cont{
 		width: 80vw;
@@ -448,6 +439,7 @@
 	}
 	.starsarray .left{
 		height: 30vh;
+		margin-right: 0;
 	}
 	.starsmain{
 		flex-direction: column-reverse !important;
@@ -460,19 +452,27 @@
 	}
 	.music-box{
 		position: relative;
-		right: 10vw;
+		right: inherit;
 		rotate: 90deg;
 	}
-	.hero{
-		height: 120vh !important;
+	.home_page_label
+	{
+		margin-top: 25vh;
 	}
-	.home{
-		height: 120vh;
+	.home_page_label_anugoonj{
+		margin-top: 1vh;
 	}
-	.home::before{
-		height: 120vh;
+	.home_arman_malik_image
+	{
+		width: 100%;
+		right: 10vw;
+		bottom: 0;
 	}
-	.home_inside{
-		height: 120vh;
+	.neon-circle
+	{
+		height: 100vw;
+		width: 100%;
+		right: inherit;
+		/* bottom: -5vh; */
 	}
 }

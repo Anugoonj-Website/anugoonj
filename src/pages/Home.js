@@ -38,7 +38,7 @@ const starsArray = [
 
 const Home = () => {
   React.useEffect(() => {
-    const startstop = document.getElementById("startstop");
+    // const startstop = document.getElementById("startstop");
     const seconds = document.getElementById("seconds");
     const minutes = document.getElementById("minutes");
     const hours = document.getElementById("hours");
@@ -81,11 +81,11 @@ const Home = () => {
 
   }, [])
   return (<>
-    <section className="hero" style={{ height: "100vh ", overflowX: "hidden" }}>
+    <section className="hero" style={{ height: "max-content ", overflowX: "hidden" }}>
       <div className="home overflow-x-hidden">
-        <div className="home_inside overflow-hidden relative">
-          <div className="home_page_label flex flex-col items-center ml-32 w-[55%]">
-            <h1 className="home_page_label_anugoonj mt-12">Anugoonj</h1>
+        <div className="home_inside overflow-hidden relative flex flex-row justify-center items-center">
+          <div className="home_page_label flex flex-col items-center justify-center ml- w-[55%] h-auto">
+            <h1 className="home_page_label_anugoonj">Anugoonj</h1>
             <p className="description text-white w-[80%] pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit, nihil natus doloribus nisi ipsum quas veritatis perspiciatis aspernatur provident.</p>
             <div className="countdown-timer">
             <div  className="containerrr">
@@ -110,18 +110,20 @@ const Home = () => {
                 </div>
             </div>
           </div>
-          <div className="images">
-          <img
-            src={neon_circle}
-            alt="img"
-            className="neon-circle z-[1]"
-            />
-          <img
-            src={arman_malik}
-            alt="img"
-            className="home_arman_malik_image"
-            />
-        </div>
+          <div className="">
+            <div className="images flex flex-col items-center justify-center">
+              <img
+                src={neon_circle}
+                alt="img"
+                className="neon-circle z-[1] h-[90%] absolute bottom-[-10vh] right-[-10vw]"
+                />
+              <img
+                src={arman_malik}
+                alt="img"
+                className="home_arman_malik_image block relative z-[5] w-[70%] bottom-[-10vh] right-[-10vw]"
+                />
+            </div>
+          </div>
 
           {/* <div className="home_arrow">
                 <img src={arrow} alt="arrow" className="home_down_arrow" />
@@ -131,16 +133,17 @@ const Home = () => {
     </section>
     <section className="teaser-sec" style={{ height: "max-content ", overflowX: "hidden" }}>
       <div className=" h-[100vh] pt-32 pl-24 flex gap-20 items-center teaserr">
-        <div className="frame rounded-3xl overflow-hidden w-max shadow-xl shadow-red-500">
+        <div className="frame rounded-3xl overflow-hidden aspect-video w-max shadow-xl shadow-red-500">
           <iframe className=" h-[60vh] aspect-video" src="https://www.youtube.com/embed/iNPC_UH_3d4" title="YouTube video     player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;    picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div className="cont text-white w-[30vw]">
-          <h1 className="font-[Norwester] text-justify">TEASER</h1>
+          <h1 className="font-[Norwester] text-center">TEASER</h1>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, cumque velit perspiciatis impedit, et incidunt amet a accusamus aspernatur molestiae facere esse minima, delectus ipsam suscipit soluta cupiditate porro magnam.</p>
         </div>
       </div>
     </section>
     <section className="stars" style={{ height: "max-content ", overflowX: "hidden",overflowY:"hidden" }}>
+    <h1 className="font-[Norwester] text-white text-center mt-10">Our Guests</h1>
       <div className="h-max items-center flex flex-row-reverse pt-10 pb-10 starsmain">
         <div className="music-box h-[90vh] relative right-[-7vw]">
           <img src={require("../images/music-speaker.png")} className="h-[100%]" alt="" />

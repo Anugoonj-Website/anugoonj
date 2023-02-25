@@ -90,30 +90,6 @@
   clear: both;
 }
 
-.home_page_label {
-  position: relative;
-  top: 25vh;
-  text-align: center;
-}
-
-.milestones_page_label_anugoonj {
-  font-size: 8rem;
-  font-weight: bold;
-  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff,
-    0 0 80px #ffffff, 0 0 120px #ffffff, 0 0 160px #ffffff;
-  text-align: center;
-}
-
-.home_arrow {
-  position: absolute;
-  bottom: 1vw;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.home_down_arrow {
-  height: 10vh;
-}
 
 /* About Us Animation Area */
 
