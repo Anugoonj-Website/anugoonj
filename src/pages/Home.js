@@ -110,7 +110,7 @@ const Home = () => {
                 </div>
             </div>
           </div>
-          <div className="">
+          <div className="images">
           <img
             src={neon_circle}
             alt="img"

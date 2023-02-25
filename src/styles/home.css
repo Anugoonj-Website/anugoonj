@@ -61,6 +61,7 @@
   }
 .home_inside
 {
+	display: flex;
     /* background-color: var(--color-bg); */
     height: 100vh;
     width: 100vw;
@@ -84,7 +85,9 @@
     height: 70%;
     margin-top: -15vh;
     margin-right: 4vw;
+	bottom: -50vh;
     float: right;
+	right: -10vh;
 }
 .neon-circle
 {
@@ -383,6 +386,20 @@
   }
 
 @media screen and (max-width:850px) {
+	.description{
+      width: 130%;
+	}
+	 .images
+{
+    
+	bottom: 0;
+	right: 0vh;
+}
+.home_inside
+{
+	display: flex;
+	flex-direction: row;
+}
 	.home_page_label{
 		margin-left: 18vw;
 	}
@@ -423,6 +440,10 @@
 	{
 		transform: none;
 		height: 30vh;
+		width: auto !important;
+		text-align: center;
+		justify-content: center;
+		/* align-items: center; */
 	}
 	.starsarray .left{
 		height: 30vh;
@@ -433,6 +454,7 @@
 		padding-bottom: 0;
 		bottom: -30vh;
 		height: max-content;
+		margin-top: -25vh !important;
 		/* overflow-y: hidden; */
 	}
 	.music-box{
