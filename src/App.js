@@ -1,4 +1,5 @@
 import "./App.css";
+import { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
@@ -12,17 +13,38 @@ import teams_data from "./data/team.json";
 import Milestones from "./pages/Milestones";
 import Team from "./components/Team";
 import Cardcarousel from "./components/Carousel";
-
+import loader from './images/anugoonj_loader.mp4';
 
 function App() {
+
+  const [loading, setLoading] = useState(false);
+
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+      // setTimeout(toggleMute,3000);
+    }, 7000);
+  }, [])
 
   const Milestones_Data =[
     "Benny Dayal |  Punjabi singer Guri | Sankraman Band | Kavi Sammelan by Ashok Chakaradhar | Talent Hunt",
     "Kailash Kher | Bhangra performance | Street plays | Talent competition for specially abled students | Bands Pakshee and Fiddlecraft",
     "KK (Krishnakumar Kunnath)| DJ night with DJ Shiva | Nasha band | Akhil Sachdeva | Street plays | Jam sessions"
   ]
+  
   return (
     <>
+
+      {
+        loading ?
+        <div className="video_div">
+        <video width="100%" height="100%" id="myvideo" playsinline autoPlay muted loop className="anugoonj_loader">
+          <source src={loader} type="video/mp4" />
+        </video>
+        </div>
+        : 
+        (
       <Router>
         <Navbar />
         <Routes>
@@ -54,8 +76,25 @@ function App() {
         </Routes>
       </Router>
 
+      )}
+
     </>
   );
 }
+
+// document.getElementById('myvideo').play();
+// function toggleMute() {
+
+//   var video=document.getElementById("videoId");
+
+//   if(video.muted){
+//     video.muted = false;
+//   } else {
+//     debugger;
+//     video.muted = true;
+//     video.play()
+//   }
+
+// }
 
 export default App;
