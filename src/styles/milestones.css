@@ -62,16 +62,13 @@
   max-width: 700px;
 }
 
-
 .text-year_link:hover {
   background-color: #fff280c3;
   -webkit-transition: background-color 1000ms linear;
   -ms-transition: background-color 1000ms linear;
   transition: background-color 1000ms linear;
-} */
-
-
-.column-left {
+}
+*/ .column-left {
   float: center;
   width: 20%;
   color: white;
@@ -96,7 +93,6 @@
   overflow: hidden;
 }
 
-
 .row:after {
   content: "";
   display: table;
@@ -116,7 +112,6 @@
     width: 100%;
   }
 }
-
 
 .milestones_page_label_anugoonj {
   text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff,
@@ -221,24 +216,15 @@
 
 /* carousel */
 
-
 @media screen and (max-width: 600px) {
-  .milstone_paragraph
-{
-  font-size: 14px;
+  .milstone_paragraph {
+    font-size: 14px;
+  }
 }
-
-}
-
-
-
-
-
 
 /* ////////////////// */
 
-.milstone_button
-{
+.milstone_button {
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -246,8 +232,7 @@
   z-index: 3;
 }
 
-.navbar_link_milestone
-{
+.navbar_link_milestone {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   box-shadow: 4px 4px 2px rgba(255, 255, 255, 0.15);
@@ -257,20 +242,29 @@
   padding: 0 20px;
 }
 
+<<<<<<< HEAD
+.slider {
+=======
 
 /* .slider
 {
+>>>>>>> 26e53442044b4f8f3f4dd27649b596ce2b7f3843
   height: 260px;
   margin: auto;
   position: relative;
   width: 100%;
   display: grid;
   place-items: center;
+<<<<<<< HEAD
+  float: right;
+  /* width:100vw;
+  overflow-x: hidden; */
+=======
   float:right;
+>>>>>>> 26e53442044b4f8f3f4dd27649b596ce2b7f3843
 }
 
-.slider_track
-{
+.slider_track {
   display: flex;
   gap: 20px;
   width: calc(30 * 330px);
