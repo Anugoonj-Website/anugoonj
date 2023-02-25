@@ -127,10 +127,20 @@
 
 .milestones_page_label_anugoonj {
   text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff, 0 0 120px #ffffff, 0 0 160px #ffffff;
-    text-align: center;
-    font-size: 2rem;
-    font-size: 2rem;
-    font-weight: 700;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 700;
+}
+.sponsors_content {
+	padding: 0 5%;
+	margin-top: 5vh;
+	text-align: center;
+	color: #ffffff;
+	font-size: large;
+
+}
+.sponsors_title_line {
+	font-weight: 700;
 }
 
 .home_arrow {
