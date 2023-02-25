@@ -21,9 +21,9 @@ function App() {
 
   useEffect(()=>{
     setLoading(true);
-    // setTimeout(() => {
-    //   setLoading(false);
-    // }, 7000);
+    setTimeout(() => {
+      setLoading(false);
+    }, 7000);
   }, [])
 
   const Milestones_Data =[

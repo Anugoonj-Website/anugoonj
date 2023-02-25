@@ -242,26 +242,14 @@
   padding: 0 20px;
 }
 
-<<<<<<< HEAD
-.slider {
-=======
-
-/* .slider
-{
->>>>>>> 26e53442044b4f8f3f4dd27649b596ce2b7f3843
+/*.slider {
   height: 260px;
   margin: auto;
   position: relative;
   width: 100%;
   display: grid;
   place-items: center;
-<<<<<<< HEAD
   float: right;
-  /* width:100vw;
-  overflow-x: hidden; */
-=======
-  float:right;
->>>>>>> 26e53442044b4f8f3f4dd27649b596ce2b7f3843
 }
 
 .slider_track {
