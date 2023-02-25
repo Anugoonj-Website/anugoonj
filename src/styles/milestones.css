@@ -356,3 +356,11 @@
   top: 0;
   transform: rotateZ(180deg);
 }
+
+
+@media screen and (max-width: 500px) {
+  .navbar_link_milestone {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+}
