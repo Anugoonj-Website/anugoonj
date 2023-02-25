@@ -56,7 +56,7 @@ function Team(props) {
         <>
             <div className='team'>
 
-                <h4 className='core_team_heading'>Core Team Members</h4>
+                <h4 className='font-[Norwester] core_team_heading'>Core Team Members</h4>
                 {
                     core_data.map((element) => {
                         return (
@@ -71,7 +71,7 @@ function Team(props) {
 
             </div>
             <div className='team'>
-                <h4 className='core_team_heading'>Team Members</h4>
+                <h4 className='font-[Norwester] core_team_heading'>Team Members</h4>
                 
                 {
                     members_data.map((element) => {

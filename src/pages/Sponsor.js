@@ -36,7 +36,7 @@ const Sponsor = () => {
     <div>
       <div className="sponsors_page">
         <div className="sponsor_heading_box">
-          <h1 className="sponsor_heading ">PARTNERS</h1>
+          <h1 className="font-[Norwester] sponsor_heading ">PARTNERS</h1>
         </div>
 
         <div className="sponsors_content">
@@ -51,7 +51,7 @@ const Sponsor = () => {
           const element_data = createGroups(element.data, Math.ceil(array_length/gls));
           return (
             <div className="sponsors_all">
-              <div className="SponsorTitle">{element.title}</div>
+              <div className="font-[Norwester] SponsorTitle">{element.title}</div>
               <div className="eachSponsorMain">
                 {element_data.map((ele) => {
                   return (
