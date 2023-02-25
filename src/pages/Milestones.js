@@ -24,7 +24,6 @@ const Milestones = () => {
         </spam>
       </div>
       <div className="sponsors_content">
-
         <p className="sponsors_title_line">
           Thank You to Our Generous Sponsors for Making Our Mission Possible
         </p>
@@ -34,52 +33,137 @@ const Milestones = () => {
           more than just financial backers; they are partners in our mission to
           make a difference in the lives of those we serve.
         </p>
+        <br></br>
 
         <div class="row">
-          <div class="column">
+          <div class="column-left">
             <div class="button">
               <button type="submit" className="2020-btn">
                 2020
               </button>
             </div>
           </div>
-          <div class="column">
+          <div class="column-right">
+            <div className="carousel_size">
+              <Carousel
+                autoPlay
+                infiniteLoop
+                showStatus={false}
+                showIndicators={false}
+                showThumbs={false}
+                interval={5000}
+              >
+                <div>
+                  <img
+                    loading="lazy"
+                    src="https://links.papareact.com/gi1"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    loading="lazy"
+                    src="https://links.papareact.com/6ff"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    loading="lazy"
+                    src="https://links.papareact.com/7ma"
+                    alt=""
+                  />
+                </div>
+              </Carousel>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column-left">
             <div class="button">
-              <button type="submit" className="2019-btn">
+              <button type="submit" className="2020-btn">
                 2019
               </button>
             </div>
           </div>
-          <div class="column">
+          <div class="column-right">
+            <div className="carousel_size">
+              <Carousel
+                autoPlay
+                infiniteLoop
+                showStatus={false}
+                showIndicators={false}
+                showThumbs={false}
+                interval={5000}
+              >
+                <div>
+                  <img
+                    loading="lazy"
+                    src="https://links.papareact.com/gi1"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    loading="lazy"
+                    src="https://links.papareact.com/6ff"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    loading="lazy"
+                    src="https://links.papareact.com/7ma"
+                    alt=""
+                  />
+                </div>
+              </Carousel>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column-left">
             <div class="button">
-              <button type="submit" className="2018-btn">
+              <button type="submit" className="2020-btn">
                 2018
               </button>
             </div>
           </div>
+          <div class="column-right">
+            <div className="carousel_size">
+              <Carousel
+                autoPlay
+                infiniteLoop
+                showStatus={false}
+                showIndicators={false}
+                showThumbs={false}
+                interval={5000}
+              >
+                <div>
+                  <img
+                    loading="lazy"
+                    src="https://links.papareact.com/gi1"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    loading="lazy"
+                    src="https://links.papareact.com/6ff"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    loading="lazy"
+                    src="https://links.papareact.com/7ma"
+                    alt=""
+                  />
+                </div>
+              </Carousel>
+            </div>
+          </div>
         </div>
-      </div>
-      <br></br>
-      <br></br>
-      <div className="carousel_size">
-        <Carousel
-          autoPlay
-          infiniteLoop
-          showStatus={false}
-          showIndicators={false}
-          showThumbs={false}
-          interval={5000}
-        >
-          <div>
-            <img loading="lazy" src="https://links.papareact.com/gi1" alt="" />
-          </div>
-          <div>
-            <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
-          </div>
-          <div>
-            <img loading="lazy" src="https://links.papareact.com/7ma" alt="" />
-          </div>
-        </Carousel>
       </div>
 
       <div class="animation-area">
