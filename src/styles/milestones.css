@@ -51,7 +51,7 @@
 .carousel_size {
   margin: auto;
   height: 300px;
-  width: 700px;
+  max-width: 700px;
 }
 
 /* .text-year {
@@ -97,7 +97,7 @@
   transition: background-color 1000ms linear;
 } */
 
-.column {
+/* .column {
   float: center;
   width: 33.33%;
   color: white;
@@ -107,6 +107,30 @@
   padding-right: 50px;
   padding-left: 30px;
   overflow: hidden;
+} */
+
+.column-left {
+  float: center;
+  width: 20%;
+  color: white;
+  text-align: left;
+  column-gap: 10px;
+
+  padding-right: 10px;
+  padding-left: 10px;
+  overflow-x: hidden;
+}
+
+.column-right {
+  float: right;
+  width: 80%;
+  color: white;
+  text-align: center;
+  column-gap: 10px;
+
+  padding-right: 10px;
+  padding-left: 10px;
+  overflow: hidden;
 }
 
 /* Clear floats after the columns */
@@ -114,6 +138,19 @@
   content: "";
   display: table;
   clear: both;
+}
+
+@media screen and (max-width: 768px){
+
+    .column-left{
+      float:none;
+      width:100%;
+    }
+    .column-right{
+      float:none;
+      width:100%;
+    }
+  
 }
 
 .home_page_label {
