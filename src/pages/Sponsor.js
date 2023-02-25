@@ -1,11 +1,37 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "../styles/sponsors.css";
 import EachSponsor from "../components/EachSponsor";
 import data_of_sponsors from '../data/sponsors.json';
 import SponsorFooter from "../components/SponsorFooter";
+import { useMediaQuery } from '@react-hook/media-query';
 
 const Sponsor = () => {
+
+  const [gls, setgls] = useState(3);
+
+    const isTablet = useMediaQuery('only screen and (max-width: 768px)');
+    const isPhone = useMediaQuery('only screen and (max-width: 540px)');
+
+    useEffect(()=>{
+      if(isPhone)
+      {
+        setgls(1)
+      }
+      else if(isTablet)
+      {
+        setgls(2)
+      }
+      else
+      {
+        setgls(3)
+      }    
+
+  },[isTablet,isPhone]);
+
+  
+
   const sponsors_data = data_of_sponsors.sponsor_data;
+
   return (
     <div>
       <div className="sponsors_page">
@@ -21,14 +47,22 @@ const Sponsor = () => {
 
 
         {sponsors_data.map((element) => {
+          const array_length = element.data.length;
+          const element_data = createGroups(element.data, Math.ceil(array_length/gls));
           return (
             <div className="sponsors_all">
               <div className="SponsorTitle">{element.title}</div>
               <div className="eachSponsorMain">
-                {element.data.map((e) => {
+                {element_data.map((ele) => {
                   return (
-
-                    <EachSponsor names={e.names} image={e.image} />
+                    <div className="eachSponsorInner">
+                    {ele.map((e)=>{
+                      return(
+                        <EachSponsor names={e.names} image={e.image} />
+                      )
+                    })}
+                    
+                    </div>
 
                   )
                 })}
@@ -38,7 +72,6 @@ const Sponsor = () => {
           )
 
         })}
-
 
         <SponsorFooter />
 
@@ -59,11 +92,18 @@ const Sponsor = () => {
           </ul>
         </div>
       </div>
-      
+
 
     </div>
 
   );
 };
+
+function createGroups(arr, numGroups) {
+  const perGroup = Math.ceil(arr.length / numGroups);
+  return new Array(numGroups)
+    .fill('')
+    .map((_, i) => arr.slice(i * perGroup, (i + 1) * perGroup));
+}
 
 export default Sponsor;
