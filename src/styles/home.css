@@ -312,3 +312,62 @@
 	color: white;
 	text-transform: uppercase;
 }
+
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.clock {
+  display: flex;
+}
+
+.clock div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 90px;
+  margin: 10px;
+  padding: 10px;
+
+  background: rgba(3, 3, 3, 0.762);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.clock div span {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.title {
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: x-large;
+  }
+
+  .clock div {
+    width: 70px;
+    height: 70x;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .clock div span {
+    font-size: 25px;
+
+    font-weight: 700;
+  }
+}
