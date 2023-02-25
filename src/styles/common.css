@@ -138,3 +138,7 @@ ul
 		opacity: 0;
 	}
 }
+@font-face {
+	font-family: Norwester;
+	src: url("../norwester.otf");
+}
