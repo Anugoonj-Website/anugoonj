@@ -14,7 +14,7 @@ const Milestones = () => {
           <h1 className="milestones_page_label_anugoonj">MILESTONES</h1>
         </spam>
       </div>
-      <div className="sponsors_content">
+      <div className="milestone_content">
 
         <br></br>
         <div className="milstone_button">

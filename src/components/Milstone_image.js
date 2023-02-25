@@ -6,7 +6,7 @@ function Image(props)
     const url = props.url;
     console.log(url);
     return(
-        <div className='milstone_image_container'>
+        <div className='milstone_image_container slide'>
             <img src={require(`../images/milestone_image/${url}`)} className="milstone_image" alt="Image"/>
         </div>
     )

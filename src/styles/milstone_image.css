@@ -1,9 +1,7 @@
-.milstone_image_container
+/* .milstone_image_container
 {
     width: fit-content;
     height: 246px;
-    /* background-image: url("../images/milstone_image_background.jpg"); */
-    /* background-color: black; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,5 +19,5 @@
 .milstone_image:hover
 {
     transform: translateZ(20px);
-}
+} */
 
