@@ -4,7 +4,7 @@ import Profile from '../components/Profile';
 import { useMediaQuery } from '@react-hook/media-query';
 
 
-function team(props) {
+function Team(props) {
     const core = props.data.core;
     const members = props.data.members;
     const length_core = core.length;
@@ -99,4 +99,4 @@ function createGroups(arr, numGroups) {
         .map((_, i) => arr.slice(i * perGroup, (i + 1) * perGroup));
 }
 
-export default team;
+export default Team;

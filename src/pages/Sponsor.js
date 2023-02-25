@@ -73,7 +73,6 @@ const Sponsor = () => {
 
         })}
 
-
         <SponsorFooter />
 
 

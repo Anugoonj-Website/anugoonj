@@ -97,20 +97,12 @@ const Milestones = () => {
         </ul>
       </div>
 
-      <div class="animation-area">
-        <ul class="box-area">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+      <div className="event_footer">
+      <p class="sponsor_rights_text">
+        © 2023 Created By <b>Anugoonj</b> All Rights Reserved.
+      </p>
       </div>
+  
     </div>
   );
 };
