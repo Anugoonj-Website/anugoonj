@@ -18,6 +18,7 @@ const Milestones = () => {
 
         <br></br>
         <div className="milstone_button">
+          <NavLink className="navbar_link navbar_link_milestone" to="/milestones/2023">2023</NavLink>
           <NavLink className="navbar_link navbar_link_milestone" to="/milestones/2020">2020</NavLink>
           <NavLink className="navbar_link navbar_link_milestone" to="/milestones/2019">2019</NavLink>
           <NavLink className="navbar_link navbar_link_milestone" to="/milestones/2018">2018</NavLink>

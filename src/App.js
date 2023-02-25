@@ -67,7 +67,8 @@ function App() {
             <Route path="media" element={<Team data={teams_data.media}/>} />
           </Route>
           <Route path="/milestones" element={<Milestones />} >
-            <Route index element={<Navigate to="2020" />} />
+            <Route index element={<Navigate to="2023" />} />
+            <Route path="2023" element={<Cardcarousel tage_line={Milestones_Data[0]} year={"2023"}/>} />
             <Route path="2020" element={<Cardcarousel tage_line={Milestones_Data[0]} year={"2020"}/>} />
             <Route path="2019" element={<Cardcarousel tage_line={Milestones_Data[1]} year={"2019"}/>}/>
             <Route path="2018" element={<Cardcarousel tage_line={Milestones_Data[2]} year={"2018"}/>} />
