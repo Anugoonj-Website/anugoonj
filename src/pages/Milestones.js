@@ -18,20 +18,22 @@ const Milestones = () => {
   // }
   return (
     <div className="sponsors_page">
-      <div className="milestones_inside">
+      <div className="sponsor_heading_box">
         <spam>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
           <h1 className="milestones_page_label_anugoonj">MILESTONES</h1>
         </spam>
+      </div>
+      <div className="sponsors_content">
 
-        <br></br>
-        <br></br>
-        <br></br>
+        <p className="sponsors_title_line">
+          Thank You to Our Generous Sponsors for Making Our Mission Possible
+        </p>
+        <p className="sponsors_paragraph">
+          We are grateful for the support of our sponsors, who share our vision
+          and help us to create positive change in the world. Our sponsors are
+          more than just financial backers; they are partners in our mission to
+          make a difference in the lives of those we serve.
+        </p>
 
         <div class="row">
           <div class="column">
@@ -57,6 +59,8 @@ const Milestones = () => {
           </div>
         </div>
       </div>
+      <br></br>
+      <br></br>
       <div className="carousel_size">
         <Carousel
           autoPlay
@@ -80,7 +84,6 @@ const Milestones = () => {
 
       <div class="animation-area">
         <ul class="box-area">
-          <li ></li>
           <li></li>
           <li></li>
           <li></li>
@@ -90,14 +93,12 @@ const Milestones = () => {
           <li></li>
           <li></li>
           <li></li>
-          
+          <li></li>
         </ul>
       </div>
-        
 
-        <div class="animation-area">
+      <div class="animation-area">
         <ul class="box-area">
-          <li ></li>
           <li></li>
           <li></li>
           <li></li>
@@ -107,11 +108,9 @@ const Milestones = () => {
           <li></li>
           <li></li>
           <li></li>
-          
+          <li></li>
         </ul>
       </div>
-
-
     </div>
   );
 };
