@@ -28,7 +28,6 @@
   background-size: cover;
 
   opacity: 0.7;
-  /* display: flex; */
   overflow: hidden;
 }
 
@@ -54,22 +53,6 @@
   max-width: 700px;
 }
 
-/* .text-year {
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(6px);
-  box-sizing: border-box;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 4px 4px 2px rgba(255, 255, 255, 0.15);
-  overflow: hidden;
-}
-
-.text-year_link:hover {
-  background-color: #fff280c3;
-  -webkit-transition: background-color 1000ms linear;
-  -ms-transition: background-color 1000ms linear;
-  transition: background-color 1000ms linear;
-} */
-
 .button button {
   background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(6px);
@@ -90,25 +73,6 @@
   padding-left: 20px;
 }
 
-/* button:hover {
-  background-color: #fff280c3;
-  -webkit-transition: background-color 1000ms linear;
-  -ms-transition: background-color 1000ms linear;
-  transition: background-color 1000ms linear;
-} */
-
-/* .column {
-  float: center;
-  width: 33.33%;
-  color: white;
-  text-align: center;
-  column-gap: 40px;
-
-  padding-right: 50px;
-  padding-left: 30px;
-  overflow: hidden;
-} */
-
 .column-left {
   float: center;
   width: 20%;
@@ -122,35 +86,27 @@
 }
 
 .column-right {
-  float: right;
-  width: 80%;
+  float: none;
+  width: 100%;
   color: white;
   text-align: center;
   column-gap: 10px;
 
   padding-right: 10px;
   padding-left: 10px;
+  padding-bottom: 20px;
   overflow: hidden;
 }
 
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
-  /* gap: 5rem; */
-  /* margin-top: 2rem; */
   clear: both;
 }
 .column-right {
   margin-top: 1rem;
 }
-/* .row {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2rem;
-} */
 
 @media screen and (max-width: 768px) {
   .column-left {
@@ -198,10 +154,7 @@
   height: 10vh;
 }
 
-/* About Us Animation Area */
-
 .animation-area {
-  /* background: linear-gradient(to left, #8942a8, #ba382f); */
   width: 100%;
   height: 100vh;
 }
@@ -272,5 +225,3 @@
     opacity: 0;
   }
 }
-
-/* carousel */

@@ -84,7 +84,7 @@ const Milestones = () => {
         <br></br>
 
         <div class="row">
-          <div class="column-left">
+          <div class="year-header">
             <div class="button">
               <button type="submit" className="2020-btn">
                 2020
@@ -151,7 +151,7 @@ const Milestones = () => {
           </div>
         </div>
         <div class="row">
-          <div class="column-left">
+          <div class="year-header">
             <div class="button">
               <button type="submit" className="2020-btn">
                 2019
@@ -218,7 +218,7 @@ const Milestones = () => {
           </div>
         </div>
         <div class="row">
-          <div class="column-left">
+          <div class="year-header">
             <div class="button">
               <button type="submit" className="2020-btn">
                 2018
