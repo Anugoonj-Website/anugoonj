@@ -5,6 +5,9 @@ import Image from "../components/Milstone_image";
 
 const Cardcarousel = (props) => {
 
+  const temp_array = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+ 
+
   return (
     <>
 
@@ -13,20 +16,13 @@ const Cardcarousel = (props) => {
 
       <br></br>
       <br></br>
-
       <div className="slider">
         <div className="slider_track">
-          <Image url={`${props.year}/milstone_${props.year} (1).jpg`} />
-          <Image url={`${props.year}/milstone_${props.year} (2).jpg`} />
-          <Image url={`${props.year}/milstone_${props.year} (3).jpg`} />
-          <Image url={`${props.year}/milstone_${props.year} (4).jpg`} />
-          <Image url={`${props.year}/milstone_${props.year} (5).jpg`} />
-          <Image url={`${props.year}/milstone_${props.year} (1).jpg`} />
-          <Image url={`${props.year}/milstone_${props.year} (2).jpg`} />
-          <Image url={`${props.year}/milstone_${props.year} (3).jpg`} />
-          <Image url={`${props.year}/milstone_${props.year} (4).jpg`} />
-          <Image url={`${props.year}/milstone_${props.year} (5).jpg`} />
-        
+
+          {temp_array.map((e,index)=>{
+            return (<Image url={`${props.year}/milstone_${props.year}(${index+1}).jpeg`} />);
+          })}
+
         </div>
       </div>
     </>);

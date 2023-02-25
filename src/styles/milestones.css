@@ -1,13 +1,13 @@
 @import "./common.css";
 
 .sponsors_page {
-  padding: 5%;
   padding-top: 22vh;
   width: 100%;
   min-height: 100vh;
   background-color: #2e044c;
   overflow: auto;
   z-index: -1;
+  overflow-x: hidden;
 }
 
 .milestones {
@@ -262,20 +262,22 @@
   width: 100%;
   display: grid;
   place-items: center;
-  float:right
+  float:right;
+  /* width:100vw;
+  overflow-x: hidden; */
 }
 
 .slider_track
 {
   display: flex;
   gap: 20px;
-  width: calc(10 * 250px);
+  width: calc(30 * 330px);
   animation-name: scroll;
   animation-iteration-count: infinite;
-  animation-duration: 5000ms;
+  animation-duration: 70000ms;
   background-color: rgba(255, 255, 255, 0.204);
-  position: relative;
-  z-index: 10;
+  /* position: relative;
+  z-index: 10; */
 }
 
 .slide_track:hover {
@@ -288,7 +290,7 @@
   }
 
   100% {
-    transform: translateX(calc(-250px * 5));
+    transform: translateX(calc(-330px * 15));
   }
 
   /* 100% {

@@ -8,12 +8,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 23px 0;
+    position: relative;
+    z-index: 100;
 }
 
 .milstone_image
 {
     height: 200px;
-    z-index: 1;
+    
+}
 
+.milstone_image:hover
+{
+    transform: translateZ(20px);
 }
 
