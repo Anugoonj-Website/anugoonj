@@ -37,26 +37,91 @@ const starsArray = [
 
 
 const Home = () => {
+  React.useEffect(() => {
+    const startstop = document.getElementById("startstop");
+    const seconds = document.getElementById("seconds");
+    const minutes = document.getElementById("minutes");
+    const hours = document.getElementById("hours");
+    const days = document.getElementById("days");
+
+    const today = new Date();
+    const todayAt12 = new Date();
+    // todayAt12.setHours(0, 0, 0, 0);
+    const birthdate = new Date("03/02/2023");
+    console.log(today);
+    console.log(birthdate);
+    let totalSeconds = 0;
+    if (todayAt12.getTime() === birthdate.getTime()) {
+      totalSeconds = 0;
+    } else {
+      birthdate.setFullYear(today.getFullYear());
+      totalSeconds = (birthdate - today) / 1000;
+    }
+
+    const setDisplay = (sec) => {
+      days.innerText = String(Math.floor(sec / (24 * 60 * 60))).padStart(2, "0");
+      sec = sec % (24 * 60 * 60);
+      hours.innerText = String(Math.floor(sec / (60 * 60))).padStart(2, "0");
+      sec = sec % (60 * 60);
+      minutes.innerText = String(Math.floor(sec / 60)).padStart(2, "0");
+      sec = sec % 60;
+      seconds.innerText = String(Math.floor(sec)).padStart(2, "0");
+    };
+
+    const timer = setInterval(() => {
+      if (totalSeconds <= 0) {
+        totalSeconds = 0;
+        clearInterval(timer);
+        return;
+      }
+      totalSeconds -= 1;
+      setDisplay(totalSeconds);
+    }, 1000);
+
+
+  }, [])
   return (<>
-    <section style={{ height: "100vh ", overflowX: "hidden" }}>
+    <section className="hero" style={{ height: "100vh ", overflowX: "hidden" }}>
       <div className="home overflow-x-hidden">
         <div className="home_inside overflow-hidden relative">
           <div className="home_page_label flex flex-col items-center ml-32 w-[55%]">
             <h1 className="home_page_label_anugoonj mt-12">Anugoonj</h1>
             <p className="description text-white w-[80%] pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit, nihil natus doloribus nisi ipsum quas veritatis perspiciatis aspernatur provident.</p>
             <div className="countdown-timer">
+            <div  className="containerrr">
+                  <div  className="clock text-white">
+                    <div  className="days ">
+                      <span id="days">00</span>
+                      <p>DAYS</p>
+                    </div>
+                    <div  className="hours ">
+                      <span id="hours">00</span>
+                      <p>HOURS</p>
+                    </div>
+                    <div  className="minutes ">
+                      <span id="minutes">00</span>
+                      <p>MINS</p>
+                    </div>
+                    <div  className="seconds">
+                      <span id="seconds">00</span>
+                      <p>SECS</p>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
+          <div className="">
           <img
             src={neon_circle}
             alt="img"
             className="neon-circle z-[1]"
-          />
+            />
           <img
             src={arman_malik}
             alt="img"
             className="home_arman_malik_image"
-          />
+            />
+        </div>
 
           {/* <div className="home_arrow">
                 <img src={arrow} alt="arrow" className="home_down_arrow" />
