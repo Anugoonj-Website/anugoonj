@@ -281,7 +281,16 @@
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 28%, rgba(72,0,96,1) 100%);
 }
 /* Stars Section Area */
-
+.line{
+	width: 100vw;
+	height: 2px;
+	background-color: #fff ;
+}
+.guest-head{
+	background-color: none;
+	padding: 0;
+	margin: 0;
+}
 .stars{
 	background: rgb(2,0,36);
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 28%, rgba(72,0,96,1) 100%);
@@ -311,4 +320,64 @@
 	font-family: Norwester;
 	color: white;
 	text-transform: uppercase;
+}
+
+@media screen and (max-width:850px) {
+	.home_page_label{
+		margin-left: 18vw;
+	}
+	.home_page_label_anugoonj{
+		font-size: 18vw;
+	}
+	.home_inside img{
+			height: 40vh;
+			bottom: -10vh;
+			position: absolute;
+			right: 0;
+	}
+	.home_inside .neon-circle
+	{
+		bottom: -15vh;
+	}
+	.teaserr{
+		flex-direction: column;
+		align-items: center;
+		padding-left: 0;
+	}
+	.teaserr .frame{
+		width: 80vw;
+	}
+	.teaserr .cont{
+		width: 80vw;
+	}
+	.inside_starsarray{
+		width: 80vw;
+	}
+	.starsarray{
+		flex-direction: column !important;
+		align-items: center;
+		text-align: center;
+		/* justify-content: center; */
+	}
+	.starsarray .artist_image
+	{
+		transform: none;
+		height: 30vh;
+	}
+	.starsarray .left{
+		height: 30vh;
+	}
+	.starsmain{
+		flex-direction: column-reverse !important;
+		position: relative;
+		padding-bottom: 0;
+		bottom: -30vh;
+		height: max-content;
+		/* overflow-y: hidden; */
+	}
+	.music-box{
+		position: relative;
+		right: 10vw;
+		rotate: 90deg;
+	}
 }
