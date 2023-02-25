@@ -1,14 +1,13 @@
 @import "./common.css";
 
-.sponsors_page
-{
-	padding: 5%;
-	padding-top: 22vh;
-	width: 100%;
-    min-height: 100vh;
-	background-color: #2E044C;
-	overflow: auto;	
-	z-index: -1;
+.sponsors_page {
+  padding: 5%;
+  padding-top: 22vh;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #2e044c;
+  overflow: auto;
+  z-index: -1;
 }
 
 .milestones {
@@ -45,16 +44,14 @@
 }
 
 .carousel .slide img {
-  max-height: 300px;  /* change this to whatever you want */
+  max-height: 300px; /* change this to whatever you want */
   max-width: 1000px;
 }
 
-.carousel_size{
-
+.carousel_size {
   margin: auto;
-  height:300px;
-  width:1000px;
-
+  height: 300px;
+  width: 700px;
 }
 
 /* .text-year {
@@ -126,11 +123,21 @@
 }
 
 .milestones_page_label_anugoonj {
-  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff, 0 0 120px #ffffff, 0 0 160px #ffffff;
-    text-align: center;
-    font-size: 2rem;
-    font-size: 2rem;
-    font-weight: 700;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff,
+    0 0 80px #ffffff, 0 0 120px #ffffff, 0 0 160px #ffffff;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.sponsors_content {
+  padding: 0 5%;
+  margin-top: 5vh;
+  text-align: center;
+  color: #ffffff;
+  font-size: large;
+}
+.sponsors_title_line {
+  font-weight: 700;
 }
 
 .home_arrow {
@@ -166,7 +173,7 @@
   width: 25px;
   height: 25px;
   border-radius: 100%;
-  background: rgb(255 255 255 / 5%);;
+  background: rgb(255 255 255 / 5%);
   animation: animate 20s linear infinite;
   bottom: -150px;
 }
