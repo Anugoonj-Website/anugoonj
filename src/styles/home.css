@@ -165,8 +165,13 @@
 	src: url("../norwester.otf");
 }
 
+@font-face {
+	font-family: Batangas;
+	src: url("../Batangas.otf");
+}
+
 .home_page_label_anugoonj{
-	font-family: cursive;
+	font-family: Batangas;
     font-size: 8rem;
 	color: black;
 	/* opacity: 100; */
