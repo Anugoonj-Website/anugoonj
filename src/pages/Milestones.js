@@ -48,7 +48,7 @@ const Milestones = () => {
 
       <div className="event_footer">
         <p class="sponsor_rights_text">
-          © 2023 Created By <b>Anugoonj</b> All Rights Reserved.
+          © 2023 Organised and Managed by <b>Directorate of Student's Welfare.</b> All Rights Reserved.
         </p>
       </div>
     </div>
