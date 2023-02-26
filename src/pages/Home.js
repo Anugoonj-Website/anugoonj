@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/home.css";
 import arman_malik from "../images/am3.png";
 import neon_circle from "../images/neon-circle.png";
@@ -38,6 +38,8 @@ const starsArray = [
 
 
 const Home = () => {
+
+  const[live , SetLive] = useState(false);
   React.useEffect(() => {
     // const startstop = document.getElementById("startstop");
     const seconds = document.getElementById("seconds");
@@ -48,7 +50,11 @@ const Home = () => {
     const today = new Date();
     const todayAt12 = new Date();
     // todayAt12.setHours(0, 0, 0, 0);
-    const birthdate = new Date("03/02/2023");
+    const birthdate = new Date("Mar 02 2023 10:00:00 GMT+0530");
+    if(birthdate<=today)
+    {
+      SetLive(true);
+    }
     console.log(today);
     console.log(birthdate);
     let totalSeconds = 0;
@@ -88,7 +94,7 @@ const Home = () => {
           <div className="home_page_label flex flex-col items-center justify-center w-[75%] h-auto">
             <h1 className="home_page_label_anugoonj">Anugoonj'23</h1>
             <p className="description text-white w-[80%] pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit, nihil natus doloribus nisi ipsum quas veritatis perspiciatis aspernatur provident.</p>
-            <div className="countdown-timer">
+            {!live && <div className="countdown-timer">
             <div  className="containerrr">
                   <div  className="clock text-white">
                     <div  className="days ">
@@ -109,7 +115,12 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-            </div>
+            </div>}
+            {live && <div className="countdown-timer">
+              <div className="Live_now">
+              Live now!!
+              </div>
+            </div>}
           </div>
           <div className="">
             <div className="images flex flex-col items-center justify-center">

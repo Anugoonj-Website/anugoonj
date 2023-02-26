@@ -598,3 +598,10 @@
 		0 0 16px #520888,
 		0 0 20px #520888;
 }
+
+.Live_now{
+color: white;
+font-family: 'Batangas';
+font-size: 4rem;
+text-shadow: 0 0 30px white;
+}
