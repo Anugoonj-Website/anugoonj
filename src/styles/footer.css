@@ -100,7 +100,15 @@ footer {
   .left-col {
     width: 100%;
     text-align: center;
+    justify-content: center;
+    display: flex;
     margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .social-media{
+    margin-top: 40%;
   }
 }
 

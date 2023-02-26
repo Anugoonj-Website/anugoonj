@@ -81,12 +81,12 @@ const Home = () => {
 
 
   }, [])
-  return (<>
+  return (<div className="home_page_all">
     <section className="hero" style={{ height: "max-content ", overflowX: "hidden" }}>
       <div className="home overflow-x-hidden">
         <div className="home_inside overflow-hidden relative flex flex-row justify-center items-center">
-          <div className="home_page_label flex flex-col items-center justify-center ml- w-[55%] h-auto">
-            <h1 className="home_page_label_anugoonj">Anugoonj</h1>
+          <div className="home_page_label flex flex-col items-center justify-center w-[75%] h-auto">
+            <h1 className="home_page_label_anugoonj">Anugoonj'23</h1>
             <p className="description text-white w-[80%] pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit, nihil natus doloribus nisi ipsum quas veritatis perspiciatis aspernatur provident.</p>
             <div className="countdown-timer">
             <div  className="containerrr">
@@ -121,7 +121,7 @@ const Home = () => {
               <img
                 src={arman_malik}
                 alt="img"
-                className="home_arman_malik_image block relative z-[5] w-[70%] bottom-[-10vh] right-[-10vw]"
+                className="home_arman_malik_image block relative z-[5] w-[65%] bottom-[-20vh] right-[-8vw]"
                 />
             </div>
           </div>
@@ -169,7 +169,7 @@ const Home = () => {
       <Footer/>
 
     </section>
-  </>
+  </div>
   );
 };
 
