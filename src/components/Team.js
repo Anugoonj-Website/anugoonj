@@ -47,10 +47,6 @@ function Team(props) {
     
     const core_data = createGroups(core, Math.ceil(length_core / glc));
     const members_data = createGroups(members, Math.ceil(length_members / glm));
-    // console.log(core_data);
-
-
-
 
     return (
         <>

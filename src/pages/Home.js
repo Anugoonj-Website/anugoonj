@@ -41,7 +41,6 @@ const Home = () => {
 
   const[live , SetLive] = useState(false);
   React.useEffect(() => {
-    // const startstop = document.getElementById("startstop");
     const seconds = document.getElementById("seconds");
     const minutes = document.getElementById("minutes");
     const hours = document.getElementById("hours");
@@ -49,7 +48,6 @@ const Home = () => {
 
     const today = new Date();
     const todayAt12 = new Date();
-    // todayAt12.setHours(0, 0, 0, 0);
     const birthdate = new Date("Mar 02 2023 10:00:00 GMT+0530");
     if(birthdate<=today)
     {
@@ -160,7 +158,6 @@ const Home = () => {
           {starsArray.map((item) => (
             <div className="flex flex-row items-start justify-center starsarray" key={item.image}>
               <div className="left mr-16">
-                {/* <img src={require("../images/neon-ring.png")} className="neon-ring" alt="" /> */}
                 <img src={require(`../images/${item.image}`)} className="artist_image" alt="" />
               </div>
               <div className="right w-[30vw] inside_starsarray">

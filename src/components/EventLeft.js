@@ -2,7 +2,6 @@ import React from 'react'
 import '../styles/eventLeft.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faClock } from '@fortawesome/free-solid-svg-icons'
-// import poster from "../images/poster.jpg";
 
 
 const Event = (props) => {

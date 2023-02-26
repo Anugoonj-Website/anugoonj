@@ -66,12 +66,9 @@
 
 .home_inside {
 	display: flex;
-	/* background-color: var(--color-bg); */
 	height: 100vh;
 	width: 100vw;
 	display: flex;
-	/* opacity: 0.7; */
-	/* display: flex; */
 	overflow-x: hidden;
 }
 
@@ -196,7 +193,6 @@
 /* About Us Animation Area */
 
 .animation-area {
-	/* background: linear-gradient(to left, #8942a8, #ba382f); */
 	width: 100%;
 	height: 100vh;
 }
@@ -313,7 +309,6 @@
 .stars .left .artist_image {
 	width: 17vw;
 	height: 100%;
-	/* clip-path: polygon(50% 0, 0% 50%, 100% 50%); */
 	transform: rotateZ(-15deg);
 }
 
@@ -419,16 +414,12 @@
 
 	.home_inside .images {
 		position: relative;
-		/* right: -4v; */
 		height: 40vh;
 	}
 
 	.home_inside .neon-circle {
-		/* height: 220%;
-		width: 140%; */
 		height: 250%;
 		width: 90%;
-		/* display: none; */
 		right: -10vh;
 		bottom: -50vh;
 	}
@@ -443,7 +434,6 @@
 		height: 100vw;
 		width: 100%;
 		right: inherit;
-		/* bottom: -5vh; */
 	}
 }
 

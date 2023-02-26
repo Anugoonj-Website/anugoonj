@@ -1,5 +1,4 @@
 import React from 'react'
-import "../styles/milstone_image.css";
 
 function Image(props)
 {
