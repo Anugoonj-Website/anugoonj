@@ -28,6 +28,7 @@ function App() {
     setLoaderDisplay("block");
     website_loader.current.play();
   }
+  
 
   const Milestones_Data =[
     "Benny Dayal |  Punjabi singer Guri | Sankraman Band | Kavi Sammelan by Ashok Chakaradhar | Talent Hunt",
