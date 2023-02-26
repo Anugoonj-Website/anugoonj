@@ -66,6 +66,7 @@ function App() {
             <Route path="disipline" element={<Team data={teams_data.disipline}/>} />
             <Route path="hospitality" element={<Team data={teams_data.hospitality}/>} />
             <Route path="office" element={<Team data={teams_data.office}/>} />
+            <Route path="mr_and_ms_anugoonj" element={<Team data={teams_data.office}/>} />
             <Route path="ground" element={<Team data={teams_data.ground}/>} />
             <Route path="media" element={<Team data={teams_data.media}/>} />
           </Route>

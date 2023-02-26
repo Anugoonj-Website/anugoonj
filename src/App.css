@@ -28,7 +28,7 @@ body{
 
 /* Loader css */
 .video_div{
-  background: linear-gradient(#2F1043, #010003);
+  background: black;
   height: 100vh;
   width: 100vw;
 }

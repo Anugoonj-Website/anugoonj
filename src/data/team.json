@@ -354,5 +354,44 @@
                 }
             ]
 
-        }    
+        },  
+        "mr_and_ms_anugoonj":{                
+            "core":[
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Aryan Singh",
+                    "position":"President"
+                }
+            ],
+            "members":[
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                },
+                {
+                    "name":"Aryan Singh"
+                }
+            ]
+
+        } 
 }

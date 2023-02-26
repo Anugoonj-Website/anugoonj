@@ -68,7 +68,7 @@
   -ms-transition: background-color 1000ms linear;
   transition: background-color 1000ms linear;
 }
-*/ .column-left {
+.column-left {
   float: center;
   width: 20%;
   color: white;
