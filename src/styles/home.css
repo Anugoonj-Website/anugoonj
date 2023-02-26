@@ -419,7 +419,7 @@
 
 	.home_inside .neon-circle {
 		height: 250%;
-		width: 90%;
+		width: 100%;
 		right: -10vh;
 		bottom: -50vh;
 	}
@@ -436,14 +436,21 @@
 		right: inherit;
 	}
 }
-
-@media screen and (max-width:1050px) and (min-width:850px){
+@media screen and (max-width:1200px ){
 	.home_arman_malik_image {
 		width: 110%;
 		right: 3vw;
 		bottom: -25vh;
 	}
+	.neon-circle {
+		bottom: 0;
+		height: auto;
+		width: 120%;
+		/* right: 4vh !important; */
+	}
+}
 
+@media screen and (max-width:1050px){
 	.home_page_label_anugoonj{
 		font-size: 6rem;
 	}
@@ -451,6 +458,12 @@
 	.home_inside .images {
 		height: 30vh;
 		width: 40vw;
+	}
+	.neon-circle {
+		bottom: 0;
+		height: 500px;
+		width: auto;
+		/* right: 4vh !important; */
 	}
 }
 
@@ -556,7 +569,7 @@
 	.home_arman_malik_image {
 		width: 80%;
 		right: 10vw;
-		bottom: 0;
+		bottom: -44px;
 		height: 100%;
 	}
 
