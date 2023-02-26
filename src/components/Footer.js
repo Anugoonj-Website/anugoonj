@@ -1,12 +1,19 @@
 import React from "react";
 import "../styles/footer.css";
 import icon from "../images/anugoonj_logo.png";
+import ipu_icon from "../images/ipu_logo.png";
+import year25_icon from "../images/25year_logobg.png";
+
 function Footer() {
   return (
     <footer>
       <div class="footer-container">
         <div class="left-col">
-          <img src={icon} alt="" className="logo_footer" />
+          <div class="footer-icons">
+            <img src={icon} alt="" className="logo_footer" />
+            <img src={ipu_icon} alt="" className="logo_footer" />
+            <img src={year25_icon} alt="" className="logo_footer" />
+          </div>
           <div class="social-media">
             <div className="icon_div">
               <a href="#">
@@ -64,7 +71,7 @@ function Footer() {
         </div>
       </div>
       <p class="rights-text">
-        © 2023 Created By <b>Anugoonj</b> All Rights Reserved.
+        © 2023 Organised and Managed by <b>Directorate of Student's Welfare.</b> All Rights Reserved.
       </p>
     </footer>
   );

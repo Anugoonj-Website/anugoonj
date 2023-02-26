@@ -73,7 +73,7 @@ footer {
   }
   .social-media {
     width: 100%;
-    gap: 4rem;
+    /* gap: 4rem; */
   }
   .footer-container {
     width: 100%;
@@ -94,6 +94,7 @@ footer {
     justify-content: center;
     display: flex;
     margin-top: 2rem;
+    flex-direction: column;
   }
 }
 
@@ -121,10 +122,16 @@ footer {
 }
 
 .logo_footer {
-  width: 5rem;
+  /* width: 5rem; */
   height: 6rem;
+  padding-left: 1rem;
 }
 
 .rights-text {
   text-align: center;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
 }
