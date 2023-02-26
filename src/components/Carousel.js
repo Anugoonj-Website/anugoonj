@@ -20,7 +20,7 @@ const Cardcarousel = (props) => {
         <div className="slider_track">
 
           {temp_array.map((e,index)=>{
-            return (<Image url={`${props.year}/milstone_${props.year}(${index+1}).jpeg`} />);
+            return (<Image url={`${props.year}/milstone_${props.year}_${index+1}.jpeg`} />);
           })}
 
         </div>
