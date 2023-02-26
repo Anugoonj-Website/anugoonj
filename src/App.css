@@ -38,3 +38,13 @@ body{
   width: 100vw;
   
 }
+
+.loader_gif
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
