@@ -25,7 +25,7 @@ function App() {
   const website_loader = useRef();
   useEffect(() => {
     setLoading(true);
-  }, [])
+  }, []) 
 
   const loader_video = () => {
     setLoaderVidioDisplay("block");
