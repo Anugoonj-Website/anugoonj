@@ -62,8 +62,6 @@ ul
 	animation: animate 20s linear infinite;
 	bottom: -150px;
 	color: white;
-	/* text-align: center; */
-	/* justify-content: center;*/
 	font-size: xx-small; 
 }
 .box-area li:nth-child(1) {

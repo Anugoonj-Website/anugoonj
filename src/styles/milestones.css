@@ -222,7 +222,6 @@
   }
 }
 
-/* ////////////////// */
 
 .milstone_button {
   display: flex;
@@ -241,41 +240,6 @@
   font-size: 28px;
   padding: 0 20px;
 }
-
-/*.slider {
-  height: 260px;
-  margin: auto;
-  position: relative;
-  width: 100%;
-  display: grid;
-  place-items: center;
-  float: right;
-}
-
-.slider_track {
-  display: flex;
-  gap: 20px;
-  width: calc(30 * 330px);
-  animation-name: scroll;
-  animation-iteration-count: infinite;
-  animation-duration: 70000ms;
-  background-color: rgba(255, 255, 255, 0.204);
-}
-
-.slide_track:hover {
-  animation-play-state: paused;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(calc(-330px * 15));
-  }
-} */
-
 
 .slider {
   z-index: 5;

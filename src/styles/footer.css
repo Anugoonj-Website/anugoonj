@@ -4,7 +4,6 @@ footer {
   background: rgb(241 241 241 / 20%);
   padding: 3rem 6rem;
   color: white;
-  /* margin: 2%; */
   border-radius: 10px;
 }
 
@@ -48,17 +47,12 @@ footer {
 
 .right-col h1 {
   font-size: 26px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
 }
 
 .border {
   width: 100px;
   height: 4px;
   background: #fc5c65;
-  /* justify-content: center;
-  margin: 0 auto; */
 }
 
 .page-content {
@@ -84,14 +78,11 @@ footer {
   .footer-container {
     width: 100%;
     flex-direction: column;
-    /* padding: 10rem 6rem; */
   }
 
   .right-col {
     width: 100%;
     margin-bottom: 6rem;
-
-    /* margin: 0 auto; */
   }
   .border {
     margin-bottom: 1rem;
@@ -115,10 +106,8 @@ footer {
 .contact-details {
   display: flex;
   flex-direction: column;
-  /* gap: ; */
   margin-top: 1rem;
   align-items: flex-start;
-  /* flex-wrap: wrap; */
   justify-content: center;
 }
 
