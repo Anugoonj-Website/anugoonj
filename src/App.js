@@ -18,16 +18,16 @@ import loader from './images/anugoonj_loader.mp4';
 function App() {
 
   const [loading, setLoading] = useState(true);
-  const [loader_display ,setLoaderDisplay]= useState("none");
+  // const [loader_display ,setLoaderDisplay]= useState("none");
   const website_loader = useRef();
   useEffect(()=>{
     setLoading(true);
   }, [])
 
-  const loader_video = ()=>{
-    setLoaderDisplay("block");
-    website_loader.current.play();
-  }
+  // const loader_video = ()=>{
+  //   setLoaderDisplay("block");
+  //   website_loader.current.play();
+  // }
 
   const Milestones_Data =[
     "Benny Dayal |  Punjabi singer Guri | Sankraman Band | Kavi Sammelan by Ashok Chakaradhar | Talent Hunt",
@@ -41,7 +41,7 @@ function App() {
       {
         loading ?
         <div className="video_div">
-        <video ref={website_loader} className="anugoonj_loader" style={{display:loader_display}} playsinline muted onLoadedData={loader_video} onEnded={()=>{setLoading(false)}}>
+        <video ref={website_loader} className="anugoonj_loader" playsInline muted autoPlay  onEnded={()=>{setLoading(false)}}>
           <source  src={loader} type="video/mp4" />
         </video>
         </div>
