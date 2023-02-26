@@ -6,7 +6,7 @@ function Image(props)
     console.log(url);
     return(
         <div className='milstone_image_container slide'>
-            <img src={require(`../images/milestone_image/${url}`)} className="milstone_image" alt="Image"/>
+            <img src={`https://res.cloudinary.com/dyusmsyij/image/upload/v1677436282/images/milestone_image/${url}`} className="milstone_image" alt="Image"/>
         </div>
     )
 
