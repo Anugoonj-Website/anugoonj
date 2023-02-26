@@ -29,12 +29,13 @@ body{
 
 /* Loader css */
 .video_div{
-  background: linear-gradient(#250F35, black);
+  background: linear-gradient(#2F1043, #010003);
   height: 100vh;
   width: 100vw;
 }
 
 .anugoonj_loader{
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
+  
 }

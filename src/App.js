@@ -1,5 +1,5 @@
 import "./App.css";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
@@ -13,18 +13,21 @@ import teams_data from "./data/team.json";
 import Milestones from "./pages/Milestones";
 import Team from "./components/Team";
 import Cardcarousel from "./components/Carousel";
-import loader from './images/anugoonj_loader1.mp4';
+import loader from './images/anugoonj_loader.mp4';
 
 function App() {
 
-  const [loading, setLoading] = useState(false);
-
+  const [loading, setLoading] = useState(true);
+  const [loader_display ,setLoaderDisplay]= useState("none");
+  const website_loader = useRef();
   useEffect(()=>{
     setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 7000);
   }, [])
+
+  const loader_video = ()=>{
+    setLoaderDisplay("block");
+    website_loader.current.play();
+  }
 
   const Milestones_Data =[
     "Benny Dayal |  Punjabi singer Guri | Sankraman Band | Kavi Sammelan by Ashok Chakaradhar | Talent Hunt",
@@ -38,8 +41,8 @@ function App() {
       {
         loading ?
         <div className="video_div">
-        <video width="100%" height="100%" id="myvideo" playsinline autoPlay muted loop className="anugoonj_loader">
-          <source src={loader} type="video/mp4" />
+        <video ref={website_loader} className="anugoonj_loader" style={{display:loader_display}} playsinline muted onLoadedData={loader_video} onEnded={()=>{setLoading(false)}}>
+          <source  src={loader} type="video/mp4" />
         </video>
         </div>
         : 

@@ -125,10 +125,6 @@ const Home = () => {
                 />
             </div>
           </div>
-
-          {/* <div className="home_arrow">
-                <img src={arrow} alt="arrow" className="home_down_arrow" />
-              </div>  */}
         </div>
       </div>
     </section>
