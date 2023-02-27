@@ -1,7 +1,8 @@
 {
     
         
-        "organising":{                
+        "organising":{  
+            "name":"Organisers",              
             "core":[
                 {
                     "image":"default.jpg",
@@ -18,37 +19,40 @@
                     "name":"Nitin",
                     "position":"General Secretary"
                 }
-            ],
-            "members":[]
-
-        },
-
-        "web":{                
-            "core":[
-                {
-                    "image":"default.jpg",
-                    "name":"ABC",
-                    "position":"Head"
-                }
-            ],
-            "members":[
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                }
             ]
 
         },
 
-        "disipline":{                
+        "web":{
+            "name":"Web Team",                              
+            "core":[
+                {
+                    "image":"default.jpg",
+                    "name":"Sonu Singla",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Shubham Goyal",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Rishabh Pant",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Toyeesh",
+                    "position":"Head"
+                }
+
+            ]
+
+        },
+
+        "disipline":{
+            "name":"Discipline Team",               
             "core":[
                 {
                     "image":"default.jpg",
@@ -94,12 +98,11 @@
                     "name":"Anuj",
                     "position":"Head"
                 }
-            ],
-            "members":[]
-
+            ]
         },
 
-        "hospitality":{                
+        "hospitality":{
+            "name":"Hospitality Team",                 
             "core":[
                 {
                     "image":"default.jpg",
@@ -126,11 +129,12 @@
                     "name":"Sushant Halwai",
                     "position":"Head"
                 }
-            ],
-            "members":[]
+            ]
 
         },
-        "office":{                
+
+        "office":{    
+            "name":"Office Team",             
             "core":[
                 {
                     "image":"default.jpg",
@@ -152,11 +156,12 @@
                     "name":"Ankit Upadhyay",
                     "position":"Head"
                 }
-            ],
-            "members":[]
+            ]
 
         },
-        "ground":{                
+
+        "ground":{     
+            "name":"Ground Team",            
             "core":[
                 {
                     "image":"default.jpg",
@@ -178,11 +183,11 @@
                     "name":"Harsh Choudhary",
                     "position":"Head"
                 }
-            ],
-            "members":[]
+            ]
 
         },
         "media":{                
+            "name":"Media Team", 
             "core":[
                 {
                     "image":"default.jpg",
@@ -209,11 +214,12 @@
                     "name":"Pragati Dhingra",
                     "position":"Head"
                 }
-            ],
-            "members":[]
+            ]
 
-        },  
-        "events_team":{                
+        },
+
+        "events_team":{
+            "name":"Events Team",                 
             "core":[
                 {
                     "image":"default.jpg",
@@ -232,11 +238,12 @@
                     "name":"Stuti Singh",
                     "position":"Anchoring Head"
                 }
-            ],
-            "members":[]
+            ]
 
-        } ,
-        "core_team":{                
+        },
+
+        "core_team":{
+            "name":"Core Team",                 
             "core":[
                 {
                     "image":"default.jpg",
@@ -288,8 +295,7 @@
                     "name":"Arush Garg",
                     "position":"Head"
                 }
-            ],
-            "members":[]
+            ]
 
         }
 }

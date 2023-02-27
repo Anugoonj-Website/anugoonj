@@ -6,12 +6,9 @@ import { useMediaQuery } from '@react-hook/media-query';
 
 function Team(props) {
     const core = props.data.core;
-    const members = props.data.members;
     const length_core = core.length;
-    const length_members = members.length;
 
     const [glc,SetGlc]  = useState(4);
-    const [glm,SetGlm]  = useState(6);
 
     const isTablet = useMediaQuery('only screen and (max-width: 768px)');
     const isPhone = useMediaQuery('only screen and (max-width: 540px)');
@@ -23,22 +20,18 @@ function Team(props) {
         if(isSmallPhone)
         {
             SetGlc(2);
-            SetGlm(3);
         }
         else if(isPhone)
         {
             SetGlc(2);
-            SetGlm(4);
         }
         else if(isTablet)
         {
             SetGlc(3);
-            SetGlm(5);
         }
         else
         {
             SetGlc(4);
-            SetGlm(6);
         }    
 
     },[isTablet,isPhone,isSmallPhone])
@@ -46,13 +39,12 @@ function Team(props) {
 
     
     const core_data = createGroups(core, Math.ceil(length_core / glc));
-    const members_data = createGroups(members, Math.ceil(length_members / glm));
 
     return (
         <>
             <div className='team'>
-
-                <h4 className='core_team_heading'>Head Team Members</h4>
+             
+              <h4 className='core_team_heading'>{props.data.name}</h4>
                 {
                     core_data.map((element) => {
                         return (
@@ -66,22 +58,7 @@ function Team(props) {
                 }
 
             </div>
-            <div className='team'>
-                <h4 className='core_team_heading'>Team Members</h4>
-                
-                {
-                    members_data.map((element) => {
-                        return (
-                            <div className='group_team_memebers'>
-                                {element.map((e) => {
-                                    return (<div>{e.name}</div>);
-                                })}
-                            </div>
-                        )
-                    })
-                }
-
-            </div>
+            
         </>
 
     )
