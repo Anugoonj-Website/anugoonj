@@ -8,14 +8,14 @@ const starsArray = [
   {
     Date: "02-03-2023",
     Name: "SUKHI (PUNJABI NIGHT)",
-    Desc: "An event featuring the popular Punjabi singer Sukhi, known for his upbeat and energetic performances. The event promises to be a night of lively Punjabi music, dance, and entertainment. Fans can look forward to an evening of bhangra beats and dhol, as Sukhi takes the stage with his chart-topping hits..",
+    Desc: "An event featuring the popular Punjabi singer Sukhi, known for his upbeat and energetic performances. The event promises to be a night of lively Punjabi music, dance, and entertainment. Fans can look forward to an evening of bhangra beats and dhol, as Sukhi takes the stage with his chart-topping hits...",
     image: "artist_image1.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   },
   {
     Date: "03-03-2023",
     Name: "NIZAMI BROTHERS (AN EVENING WITH SUFISM)",
-    Desc: "A concert event featuring the renowned Qawwali group from India, known for their soulful renditions and contributions to the Sufi music tradition. The event promises to be an unforgettable experience of spiritual music, poetry, and culture",
+    Desc: "A concert event featuring the renowned Qawwali group from India, known for their soulful renditions and contributions to the Sufi music tradition. The event promises to be an unforgettable experience of spiritual music, poetry, and culture.",
     image: "artist_image2.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   },
@@ -140,11 +140,11 @@ const Home = () => {
     <section className="teaser-sec" style={{ height: "max-content ", overflowX: "hidden" }}>
       <div className=" h-[100vh] pt-32 pl-24 flex gap-20 items-center teaserr">
         <div className="frame rounded-3xl overflow-hidden aspect-video w-max shadow-xl teaser_vidio">
-          <iframe className=" h-[60vh] aspect-video" src="https://www.youtube.com/embed/iNPC_UH_3d4" title="YouTube video     player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;    picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe className=" h-[60vh] aspect-video" src="https://www.youtube.com/embed/iNPC_UH_3d4" title="YouTube video     player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div className="cont text-white w-[30vw]">
           <h1 className="font-[Norwester] text-center">TEASER</h1>
-          <p>Are you ready for the biggest cultural event of the year? Anugoonj GGSIPU is back and promises to be an extravaganza of art, music, dance, literature, and sports. Get ready to be immersed in the vibrant culture of India as talented artists, musicians, and dancers take the stage to showcase their skills. From soul-stirring Qawwali performances to energetic Bhangra beats, from thought-provoking literary discussions to thrilling sports competitions, Anugoonj GGSIPU has something for everyone. Join us for a journey of discovery, celebration, and unforgettable experiences that will stay with you long after the event is over.</p>
+          <p>Are you ready for the biggest cultural event of the year? Anugoonj GGSIPU is back and promises to be an extravaganza of art, music, dance, literature, and sports. Get ready to be immersed in the vibrant culture of India as talented artists, musicians, and dancers take the stage to showcase their skills. From soul-stirring Qawwali performances to energetic Bhangra beats, from thought-provoking literary discussions to thrilling competitions, Anugoonj GGSIPU has something for everyone. Join us for a journey of discovery, celebration, and unforgettable experiences that will stay with you long after the event is over.</p>
         </div>
       </div>
     </section>
