@@ -28,7 +28,7 @@ const starsArray = [
   },
   {
     Date: "04-03-2023",
-    Name: "ARMAAN MALIK",
+    Name: "ARMAAN MALIK (STAR NIGHT)",
     Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit natus, eveniet veniam nemo cumque esse dignissimos aliquam assumenda inventore dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores. Optio, ipsam? Est, optio quis magnam autem voluptates fugiat! At.",
     image: "artist_image4.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
@@ -91,7 +91,7 @@ const Home = () => {
         <div className="home_inside overflow-hidden relative flex flex-row justify-center items-center">
           <div className="home_page_label flex flex-col items-center justify-center w-[75%] h-auto">
             <h1 className="home_page_label_anugoonj">Anugoonj'23</h1>
-            <p className="description text-white w-[80%] pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit, nihil natus doloribus nisi ipsum quas veritatis perspiciatis aspernatur provident.</p>
+            <p className="description text-white w-[80%] pt-5">Discover the Magic of India's Rich Culture - Anugoonj, the Annual Festival that Showcases Art, Music, Dance, Literature, and Sports, All in One Place!</p>
             {!live && <div className="countdown-timer">
             <div  className="containerrr">
                   <div  className="clock text-white">
@@ -122,11 +122,11 @@ const Home = () => {
           </div>
           <div className="">
             <div className="images flex flex-col items-center justify-center">
-              {/* <img
+              <img
                 src={neon_circle}
                 alt="img"
                 className="neon-circle z-[1] h-[90%] absolute bottom-[-10vh] right-[-10vw]"
-                /> */}
+                />
               <img
                 src={arman_malik}
                 alt="img"
