@@ -122,11 +122,11 @@ const Home = () => {
           </div>
           <div className="">
             <div className="images flex flex-col items-center justify-center">
-              <img
+              {/* <img
                 src={neon_circle}
                 alt="img"
                 className="neon-circle z-[1] h-[90%] absolute bottom-[-10vh] right-[-10vw]"
-                />
+                /> */}
               <img
                 src={arman_malik}
                 alt="img"

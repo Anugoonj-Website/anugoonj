@@ -26,6 +26,11 @@ function Events(props) {
         <h6 className='sub_heading_event'>Day-{props.day} ({props.date} March 2023)</h6>
       </div>
 
+      <div className="sponsors_content">
+          <p className="sponsors_title_line">Thank You to Our Generous Sponsors for Making Our Mission Possible</p>
+          <p className="sponsors_paragraph">We are grateful for the support of our sponsors, who share our vision and help us to create positive change in the world. Our sponsors are more than just financial backers; they are partners in our mission to make a difference in the lives of those we serve.</p>
+      </div>
+
       <div className='events_events'>
         {isMobile && data.map((item) => {
           return <EventLeft data={item} />;

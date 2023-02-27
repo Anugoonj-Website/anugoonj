@@ -1,235 +1,269 @@
 {
-    "day_1" :[
-      {
-        "name":"day-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      },
-      {
-        "name":"day-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }
-      
-    ],
-    "day_2" :[
-      {
-        "name":"day-2",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      },
-      {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }
-      
-    ],
-    "day_3" :[
-      {
-        "name":"day-3",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      },
-      {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }, {
-        "name":"event-1",
-        "description":"Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, expedita! consectetur adipisicing elit.",
-        "location":"D-Block",
-        "time":"12:30 Pm",
-        "poster_url":"poster.jpg"
-      }
-      
-    ]
+  "day_1" :[
+    {
+      "name":"DEBATE",
+      "description":"",
+      "location":"C-Block Auditorium",
+      "time":"9:00 AM",
+      "poster_url":"default.jpg"
+    },
+    {
+      "name":"J.A.M (ENGLISH)",
+      "description":"",
+      "location":"D-Block Auditorium",
+      "time":"10:00 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"WESTERN VOCAL",
+      "description":"",
+      "location":"E-Block Auditorium",
+      "time":"10:00 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"RANGOLI",
+      "description":"",
+      "location":"Library Courtyard",
+      "time":"10:00 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"CLASSICAL DANCE",
+      "description":"",
+      "location":"Stage-II",
+      "time":"10:00 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"NACH BALIYE",
+      "description":"",
+      "location":"Main Stage",
+      "time":"12:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"ON THE SPOT PAINTING",
+      "description":"",
+      "location":"C-Block Auditorium",
+      "time":"12:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"POETRY (ENGLISH)",
+      "description":"",
+      "location":"D-Block Auditorium",
+      "time":"12:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"STREET PLAY",
+      "description":"",
+      "location":"Near Library Stairs",
+      "time":"12:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"DJ SESSION",
+      "description":"",
+      "location":"Basketball Court",
+      "time":"1:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"GROUP SONG (INDIAN)",
+      "description":"",
+      "location":"E-Block Auditorium",
+      "time":"1:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"INAUGURAL CEREMONY",
+      "description":"",
+      "location":"Main Stage",
+      "time":"4:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"RAS-RANG",
+      "description":"",
+      "location":"Amphitheatre",
+      "time":"5:30 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"PUNJABI NIGHT",
+      "description":"",
+      "location":"Main Stage",
+      "time":"6:00 PM",
+      "poster_url":"default.jpg"
+    }
+  ],
+  "day_2" :[
+    {
+      "name":"BATTLE OF THE BANDS",
+      "description":"",
+      "location":"Mainstage",
+      "time":"9:00 AM",
+      "poster_url":"default.jpg"
+    },
+    {
+      "name":"JAM (HINDI)",
+      "description":"",
+      "location":"C-Block Auditorium",
+      "time":"9:00 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"CHOREOGRAPHY",
+      "description":"",
+      "location":"Stage-II",
+      "time":"9:30 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"QUIZ",
+      "description":"",
+      "location":"D-Block Auditorium",
+      "time":"9:30 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"ONE ACT PLAY",
+      "description":"",
+      "location":"C-Block Auditorium",
+      "time":"10:00 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"CLASSICAL VOCAL SOLO",
+      "description":"",
+      "location":"E-Block Auditorium",
+      "time":"10:00 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"CLAY MOULDING",
+      "description":"",
+      "location":"Library Courtyard",
+      "time":"10:00 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"DEBATE (HINDI)",
+      "description":"",
+      "location":"D-Block Auditorium",
+      "time":"12:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"GROUP SONG (WESTERN)",
+      "description":"",
+      "location":"E-Block Auditorium",
+      "time":"12:30 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"DJ SESSION",
+      "description":"",
+      "location":"Basketball Court",
+      "time":"1:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"FOLK DANCE",
+      "description":"",
+      "location":"Stage-1",
+      "time":"2:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"COLLAGE MAKING",
+      "description":"",
+      "location":"Library Court",
+      "time":"2:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"FREE BAND",
+      "description":"",
+      "location":"Stage-II",
+      "time":"4:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"AN EVENING WITH SUFISM",
+      "description":"",
+      "location":"Main Stage",
+      "time":"4:30 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"EDM NIGHT",
+      "description":"",
+      "location":"Main Stage",
+      "time":"6:00 PM",
+      "poster_url":"default.jpg"
+    }
+    
+  ],
+  "day_3" :[
+    {
+      "name":"MR. & MS. ANUGOONJ",
+      "description":"",
+      "location":"Main Stage",
+      "time":"9:00 AM",
+      "poster_url":"default.jpg"
+    },{
+      "name":"POETRY (HINDI)",
+      "description":"",
+      "location":"C-Block Auditorium",
+      "time":"9:00 AM",
+      "poster_url":"default.jpg"
+    },{
+      "name":"INDIAN LIGHT VOCALS",
+      "description":"",
+      "location":"D-Block Auditorium",
+      "time":"9:00 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"FOOTLOOSE",
+      "description":"",
+      "location":"Stage-2",
+      "time":"10:00 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"CREATIVE WRITING (HINDI)",
+      "description":"",
+      "location":"D-313;D-314",
+      "time":"10:00 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"CREATIVE WRITING (ENGLISH)",
+      "description":"",
+      "location":"D-313;D-314",
+      "time":"10:00 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"MONO ACTING",
+      "description":"",
+      "location":"C-Block Auditorium",
+      "time":"10:00 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"CARTOONING",
+      "description":"",
+      "location":"C-Block Auditorium",
+      "time":"11:30 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"LIGHT VOCALS",
+      "description":"",
+      "location":"E-Block Auditorium",
+      "time":"11:30 AM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"DJ SESSION",
+      "description":"",
+      "location":"Basketball Court",
+      "time":"1:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"STREET DANCE",
+      "description":"",
+      "location":"Near Library Stairs",
+      "time":"2:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"TALENT SHOW",
+      "description":"",
+      "location":"E-Block Auditorium",
+      "time":"2:00 PM",
+      "poster_url":"default.jpg"
+    }, {
+      "name":"STAR NIGHT",
+      "description":"",
+      "location":"Main Stage",
+      "time":"6:00 PM",
+      "poster_url":"default.jpg"
+    }
+    
+  ]
 
-   
+ 
 }

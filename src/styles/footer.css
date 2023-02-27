@@ -5,6 +5,8 @@ footer {
   padding: 3rem 6rem;
   color: white;
   border-radius: 10px;
+  position: relative;
+  z-index: 4;
 }
 
 .footer-container {
@@ -70,6 +72,8 @@ footer {
   footer {
     margin: 0 auto;
     margin-top: 20rem;
+    background: rgb(241 241 241 / 40%);
+
   }
   .social-media {
     width: 100%;

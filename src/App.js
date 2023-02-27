@@ -13,7 +13,6 @@ import teams_data from "./data/team.json";
 import Milestones from "./pages/Milestones";
 import Team from "./components/Team";
 import Cardcarousel from "./components/Carousel";
-import loader from './images/anugoonj_loader.mp4';
 
 function App() {
 
@@ -43,8 +42,9 @@ function App() {
         loading ?
         <div className="video_div">
         <video ref={website_loader} className="anugoonj_loader" style={{display:loader_display}} playsinline muted onLoadedData={loader_video} onEnded={()=>{setLoading(false)}}>
-          <source  src={loader} type="video/mp4" />
+          <source  src={"https://res.cloudinary.com/dyusmsyij/video/upload/v1677436282/images/anugoonj/anugoonj_loader.mp4"} type="video/mp4" />
         </video>
+        <h1 className="loding_text">Loding...</h1>
         </div>
         : 
         (

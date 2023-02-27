@@ -556,6 +556,7 @@
 		position: relative;
 		right: inherit;
 		rotate: 90deg;
+		opacity: 0.4;
 	}
 
 	.home_page_label {
