@@ -43,20 +43,6 @@
       "poster_url": "default.jpg"
     },
     {
-      "name": "ON THE SPOT PAINTING",
-      "description": "Unleash your creativity and paint a masterpiece on the spot with limited time and materials.",
-      "location": "C-Block Auditorium",
-      "time": "12:00 PM",
-      "poster_url": "default.jpg"
-    },
-    {
-      "name": "POETRY (ENGLISH)",
-      "description": "Recite your favorite poem in English and captivate the audience with your delivery, intonation, and emotion.",
-      "location": "D-Block Auditorium",
-      "time": "12:00 PM",
-      "poster_url": "default.jpg"
-    },
-    {
       "name": "STREET PLAY",
       "description": "Raise awareness on a social issue and convey a powerful message through this theatrical performance on the street.",
       "location": "Near Library Stairs",
@@ -71,29 +57,44 @@
       "poster_url": "default.jpg"
     },
     {
+      "name": "ON THE SPOT PAINTING",
+      "description": "Unleash your creativity and paint a masterpiece on the spot with limited time and materials.",
+      "location": "C-Block Auditorium",
+      "time": "2:00 PM",
+      "poster_url": "default.jpg"
+    },
+    {
       "name": "GROUP SONG (INDIAN)",
       "description": "Sing a popular Indian song with your group and showcase your harmony, rhythm, and melody.",
       "location": "E-Block Auditorium",
-      "time":"6:00 PM",
+      "time":"2:00 PM",
       "poster_url":"default.jpg"
-    }, {
+    },
+    {
+      "name": "POETRY (ENGLISH)",
+      "description": "Recite your favorite poem in English and captivate the audience with your delivery, intonation, and emotion.",
+      "location": "D-Block Auditorium",
+      "time": "2:00 PM",
+      "poster_url": "default.jpg"
+    },
+     {
       "name":"INAUGURAL CEREMONY",
       "description":"The grand opening of Anugoonj 2023 with a spectacular ceremony featuring cultural performances and a keynote address by a distinguished guest.",
       "location":"Main Stage",
       "time":"4:00 PM",
-      "poster_url":"inaugural_ceremony.jpeg"
+      "poster_url":"default.jpg"
     }, {
-      "name":"RAS-RANG",
-      "description":"RAS-RANG",
-      "location":"Amphitheatre",
+      "name":"RAP PERFORMANCE",
+      "description":"Get ready to drop some beats and feel the rhythm with our electrifying rap performance evening - an unforgettable showcase of musical talent and energy!",
+      "location":"Stage-II",
       "time":"5:30 PM",
-      "poster_url":"ras_rang.jpeg"
+      "poster_url":"default.jpg"
     }, {
-      "name":"PUNJABI NIGHT(SUKHI)",
-      "description":"Night featuring Sukhi is a musical event with upbeat Punjabi music, dancing, and an energetic atmosphere. Come and enjoy the beats!",
+      "name":"PUNJABI NIGHT(SUKH-E)",
+      "description":"Night featuring Sukh-E is a musical event with upbeat Punjabi music, dancing, and an energetic atmosphere. Come and enjoy the beats!",
       "location":"Main Stage",
-      "time":"6:00 PM",
-      "poster_url":"punjabi_night.jpeg"
+      "time":"6:30 PM",
+      "poster_url":"default.jpg"
     }
   ],
   "day_2" :[
@@ -103,14 +104,14 @@
         "location":"Mainstage",
         "time":"9:00 AM",
         "poster_url":"default.jpg"
-      },
-      {
-        "name":"JAM (HINDI)",
-        "description":"An on-the-spot Hindi music competition in which participants will have to sing a song with a band provided by the organizers.",
+      },{
+        "name":"ONE ACT PLAY",
+        "description":"A theatrical competition where teams will perform a short play that will be judged on the basis of various parameters like script, acting, direction, etc.",
         "location":"C-Block Auditorium",
         "time":"9:00 AM",
         "poster_url":"default.jpg"
-      }, {
+      },
+       {
         "name":"CHOREOGRAPHY",
         "description":"A dance competition where teams will showcase their creativity and talent through choreographed performances.",
         "location":"Stage-II",
@@ -122,20 +123,14 @@
         "location":"D-Block Auditorium",
         "time":"9:30 AM",
         "poster_url":"default.jpg"
-      }, {
-        "name":"ONE ACT PLAY",
-        "description":"A theatrical competition where teams will perform a short play that will be judged on the basis of various parameters like script, acting, direction, etc.",
-        "location":"C-Block Auditorium",
-        "time":"10:00 AM",
-        "poster_url":"default.jpg"
-      }, {
+      },  {
         "name":"CLASSICAL VOCAL SOLO",
         "description":"A classical vocal music competition where participants will perform solo pieces in front of a panel of judges.",
         "location":"E-Block Auditorium",
-        "time":"10:00 AM",
+        "time":"9:00 AM",
         "poster_url":"default.jpg"
       }, {
-        "name":"CLAY MOULDING",
+        "name":"CLAY MODELLING",
         "description":"A creative competition where participants will have to make sculptures using clay.",
         "location":"Library Courtyard",
         "time":"10:00 AM",
@@ -146,17 +141,17 @@
         "location":"D-Block Auditorium",
         "time":"12:00 PM",
         "poster_url":"default.jpg"
-      }, {
-        "name":"GROUP SONG (WESTERN)",
-        "description":"A group singing competition where teams will have to sing western songs in harmony.",
-        "location":"E-Block Auditorium",
-        "time":"12:30 PM",
-        "poster_url":"default.jpg"
-      }, {
-        "name":"DJ SESSION",
+      },  {
+        "name":"DJ DHAMAAL",
         "description":"An energetic DJ session where participants can dance and enjoy the music.",
         "location":"Basketball Court",
         "time":"1:00 PM",
+        "poster_url":"default.jpg"
+      },{
+        "name":"GROUP SONG (WESTERN)",
+        "description":"A group singing competition where teams will have to sing western songs in harmony.",
+        "location":"E-Block Auditorium",
+        "time":"2:00 PM",
         "poster_url":"default.jpg"
       }, {
         "name":"FOLK DANCE",
@@ -171,24 +166,30 @@
         "time":"2:00 PM",
         "poster_url":"default.jpg"
       }, {
-        "name": "FREE BAND",
+        "name":"JAM (HINDI)",
+        "description":"An on-the-spot Hindi music competition in which participants will have to sing a song with a band provided by the organizers.",
+        "location":"C-Block Auditorium",
+        "time":"3:00 PM",
+        "poster_url":"default.jpg"
+      },{
+        "name": "BAND PERFORMANCE",
         "description": "Experience an energetic and dynamic musical performance that will have you dancing and singing along to their original tunes and popular covers.",
         "location": "Stage-II",
         "time": "4:00 PM",
         "poster_url": "default.jpg"
     },
     {
-        "name": "AN EVENING WITH SUFISM (NIZAMI BROTHERS)",
-        "description": "Experience the soulful music of the Nizami Brothers as they take you on a journey of mysticism and Sufi poetry.",
-        "location": "Main Stage",
-        "time": "4:30 PM",
+        "name": "A MUSICAL BY RAS-RANG",
+        "description": "Experience the soulful music.",
+        "location": "Amphitheatre",
+        "time": "6:00 PM",
         "poster_url": "default.jpg"
     },
     {
         "name": "EDM NIGHT (RAVATOR)",
         "description": "Get ready to dance the night away with RAVATOR's electrifying mix of EDM and techno beats.",
         "location": "Main Stage",
-        "time": "6:00 PM",
+        "time": "6:30 PM",
         "poster_url": "default.jpg"
     }
     
@@ -225,36 +226,15 @@
     {
       "name": "CREATIVE WRITING (HINDI)",
       "description": "Unleash your creativity in this Hindi creative writing competition.",
-      "location": "D-313;D-314",
+      "location": "C-312",
       "time": "10:00 AM",
       "poster_url": "default.jpg"
     },
     {
       "name": "CREATIVE WRITING (ENGLISH)",
       "description": "Put your writing skills to the test in this exciting English creative writing competition.",
-      "location": "D-313;D-314",
+      "location": "C-314",
       "time": "10:00 AM",
-      "poster_url": "default.jpg"
-    },
-    {
-      "name": "MONO ACTING",
-      "description": "Get ready to showcase your acting skills and win big in this mono acting competition.",
-      "location": "C-Block Auditorium",
-      "time": "10:00 AM",
-      "poster_url": "default.jpg"
-    },
-    {
-      "name": "CARTOONING",
-      "description": "Bring your favorite characters to life in this fun and exciting cartooning competition.",
-      "location": "C-Block Auditorium",
-      "time": "11:30 AM",
-      "poster_url": "default.jpg"
-    },
-    {
-      "name": "LIGHT VOCALS",
-      "description": "Join us for an afternoon of soulful light vocals and mesmerizing performances.",
-      "location": "E-Block Auditorium",
-      "time": "11:30 AM",
       "poster_url": "default.jpg"
     },
     {
@@ -265,6 +245,19 @@
       "poster_url": "default.jpg"
     },
     {
+      "name": "CARTOONING",
+      "description": "Bring your favorite characters to life in this fun and exciting cartooning competition.",
+      "location": "D-Block Auditorium",
+      "time": "2:00 PM",
+      "poster_url": "default.jpg"
+    },{
+      "name": "MONO ACTING",
+      "description": "Get ready to showcase your acting skills and win big in this mono acting competition.",
+      "location": "C-Block Auditorium",
+      "time": "2:00 PM",
+      "poster_url": "default.jpg"
+    },
+    {
       "name": "STREET DANCE",
       "description": "Put on your dancing shoes and show off your best moves in this exciting street dance competition.",
       "location": "Near Library Stairs",
@@ -272,7 +265,7 @@
       "poster_url": "default.jpg"
     }, {
       "name":"TALENT SHOW",
-      "description":"A showcase of talent featuring various performers from the university community.",
+      "description":"(Students with Special Needs) A showcase of talent featuring various performers from the university community.",
       "location":"E-Block Auditorium",
       "time":"2:00 PM",
       "poster_url":"default.jpg"
@@ -280,7 +273,7 @@
       "name":"STAR NIGHT(ARMAAN MALIK)",
       "description":"A night of mesmerizing music by Armaan Malik, one of the leading playback singers in Bollywood.",
       "location":"Main Stage",
-      "time":"6:00 PM",
+      "time":"6:30 PM",
       "poster_url":"default.jpg"
       }
   ]
