@@ -30,9 +30,10 @@ function App() {
   
 
   const Milestones_Data =[
-    "Benny Dayal |  Punjabi singer Guri | Sankraman Band | Kavi Sammelan by Ashok Chakaradhar | Talent Hunt",
-    "Kailash Kher | Bhangra performance | Street plays | Talent competition for specially abled students | Bands Pakshee and Fiddlecraft",
-    "KK (Krishnakumar Kunnath)| DJ night with DJ Shiva | Nasha band | Akhil Sachdeva | Street plays | Jam sessions"
+    "Armaan Malik | Ravator EDM | Punjabi Singer Sukh-E",
+    "Benny Dayal |  Punjabi Singer Guri | Sankraman Band | Kavi Sammelan by Ashok Chakaradhar | Talent Hunt",
+    "Kailash Kher | Bhangra performance | Street plays | Talent Hunt | Bands Pakshee and Fiddlecraft",
+    "KK (Krishnakumar Kunnath) | DJ night with DJ Shiva | Nasha band | Akhil Sachdeva | Street plays | Jam sessions"
   ]
   
   return (
@@ -75,9 +76,9 @@ function App() {
           <Route path="/milestones" element={<Milestones />} >
             <Route index element={<Navigate to="2023" />} />
             <Route path="2023" element={<Cardcarousel tage_line={Milestones_Data[0]} year={"2023"}/>} />
-            <Route path="2020" element={<Cardcarousel tage_line={Milestones_Data[0]} year={"2020"}/>} />
-            <Route path="2019" element={<Cardcarousel tage_line={Milestones_Data[1]} year={"2019"}/>}/>
-            <Route path="2018" element={<Cardcarousel tage_line={Milestones_Data[2]} year={"2018"}/>} />
+            <Route path="2020" element={<Cardcarousel tage_line={Milestones_Data[1]} year={"2020"}/>} />
+            <Route path="2019" element={<Cardcarousel tage_line={Milestones_Data[2]} year={"2019"}/>}/>
+            <Route path="2018" element={<Cardcarousel tage_line={Milestones_Data[3]} year={"2018"}/>} />
           </Route>
         </Routes>
       </Router>
