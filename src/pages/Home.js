@@ -144,7 +144,7 @@ const Home = () => {
         </div>
         <div className="cont text-white w-[30vw]">
           <h1 className="font-[Norwester] text-center">TEASER</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, cumque velit perspiciatis impedit, et incidunt amet a accusamus aspernatur molestiae facere esse minima, delectus ipsam suscipit soluta cupiditate porro magnam.</p>
+          <p>Are you ready for the biggest cultural event of the year? Anugoonj GGSIPU is back and promises to be an extravaganza of art, music, dance, literature, and sports. Get ready to be immersed in the vibrant culture of India as talented artists, musicians, and dancers take the stage to showcase their skills. From soul-stirring Qawwali performances to energetic Bhangra beats, from thought-provoking literary discussions to thrilling sports competitions, Anugoonj GGSIPU has something for everyone. Join us for a journey of discovery, celebration, and unforgettable experiences that will stay with you long after the event is over.</p>
         </div>
       </div>
     </section>
