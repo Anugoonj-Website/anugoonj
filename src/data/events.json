@@ -76,6 +76,24 @@
       "location": "E-Block Auditorium",
       "time":"6:00 PM",
       "poster_url":"default.jpg"
+    }, {
+      "name":"INAUGURAL CEREMONY",
+      "description":"The grand opening of Anugoonj 2023 with a spectacular ceremony featuring cultural performances and a keynote address by a distinguished guest.",
+      "location":"Main Stage",
+      "time":"4:00 PM",
+      "poster_url":"inaugural_ceremony.jpeg"
+    }, {
+      "name":"RAS-RANG",
+      "description":"RAS-RANG",
+      "location":"Amphitheatre",
+      "time":"5:30 PM",
+      "poster_url":"ras_rang.jpeg"
+    }, {
+      "name":"PUNJABI NIGHT(SUKHI)",
+      "description":"Night featuring Sukhi is a musical event with upbeat Punjabi music, dancing, and an energetic atmosphere. Come and enjoy the beats!",
+      "location":"Main Stage",
+      "time":"6:00 PM",
+      "poster_url":"punjabi_night.jpeg"
     }
   ],
   "day_2" :[

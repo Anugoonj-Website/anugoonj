@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "../styles/home.css";
-import arman_malik from "../images/am3.png";
-import neon_circle from "../images/neon-circle.png";
 import Footer from "../components/Footer";
 
 const starsArray = [
@@ -123,12 +121,12 @@ const Home = () => {
           <div className="">
             <div className="images flex flex-col items-center justify-center">
               <img
-                src={neon_circle}
+                src={"https://res.cloudinary.com/dyusmsyij/image/upload/v1677487631/images/anugoonj/neon-circle.png"}
                 alt="img"
                 className="neon-circle z-[1] h-[90%] absolute bottom-[-10vh] right-[-10vw]"
                 />
               <img
-                src={arman_malik}
+                src={"https://res.cloudinary.com/dyusmsyij/image/upload/v1677487555/images/anugoonj/am3.png"}
                 alt="img"
                 className="home_arman_malik_image block relative z-[5] w-[65%] bottom-[-20vh] right-[-8vw]"
                 />
@@ -152,7 +150,7 @@ const Home = () => {
     <h1 className="font-[Norwester] text-white text-center mt-10" style={{fontSize:"4rem"}}>Our Guests</h1>
       <div className="h-max items-center flex flex-row-reverse pt-10 pb-10 starsmain">
         <div className="music-box h-[90vh] relative right-[-7vw]">
-          <img src={require("../images/music-speaker.png")} className="h-[100%]" alt="" />
+          <img src={"https://res.cloudinary.com/dyusmsyij/image/upload/v1677487616/images/anugoonj/music-speaker.png"} className="h-[100%]" alt="" />
         </div>
         <div className="h-max artists">
           {starsArray.map((item) => (
