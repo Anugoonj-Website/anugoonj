@@ -22,16 +22,16 @@ function Footer() {
               <p className="follower">1000+ followers</p>
             </div>
             <div className="icon_div">
-              <a href="#">
+              <a href="https://www.facebook.com/anugoonj2k1x?mibextid=ZbWKwL">
                 <i class="fab fa-twitter social_icon"></i>
               </a>
-              <p className="follower">1000+ followers</p>
+              <p className="follower">9700+ followers</p>
             </div>
             <div className="icon_div">
-              <a href="https://instagram.com/anugoonj_official?igshid=MjkzY2Y1YTY=">
+              <a href="https://www.instagram.com/anugoonj_official/">
                 <i class="fab fa-instagram"></i>
               </a>
-              <p className="follower">1000+ followers</p>
+              <p className="follower">4700+ followers</p>
             </div>
             <div className="icon_div">
               <a href="#">

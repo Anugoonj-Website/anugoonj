@@ -29,7 +29,7 @@ const starsArray = [
   {
     Date: "04-03-2023",
     Name: "ARMAAN MALIK (STAR NIGHT)",
-    Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit natus, eveniet veniam nemo cumque esse dignissimos aliquam assumenda inventore dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores. Optio, ipsam? Est, optio quis magnam autem voluptates fugiat! At.",
+    Desc: "Live performance by the popular Indian singer and songwriter, known for his romantic and soulful melodies. Fans can expect an evening of unforgettable music, as Armaan takes the stage with his chart-topping hits from Bollywood soundtracks and his independent music releases. His captivating voice, stage presence, and passion for music promise to make the event an unforgettable experience for his fans.",
     image: "artist_image4.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   }
