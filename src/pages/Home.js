@@ -7,30 +7,30 @@ import Footer from "../components/Footer";
 const starsArray = [
   {
     Date: "02-03-2023",
-    Name: "Guest Star Present",
+    Name: "SUKHI (PUNJABI NIGHT)",
     Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit natus, eveniet veniam nemo cumque esse dignissimos aliquam assumenda inventore dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores. Optio, ipsam? Est, optio quis magnam autem voluptates fugiat! At.",
     image: "artist_image1.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   },
   {
     Date: "03-03-2023",
-    Name: "Guest Star Present",
+    Name: "NIZAMI BROTHERS (AN EVENING WITH SUFISM)",
     Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit natus, eveniet veniam nemo cumque esse dignissimos aliquam assumenda inventore dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores. Optio, ipsam? Est, optio quis magnam autem voluptates fugiat! At.",
     image: "artist_image2.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   },
   {
     Date: "03-03-2023",
-    Name: "Guest Star Present",
+    Name: "EDM NIGHHT (RAVATOR)",
     Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit natus, eveniet veniam nemo cumque esse dignissimos aliquam assumenda inventore dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores. Optio, ipsam? Est, optio quis magnam autem voluptates fugiat! At.",
-    image: "artist_image1.png",
+    image: "artist_image3.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   },
   {
-    Date: "03-03-2023",
-    Name: "Guest Star Present",
+    Date: "04-03-2023",
+    Name: "ARMAAN MALIK",
     Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit natus, eveniet veniam nemo cumque esse dignissimos aliquam assumenda inventore dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores. Optio, ipsam? Est, optio quis magnam autem voluptates fugiat! At.",
-    image: "artist_image2.png",
+    image: "artist_image4.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   }
 ]
@@ -158,7 +158,7 @@ const Home = () => {
           {starsArray.map((item) => (
             <div className="flex flex-row items-start justify-center starsarray" key={item.image}>
               <div className="left mr-16">
-                <img src={require(`../images/${item.image}`)} className="artist_image" alt="" />
+                <img src={`https://res.cloudinary.com/dyusmsyij/image/upload/v1677436282/images/anugoonj/${item.image}`} className="artist_image" alt="" />
               </div>
               <div className="right w-[30vw] inside_starsarray">
                 <div className="date"><h1 className="font-bold">{item.Date}</h1></div>
