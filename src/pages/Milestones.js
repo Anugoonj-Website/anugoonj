@@ -11,7 +11,7 @@ const Milestones = () => {
     <div className="sponsors_page" style={{ paddingBottom: "0" }}>
       <div className="sponsor_heading_box">
         <spam>
-          <h1 className="milestones_page_label_anugoonj">MILESTONES</h1>
+          <h1 className="font-[Norwester] milestones_page_label_anugoonj">MILESTONES</h1>
         </spam>
       </div>
       <div className="milestone_content">

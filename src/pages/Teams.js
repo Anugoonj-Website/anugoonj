@@ -13,7 +13,7 @@ const Team = () => {
 
   return (
     <div className='teams'>
-      <h2 className='heading_teams'>The Coordination Collective</h2>
+      <h2 className='font-[Norwester] heading_teams'>The Coordination Collective</h2>
 
       {!isTablet && <div className='team_page_options'>
         <NavLink className="navbar_link nav_link_teams" to="/team/organising">Organising Team</NavLink>

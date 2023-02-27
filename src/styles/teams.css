@@ -9,9 +9,10 @@
 
 
 .heading_teams {
-    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff, 0 0 120px #ffffff, 0 0 160px #ffffff;
+    /* text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff, 0 0 120px #ffffff, 0 0 160px #ffffff; */
+    color: white;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
 }
 

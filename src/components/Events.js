@@ -22,7 +22,7 @@ function Events(props) {
 
     <div className="events">
       <div>
-        <h2 className='heading_events'>EVENTS & SCHEDULE</h2>
+        <h2 className='font-[Norwester] heading_events'>EVENTS & SCHEDULE</h2>
         <h6 className='sub_heading_event'>Day-{props.day} ({props.date} March 2023)</h6>
       </div>
 
