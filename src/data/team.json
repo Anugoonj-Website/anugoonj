@@ -5,121 +5,21 @@
             "core":[
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
+                    "name":"Aryan Kishore Singh",
                     "position":"President"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Mohit",
+                    "position":"Vice President"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
-                },
-                {
-                    "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
-                },
-                {
-                    "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
-                },
-                {
-                    "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
-                },
-                {
-                    "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Nitin",
+                    "position":"General Secretary"
                 }
             ],
-            "members":[
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                }, {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                }, {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                }, {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                }, {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                }, {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                }
-            ]
+            "members":[]
 
         },
 
@@ -127,18 +27,8 @@
             "core":[
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
-                },
-                {
-                    "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
-                },
-                {
-                    "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"ABC",
+                    "position":"Head"
                 }
             ],
             "members":[
@@ -162,31 +52,50 @@
             "core":[
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Harsh Porria",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Sumit Kumar Yadav",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Amisha Dubey",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Devangi K Khanna",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Anushka Gupta",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Vikrant Shokeen",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Prashant Shooken",
+                    "position":"Head"
+                },{
+                    "image":"default.jpg",
+                    "name":"Sayantam Tripathi",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Anuj",
+                    "position":"Head"
                 }
             ],
-            "members":[
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                }
-            ]
+            "members":[]
 
         },
 
@@ -194,204 +103,193 @@
             "core":[
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Hritik Kashyap",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Rudransh Ratan",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Mimansha Das",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Faizal Saifi",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Sushant Halwai",
+                    "position":"Head"
                 }
             ],
-            "members":[
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                }
-            ]
+            "members":[]
 
         },
         "office":{                
             "core":[
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Shubhi Madan",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Bhavesh",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Ridhi Bhat",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
-                },
-                {
-                    "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Ankit Upadhyay",
+                    "position":"Head"
                 }
             ],
-            "members":[
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                }
-            ]
+            "members":[]
 
         },
         "ground":{                
             "core":[
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Nishant",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Rahul Balot",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Khushi Saini",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
-                },
-                {
-                    "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
-                },
-                {
-                    "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Harsh Choudhary",
+                    "position":"Head"
                 }
             ],
-            "members":[
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                }
-            ]
+            "members":[]
 
         },
         "media":{                
             "core":[
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Shivankar Joshi",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Saksham",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Lavish Chandra",
+                    "position":"Head"
                 },
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Umang Tyagi",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Pragati Dhingra",
+                    "position":"Head"
                 }
             ],
-            "members":[
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                }
-            ]
+            "members":[]
 
         },  
-        "mr_and_ms_anugoonj":{                
+        "events_team":{                
             "core":[
                 {
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
-                },
-                {
+                    "name":"Tanya Agarwal",
+                    "position":"Dramatics Head"
+                },{
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
-                },
-                {
+                    "name":"Khushi",
+                    "position":"Literary Head"
+                },{
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
-                },
-                {
+                    "name":"Vani Garg",
+                    "position":"Fine Arts Head"
+                },{
                     "image":"default.jpg",
-                    "name":"Aryan Singh",
-                    "position":"President"
+                    "name":"Stuti Singh",
+                    "position":"Anchoring Head"
                 }
             ],
-            "members":[
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                },
-                {
-                    "name":"Aryan Singh"
-                }
-            ]
+            "members":[]
 
-        } 
+        } ,
+        "core_team":{                
+            "core":[
+                {
+                    "image":"default.jpg",
+                    "name":"Amitesh Kashyap",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Kartik Chaudhary",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Shivankar Joshi",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Deepshika Panda",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Anant Garg",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Vivek Bhatia",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Stuti",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Muskan Godara",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Deepak Prakash",
+                    "position":"Head"
+                },
+                {
+                    "image":"default.jpg",
+                    "name":"Arush Garg",
+                    "position":"Head"
+                }
+            ],
+            "members":[]
+
+        }
 }
