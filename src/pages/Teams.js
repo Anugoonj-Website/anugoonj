@@ -21,9 +21,10 @@ const Team = () => {
         <NavLink className="navbar_link nav_link_teams" to="/team/disipline">Discipline Team</NavLink>
         <NavLink className="navbar_link nav_link_teams" to="/team/hospitality">Hospitality Team</NavLink>
         <NavLink className="navbar_link nav_link_teams" to="/team/office">Office Team</NavLink>
-        <NavLink className="navbar_link nav_link_teams" to="/team/mr_and_ms_anugoonj">Mr and Ms Anugoonj Team</NavLink>
+        <NavLink className="navbar_link nav_link_teams" to="/team/events_team">Events Team</NavLink>
         <NavLink className="navbar_link nav_link_teams" to="/team/ground">Ground Team</NavLink>
         <NavLink className="navbar_link nav_link_teams" to="/team/media">Media Team</NavLink>
+        <NavLink className="navbar_link nav_link_teams" to="/team/core_team">Core Team</NavLink>
       </div>}
       {isTablet && !isPhone && <>
         <div className='team_page_options'>
@@ -35,9 +36,10 @@ const Team = () => {
 
         </div>
         <div className='team_page_options'>
-          <NavLink className="navbar_link nav_link_teams" to="/team/mr_and_ms_anugoonj">Mr and Ms Anugoonj Team</NavLink>
+          <NavLink className="navbar_link nav_link_teams" to="/team/ events_team">Events Team</NavLink>
           <NavLink className="navbar_link nav_link_teams" to="/team/ground">Ground Team</NavLink>
           <NavLink className="navbar_link nav_link_teams" to="/team/media">Media Team</NavLink>
+          <NavLink className="navbar_link nav_link_teams" to="/team/core_team">Core Team</NavLink>
         </div>
       </>}
 
@@ -52,13 +54,14 @@ const Team = () => {
         </div>
         <div className='team_page_options'>
           <NavLink className="navbar_link nav_link_teams" to="/team/office">Office Team</NavLink>
-          <NavLink className="navbar_link nav_link_teams" to="/team/mr_and_ms_anugoonj">Mr and Ms Anugoonj Team</NavLink>
+          <NavLink className="navbar_link nav_link_teams" to="/team/ events_team">Events Team</NavLink>
           <NavLink className="navbar_link nav_link_teams" to="/team/ground">Ground Team</NavLink>
 
         </div>
         <div className='team_page_options'>
           <NavLink className="navbar_link nav_link_teams" to="/team/hospitality">Hospitality Team</NavLink>
           <NavLink className="navbar_link nav_link_teams" to="/team/media">Media Team</NavLink>
+          <NavLink className="navbar_link nav_link_teams" to="/team/core_team">Core Team</NavLink>
         </div>
       </>}
       <Outlet />
