@@ -8,21 +8,21 @@ const starsArray = [
   {
     Date: "02-03-2023",
     Name: "SUKHI (PUNJABI NIGHT)",
-    Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit natus, eveniet veniam nemo cumque esse dignissimos aliquam assumenda inventore dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores. Optio, ipsam? Est, optio quis magnam autem voluptates fugiat! At.",
+    Desc: "An event featuring the popular Punjabi singer Sukhi, known for his upbeat and energetic performances. The event promises to be a night of lively Punjabi music, dance, and entertainment. Fans can look forward to an evening of bhangra beats and dhol, as Sukhi takes the stage with his chart-topping hits..",
     image: "artist_image1.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   },
   {
     Date: "03-03-2023",
     Name: "NIZAMI BROTHERS (AN EVENING WITH SUFISM)",
-    Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit natus, eveniet veniam nemo cumque esse dignissimos aliquam assumenda inventore dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores. Optio, ipsam? Est, optio quis magnam autem voluptates fugiat! At.",
+    Desc: "A concert event featuring the renowned Qawwali group from India, known for their soulful renditions and contributions to the Sufi music tradition. The event promises to be an unforgettable experience of spiritual music, poetry, and culture",
     image: "artist_image2.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   },
   {
     Date: "03-03-2023",
-    Name: "EDM NIGHHT (RAVATOR)",
-    Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit natus, eveniet veniam nemo cumque esse dignissimos aliquam assumenda inventore dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores. Optio, ipsam? Est, optio quis magnam autem voluptates fugiat! At.",
+    Name: "EDM NIGHT (RAVATOR)",
+    Desc: "A music event featuring the popular electronic dance music (EDM) artist Ravator. The event promises to be a high-energy night of electronic beats, laser lights, and non-stop dancing. Fans can expect an immersive audio-visual experience as Ravator takes the stage with his signature style of bass-heavy EDM. The event is perfect for those looking to dance the night away with like-minded music lovers.",
     image: "artist_image3.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   },
@@ -144,7 +144,7 @@ const Home = () => {
         </div>
         <div className="cont text-white w-[30vw]">
           <h1 className="font-[Norwester] text-center">TEASER</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, cumque velit perspiciatis impedit, et incidunt amet a accusamus aspernatur molestiae facere esse minima, delectus ipsam suscipit soluta cupiditate porro magnam.</p>
+          <p>Are you ready for the biggest cultural event of the year? Anugoonj GGSIPU is back and promises to be an extravaganza of art, music, dance, literature, and sports. Get ready to be immersed in the vibrant culture of India as talented artists, musicians, and dancers take the stage to showcase their skills. From soul-stirring Qawwali performances to energetic Bhangra beats, from thought-provoking literary discussions to thrilling sports competitions, Anugoonj GGSIPU has something for everyone. Join us for a journey of discovery, celebration, and unforgettable experiences that will stay with you long after the event is over.</p>
         </div>
       </div>
     </section>
