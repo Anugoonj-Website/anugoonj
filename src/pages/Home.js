@@ -6,7 +6,7 @@ const starsArray = [
   {
     Date: "02-03-2023",
     Name: "SUKH-E (PUNJABI NIGHT)",
-    Desc: "An event featuring the popular Punjabi singer Sukhi, known for his upbeat and energetic performances. The event promises to be a night of lively Punjabi music, dance, and entertainment. Fans can look forward to an evening of bhangra beats and dhol, as Sukhi takes the stage with his chart-topping hits...",
+    Desc: "An event featuring the popular Punjabi singer Sukh-E, known for his upbeat and energetic performances. The event promises to be a night of lively Punjabi music, dance, and entertainment. Fans can look forward to an evening of bhangra beats and dhol, as Sukh-E takes the stage with his chart-topping hits...",
     image: "artist_image1.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   },
