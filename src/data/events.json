@@ -1,269 +1,269 @@
 {
-  "day_1" :[
+  "day_1": [
     {
-      "name":"DEBATE",
-      "description":"",
-      "location":"C-Block Auditorium",
-      "time":"9:00 AM",
-      "poster_url":"default.jpg"
+      "name": "DEBATE",
+      "description": "Engage in a formal discussion on a topic of interest and develop critical thinking skills while advocating for your point of view.",
+      "location": "C-Block Auditorium",
+      "time": "9:00 AM",
+      "poster_url": "default.jpg"
     },
     {
-      "name":"J.A.M (ENGLISH)",
-      "description":"",
-      "location":"D-Block Auditorium",
-      "time":"10:00 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"WESTERN VOCAL",
-      "description":"",
-      "location":"E-Block Auditorium",
-      "time":"10:00 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"RANGOLI",
-      "description":"",
-      "location":"Library Courtyard",
-      "time":"10:00 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"CLASSICAL DANCE",
-      "description":"",
-      "location":"Stage-II",
-      "time":"10:00 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"NACH BALIYE",
-      "description":"",
-      "location":"Main Stage",
-      "time":"12:00 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"ON THE SPOT PAINTING",
-      "description":"",
-      "location":"C-Block Auditorium",
-      "time":"12:00 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"POETRY (ENGLISH)",
-      "description":"",
-      "location":"D-Block Auditorium",
-      "time":"12:00 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"STREET PLAY",
-      "description":"",
-      "location":"Near Library Stairs",
-      "time":"12:00 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"DJ SESSION",
-      "description":"",
-      "location":"Basketball Court",
-      "time":"1:00 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"GROUP SONG (INDIAN)",
-      "description":"",
-      "location":"E-Block Auditorium",
-      "time":"1:00 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"INAUGURAL CEREMONY",
-      "description":"",
-      "location":"Main Stage",
-      "time":"4:00 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"RAS-RANG",
-      "description":"",
-      "location":"Amphitheatre",
-      "time":"5:30 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"PUNJABI NIGHT (SUKHI)",
-      "description":"",
-      "location":"Main Stage",
+      "name": "J.A.M (ENGLISH)",
+      "description": "Put your English language skills to the test in this fast-paced competition where contestants have to speak for one minute without hesitation, repetition or deviation.",
+      "location": "D-Block Auditorium",
+      "time": "10:00 AM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "WESTERN VOCAL",
+      "description": "Showcase your vocal talent by singing a popular Western song and impress the judges with your performance.",
+      "location": "E-Block Auditorium",
+      "time": "10:00 AM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "RANGOLI",
+      "description": "Get creative and showcase your artistic skills by creating beautiful, colorful patterns on the ground using colored rice, flower petals, or powder.",
+      "location": "Library Courtyard",
+      "time": "10:00 AM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "CLASSICAL DANCE",
+      "description": "Perform a classical Indian dance style and express yourself through graceful movements, hand gestures, and facial expressions.",
+      "location": "Stage-II",
+      "time": "10:00 AM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "NACH BALIYE",
+      "description": "Dance with your partner and showcase your chemistry and coordination in this couples dance competition.",
+      "location": "Main Stage",
+      "time": "12:00 PM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "ON THE SPOT PAINTING",
+      "description": "Unleash your creativity and paint a masterpiece on the spot with limited time and materials.",
+      "location": "C-Block Auditorium",
+      "time": "12:00 PM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "POETRY (ENGLISH)",
+      "description": "Recite your favorite poem in English and captivate the audience with your delivery, intonation, and emotion.",
+      "location": "D-Block Auditorium",
+      "time": "12:00 PM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "STREET PLAY",
+      "description": "Raise awareness on a social issue and convey a powerful message through this theatrical performance on the street.",
+      "location": "Near Library Stairs",
+      "time": "12:00 PM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "DJ SESSION",
+      "description": "Get ready to dance and party as the DJ plays the latest and greatest music hits on the basketball court.",
+      "location": "Basketball Court",
+      "time": "1:00 PM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "GROUP SONG (INDIAN)",
+      "description": "Sing a popular Indian song with your group and showcase your harmony, rhythm, and melody.",
+      "location": "E-Block Auditorium",
       "time":"6:00 PM",
       "poster_url":"default.jpg"
     }
   ],
   "day_2" :[
-    {
-      "name":"BATTLE OF THE BANDS",
-      "description":"",
-      "location":"Mainstage",
-      "time":"9:00 AM",
-      "poster_url":"default.jpg"
+      {
+        "name":"BATTLE OF THE BANDS",
+        "description":"A musical competition featuring various bands who will showcase their skills in front of an audience and a panel of judges.",
+        "location":"Mainstage",
+        "time":"9:00 AM",
+        "poster_url":"default.jpg"
+      },
+      {
+        "name":"JAM (HINDI)",
+        "description":"An on-the-spot Hindi music competition in which participants will have to sing a song with a band provided by the organizers.",
+        "location":"C-Block Auditorium",
+        "time":"9:00 AM",
+        "poster_url":"default.jpg"
+      }, {
+        "name":"CHOREOGRAPHY",
+        "description":"A dance competition where teams will showcase their creativity and talent through choreographed performances.",
+        "location":"Stage-II",
+        "time":"9:30 AM",
+        "poster_url":"default.jpg"
+      }, {
+        "name":"QUIZ",
+        "description":"A knowledge-based competition where participants will be tested on various topics.",
+        "location":"D-Block Auditorium",
+        "time":"9:30 AM",
+        "poster_url":"default.jpg"
+      }, {
+        "name":"ONE ACT PLAY",
+        "description":"A theatrical competition where teams will perform a short play that will be judged on the basis of various parameters like script, acting, direction, etc.",
+        "location":"C-Block Auditorium",
+        "time":"10:00 AM",
+        "poster_url":"default.jpg"
+      }, {
+        "name":"CLASSICAL VOCAL SOLO",
+        "description":"A classical vocal music competition where participants will perform solo pieces in front of a panel of judges.",
+        "location":"E-Block Auditorium",
+        "time":"10:00 AM",
+        "poster_url":"default.jpg"
+      }, {
+        "name":"CLAY MOULDING",
+        "description":"A creative competition where participants will have to make sculptures using clay.",
+        "location":"Library Courtyard",
+        "time":"10:00 AM",
+        "poster_url":"default.jpg"
+      }, {
+        "name":"DEBATE (HINDI)",
+        "description":"A debating competition where participants will have to defend or oppose a given motion in Hindi.",
+        "location":"D-Block Auditorium",
+        "time":"12:00 PM",
+        "poster_url":"default.jpg"
+      }, {
+        "name":"GROUP SONG (WESTERN)",
+        "description":"A group singing competition where teams will have to sing western songs in harmony.",
+        "location":"E-Block Auditorium",
+        "time":"12:30 PM",
+        "poster_url":"default.jpg"
+      }, {
+        "name":"DJ SESSION",
+        "description":"An energetic DJ session where participants can dance and enjoy the music.",
+        "location":"Basketball Court",
+        "time":"1:00 PM",
+        "poster_url":"default.jpg"
+      }, {
+        "name":"FOLK DANCE",
+        "description":"A cultural dance competition where teams will showcase their skills in performing traditional folk dances.",
+        "location":"Stage-1",
+        "time":"2:00 PM",
+        "poster_url":"default.jpg"
+      }, {
+        "name":"COLLAGE MAKING",
+        "description":"A creative competition where participants will have to create collages using different materials.",
+        "location":"Library Court",
+        "time":"2:00 PM",
+        "poster_url":"default.jpg"
+      }, {
+        "name": "FREE BAND",
+        "description": "Experience an energetic and dynamic musical performance that will have you dancing and singing along to their original tunes and popular covers.",
+        "location": "Stage-II",
+        "time": "4:00 PM",
+        "poster_url": "default.jpg"
     },
     {
-      "name":"JAM (HINDI)",
-      "description":"",
-      "location":"C-Block Auditorium",
-      "time":"9:00 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"CHOREOGRAPHY",
-      "description":"",
-      "location":"Stage-II",
-      "time":"9:30 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"QUIZ",
-      "description":"",
-      "location":"D-Block Auditorium",
-      "time":"9:30 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"ONE ACT PLAY",
-      "description":"",
-      "location":"C-Block Auditorium",
-      "time":"10:00 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"CLASSICAL VOCAL SOLO",
-      "description":"",
-      "location":"E-Block Auditorium",
-      "time":"10:00 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"CLAY MOULDING",
-      "description":"",
-      "location":"Library Courtyard",
-      "time":"10:00 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"DEBATE (HINDI)",
-      "description":"",
-      "location":"D-Block Auditorium",
-      "time":"12:00 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"GROUP SONG (WESTERN)",
-      "description":"",
-      "location":"E-Block Auditorium",
-      "time":"12:30 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"DJ SESSION",
-      "description":"",
-      "location":"Basketball Court",
-      "time":"1:00 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"FOLK DANCE",
-      "description":"",
-      "location":"Stage-1",
-      "time":"2:00 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"COLLAGE MAKING",
-      "description":"",
-      "location":"Library Court",
-      "time":"2:00 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"FREE BAND",
-      "description":"",
-      "location":"Stage-II",
-      "time":"4:00 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"AN EVENING WITH SUFISM (NIZAMI BROTHERS)",
-      "description":"",
-      "location":"Main Stage",
-      "time":"4:30 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"EDM NIGHT (RAVATOR)",
-      "description":"",
-      "location":"Main Stage",
-      "time":"6:00 PM",
-      "poster_url":"default.jpg"
+        "name": "AN EVENING WITH SUFISM (NIZAMI BROTHERS)",
+        "description": "Experience the soulful music of the Nizami Brothers as they take you on a journey of mysticism and Sufi poetry.",
+        "location": "Main Stage",
+        "time": "4:30 PM",
+        "poster_url": "default.jpg"
+    },
+    {
+        "name": "EDM NIGHT (RAVATOR)",
+        "description": "Get ready to dance the night away with RAVATOR's electrifying mix of EDM and techno beats.",
+        "location": "Main Stage",
+        "time": "6:00 PM",
+        "poster_url": "default.jpg"
     }
     
   ],
-  "day_3" :[
+  "day_3": [
     {
-      "name":"MR. & MS. ANUGOONJ",
-      "description":"",
-      "location":"Main Stage",
-      "time":"9:00 AM",
-      "poster_url":"default.jpg"
-    },{
-      "name":"POETRY (HINDI)",
-      "description":"",
-      "location":"C-Block Auditorium",
-      "time":"9:00 AM",
-      "poster_url":"default.jpg"
-    },{
-      "name":"INDIAN LIGHT VOCALS",
-      "description":"",
-      "location":"D-Block Auditorium",
-      "time":"9:00 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"FOOTLOOSE",
-      "description":"",
-      "location":"Stage-2",
-      "time":"10:00 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"CREATIVE WRITING (HINDI)",
-      "description":"",
-      "location":"D-313;D-314",
-      "time":"10:00 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"CREATIVE WRITING (ENGLISH)",
-      "description":"",
-      "location":"D-313;D-314",
-      "time":"10:00 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"MONO ACTING",
-      "description":"",
-      "location":"C-Block Auditorium",
-      "time":"10:00 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"CARTOONING",
-      "description":"",
-      "location":"C-Block Auditorium",
-      "time":"11:30 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"LIGHT VOCALS",
-      "description":"",
-      "location":"E-Block Auditorium",
-      "time":"11:30 AM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"DJ SESSION",
-      "description":"",
-      "location":"Basketball Court",
-      "time":"1:00 PM",
-      "poster_url":"default.jpg"
-    }, {
-      "name":"STREET DANCE",
-      "description":"",
-      "location":"Near Library Stairs",
-      "time":"2:00 PM",
-      "poster_url":"default.jpg"
+      "name": "MR. & MS. ANUGOONJ",
+      "description": "Watch the battle of the sexes in the biggest talent competition of Anugoonj.",
+      "location": "Main Stage",
+      "time": "9:00 AM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "POETRY (HINDI)",
+      "description": "Get ready to experience the magic of Hindi poetry in an electrifying session.",
+      "location": "C-Block Auditorium",
+      "time": "9:00 AM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "INDIAN LIGHT VOCALS",
+      "description": "Join us for a soulful morning of Indian light vocals.",
+      "location": "D-Block Auditorium",
+      "time": "9:00 AM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "FOOTLOOSE",
+      "description": "Step up to the challenge and show off your best dance moves in Footloose.",
+      "location": "Stage-2",
+      "time": "10:00 AM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "CREATIVE WRITING (HINDI)",
+      "description": "Unleash your creativity in this Hindi creative writing competition.",
+      "location": "D-313;D-314",
+      "time": "10:00 AM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "CREATIVE WRITING (ENGLISH)",
+      "description": "Put your writing skills to the test in this exciting English creative writing competition.",
+      "location": "D-313;D-314",
+      "time": "10:00 AM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "MONO ACTING",
+      "description": "Get ready to showcase your acting skills and win big in this mono acting competition.",
+      "location": "C-Block Auditorium",
+      "time": "10:00 AM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "CARTOONING",
+      "description": "Bring your favorite characters to life in this fun and exciting cartooning competition.",
+      "location": "C-Block Auditorium",
+      "time": "11:30 AM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "LIGHT VOCALS",
+      "description": "Join us for an afternoon of soulful light vocals and mesmerizing performances.",
+      "location": "E-Block Auditorium",
+      "time": "11:30 AM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "DJ SESSION",
+      "description": "Get ready to groove to the beats of the hottest DJs in town at the basketball court.",
+      "location": "Basketball Court",
+      "time": "1:00 PM",
+      "poster_url": "default.jpg"
+    },
+    {
+      "name": "STREET DANCE",
+      "description": "Put on your dancing shoes and show off your best moves in this exciting street dance competition.",
+      "location": "Near Library Stairs",
+      "time": "2:00 PM",
+      "poster_url": "default.jpg"
     }, {
       "name":"TALENT SHOW",
-      "description":"",
+      "description":"A showcase of talent featuring various performers from the university community.",
       "location":"E-Block Auditorium",
       "time":"2:00 PM",
       "poster_url":"default.jpg"
-    }, {
+      }, {
       "name":"STAR NIGHT(ARMAAN MALIK)",
-      "description":"",
+      "description":"A night of mesmerizing music by Armaan Malik, one of the leading playback singers in Bollywood.",
       "location":"Main Stage",
       "time":"6:00 PM",
       "poster_url":"default.jpg"
-    }
-    
+      }
   ]
-
- 
 }
