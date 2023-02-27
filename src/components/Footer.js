@@ -15,15 +15,15 @@ function Footer() {
             <img src={year25_icon} alt="" className="logo_footer" />
           </div>
           <div class="social-media">
-            {/* <div className="icon_div">
-              <a href="tel:">
+            <div className="icon_div">
+              <a href="tel:9990028708">
                 <i class="fa fa-phone social_icon"></i>
               </a>
-              <p className="follower">1000+ followers</p>
-            </div> */}
+              <p className="follower">+91 9990028708</p>
+            </div>
             <div className="icon_div">
               <a href="https://www.facebook.com/anugoonj2k1x?mibextid=ZbWKwL">
-                <i class="fab fa-twitter social_icon"></i>
+                <i class="fab fa-facebook social_icon"></i>
               </a>
               <p className="follower">9700+ followers</p>
             </div>
@@ -34,10 +34,10 @@ function Footer() {
               <p className="follower">4700+ followers</p>
             </div>
             <div className="icon_div">
-              <a href="#">
-                <i class="fab fa-youtube social_icon"></i>
+              <a href="mailto:dsw@ipu.ac.in">
+                <i class="fa-regular fa-envelope social_icon"></i>
               </a>
-              <p className="follower">1000+ followers</p>
+              <p className="follower">dsw@ipu.ac.in</p>
             </div>
             <div className="icon_div">
               <a href="mailto:anugoonj@ipu.ac.in">
