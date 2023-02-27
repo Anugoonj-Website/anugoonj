@@ -57,16 +57,7 @@ function Footer() {
               <p>President</p>
               <p>9990028708</p>
             </div>
-            <div className="contact-details">
-              <p>Mohit</p>
-              <p>Vice President</p>
-              <p>9650072744</p>
-            </div>
-            <div className="contact-details">
-              <p>Nitin</p>
-              <p>General Secretary</p>
-              <p>9958879766</p>
-            </div>
+            
           </div>
         </div>
       </div>

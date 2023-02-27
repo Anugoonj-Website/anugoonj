@@ -12,23 +12,16 @@ const starsArray = [
   },
   {
     Date: "03-03-2023",
-    Name: "NIZAMI BROTHERS (AN EVENING WITH SUFISM)",
-    Desc: "A concert event featuring the renowned Qawwali group from India, known for their soulful renditions and contributions to the Sufi music tradition. The event promises to be an unforgettable experience of spiritual music, poetry, and culture.",
-    image: "artist_image2.png",
-    SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
-  },
-  {
-    Date: "03-03-2023",
     Name: "RAVATOR (EDM NIGHT)",
     Desc: "A music event featuring the popular electronic dance music (EDM) artist Ravator. The event promises to be a high-energy night of electronic beats, laser lights, and non-stop dancing. Fans can expect an immersive audio-visual experience as Ravator takes the stage with his signature style of bass-heavy EDM. The event is perfect for those looking to dance the night away with like-minded music lovers.",
-    image: "artist_image3.png",
+    image: "artist_image2.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   },
   {
     Date: "04-03-2023",
     Name: "ARMAAN MALIK (STAR NIGHT)",
     Desc: "Live performance by the popular Indian singer and songwriter, known for his romantic and soulful melodies. Fans can expect an evening of unforgettable music, as Armaan takes the stage with his chart-topping hits from Bollywood soundtracks and his independent music releases. His captivating voice, stage presence, and passion for music promise to make the event an unforgettable experience for his fans.",
-    image: "artist_image4.png",
+    image: "artist_image3.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   }
 ]
