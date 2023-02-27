@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 const starsArray = [
   {
     Date: "02-03-2023",
-    Name: "SUKHI (PUNJABI NIGHT)",
+    Name: "SUKH-E (PUNJABI NIGHT)",
     Desc: "An event featuring the popular Punjabi singer Sukhi, known for his upbeat and energetic performances. The event promises to be a night of lively Punjabi music, dance, and entertainment. Fans can look forward to an evening of bhangra beats and dhol, as Sukhi takes the stage with his chart-topping hits...",
     image: "artist_image1.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
@@ -19,7 +19,7 @@ const starsArray = [
   },
   {
     Date: "03-03-2023",
-    Name: "EDM NIGHT (RAVATOR)",
+    Name: "RAVATOR (EDM NIGHT)",
     Desc: "A music event featuring the popular electronic dance music (EDM) artist Ravator. The event promises to be a high-energy night of electronic beats, laser lights, and non-stop dancing. Fans can expect an immersive audio-visual experience as Ravator takes the stage with his signature style of bass-heavy EDM. The event is perfect for those looking to dance the night away with like-minded music lovers.",
     image: "artist_image3.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]

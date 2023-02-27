@@ -52,7 +52,7 @@ function Team(props) {
         <>
             <div className='team'>
 
-                <h4 className='core_team_heading'>Core Team Members</h4>
+                <h4 className='core_team_heading'>Head Team Members</h4>
                 {
                     core_data.map((element) => {
                         return (
