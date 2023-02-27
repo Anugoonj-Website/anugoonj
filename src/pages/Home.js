@@ -147,7 +147,7 @@ const Home = () => {
       </div>
     </section>
     <section className="stars" style={{ height: "max-content ", overflowX: "hidden",overflowY:"hidden" }}>
-    <h1 className="font-[Norwester] text-white text-center mt-10" style={{fontSize:"4rem"}}>Our Guests</h1>
+    <h1 className="font-[Norwester] text-white text-center mb-20 mt-20" style={{fontSize:"4rem"}}>Our Guests</h1>
       <div className="h-max items-center flex flex-row-reverse pt-10 pb-10 starsmain">
         <div className="music-box h-[90vh] relative right-[-7vw]">
           <img src={"https://res.cloudinary.com/dyusmsyij/image/upload/v1677487616/images/anugoonj/music-speaker.png"} className="h-[100%]" alt="" />
