@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 
 const starsArray = [
   {
-    Date: "03-03-2023",
+    Date: "02-03-2023",
     Name: "Guest Star Present",
     Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit natus, eveniet veniam nemo cumque esse dignissimos aliquam assumenda inventore dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores. Optio, ipsam? Est, optio quis magnam autem voluptates fugiat! At.",
     image: "artist_image1.png",
@@ -149,7 +149,7 @@ const Home = () => {
       </div>
     </section>
     <section className="stars" style={{ height: "max-content ", overflowX: "hidden",overflowY:"hidden" }}>
-    <h1 className="font-[Norwester] text-white text-center mt-10">Our Guests</h1>
+    <h1 className="font-[Norwester] text-white text-center mt-10" style={{fontSize:"4rem"}}>Our Guests</h1>
       <div className="h-max items-center flex flex-row-reverse pt-10 pb-10 starsmain">
         <div className="music-box h-[90vh] relative right-[-7vw]">
           <img src={require("../images/music-speaker.png")} className="h-[100%]" alt="" />
