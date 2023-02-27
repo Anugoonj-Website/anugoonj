@@ -1,6 +1,8 @@
 .sponsor_footers {
     padding: 2rem 6rem;
     color: white;
+    z-index: 6;
+    position: relative;
   }
   
   .sponsor_rights-text {
