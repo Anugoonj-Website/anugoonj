@@ -21,7 +21,7 @@ const starsArray = [
     Date: "04-03-2023",
     Name: "ARMAAN MALIK (STAR NIGHT)",
     Desc: "Live performance by the popular Indian singer and songwriter, known for his romantic and soulful melodies. Fans can expect an evening of unforgettable music, as Armaan takes the stage with his chart-topping hits from Bollywood soundtracks and his independent music releases. His captivating voice, stage presence, and passion for music promise to make the event an unforgettable experience for his fans.",
-    image: "artist_image3.png",
+    image: "am5.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   }
 ]
@@ -131,7 +131,7 @@ const Home = () => {
     <section className="teaser-sec" style={{ height: "max-content ", overflowX: "hidden" }}>
       <div className=" h-[100vh] pt-32 pl-24 flex gap-20 items-center teaserr">
         <div className="frame rounded-3xl overflow-hidden aspect-video w-max shadow-xl teaser_vidio">
-          <iframe className=" h-[60vh] aspect-video" src="https://www.youtube.com/embed/iNPC_UH_3d4" title="YouTube video     player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className=" h-[60vh] aspect-video"  src="https://www.youtube.com/embed/niGCxNfqx7k?autoplay=1&mute=1" title="Anugoonj 2023 Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen autoplay></iframe>
         </div>
         <div className="cont text-white w-[30vw]">
           <h1 className="font-[Norwester] text-center">TEASER</h1>
