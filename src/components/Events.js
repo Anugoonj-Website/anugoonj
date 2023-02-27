@@ -27,8 +27,8 @@ function Events(props) {
       </div>
 
       <div className="sponsors_content">
-          <p className="sponsors_title_line">Thank You to Our Generous Sponsors for Making Our Mission Possible</p>
-          <p className="sponsors_paragraph">We are grateful for the support of our sponsors, who share our vision and help us to create positive change in the world. Our sponsors are more than just financial backers; they are partners in our mission to make a difference in the lives of those we serve.</p>
+          <p className="sponsors_title_line">Join us for a spectacular showcase of talent and entertainment - Experience the excitement with our diverse range of events!</p>
+          <p className="sponsors_paragraph">Experience 3 days of non-stop entertainment with over 40 events including music, dance, theater, and much more. Witness the best talent from across the country competing for the top honors in various categories. Enjoy the soulful melodies of Armaan Malik, the electrifying beats of DJ Session, and the foot-tapping rhythms of Sukhi in a night dedicated to Punjabi music. With something for everyone, this event promises to be a feast for the senses. Don't miss out on this extravaganza!</p>
       </div>
 
       <div className='events_events'>
