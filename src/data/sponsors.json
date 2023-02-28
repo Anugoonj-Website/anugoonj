@@ -1,10 +1,58 @@
 {
     "sponsor_data":[
         {
-            "title": "Coming Soon...",
+            "title": "",
             "data":[
-              
-               
+                {
+                    
+                    "names": "Fujifilm",
+                    "image": "fujifilm.png"
+                },
+                {
+                    
+                    "names": "Beardo",
+                    "image": "beardo.png"
+                },{
+                    
+                    "names": "KTM",
+                    "image": "ktm.png"
+                },{
+                    
+                    "names": "PearlxStudio",
+                    "image": "pearlxstudio.png"
+                },{
+                    
+                    "names": "Olorio",
+                    "image": "olorio.png"
+                },{
+                    
+                    "names": "Paree",
+                    "image": "paree.png"
+                },{
+                    
+                    "names": "Canara Bank",
+                    "image": "canarabank.png"
+                },{
+                    
+                    "names": "Red FM",
+                    "image": "redfm.png"
+                },{
+                    
+                    "names": "ICICI Bank",
+                    "image": "icicibank.png"
+                },{
+                    
+                    "names": "Radio City",
+                    "image": "radiocity.png"
+                },{
+                    
+                    "names": "Fruitchill",
+                    "image": "fruitChill.png"
+                },{
+                    
+                    "names": "Radio Mirchi",
+                    "image": "radiomirchi.png"
+                }
             ]
         }
     ]
