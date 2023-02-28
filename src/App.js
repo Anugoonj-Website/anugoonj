@@ -21,6 +21,7 @@ function App() {
   const website_loader = useRef();
   useEffect(()=>{
     setLoading(true);
+    incSpeed();
   }, [])
 
   const loader_video = ()=>{
@@ -88,5 +89,11 @@ function App() {
     </>
   );
 }
+
+function incSpeed() {
+  let vid = document.getElementById("video");
+  vid.playbackRate = 1.5;
+}
+
 
 export default App;
