@@ -5,17 +5,17 @@
         "name":"Organisers",              
         "core":[
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"aryan_kishore_singh.jpg",
                 "name":"Aryan Kishore Singh",
                 "position":"President"
             },
             {
-                "image":"https://drive.google.com/open?id=1IllIJ8Af82TTFXvQ7OCM8PGxLM6B_Fd_",
+                "image":"mohit.jpg",
                 "name":"Mohit",
                 "position":"Vice President"
             },
             {
-                "image":"https://drive.google.com/open?id=1J4-So5Apjq-v0H4w5xgVWRbIjTxjyAKO",
+                "image":"nitin.jpg",
                 "name":"Nitin",
                 "position":"General Secretary"
             }
@@ -27,23 +27,23 @@
         "name":"Web Team",                              
         "core":[
             {
-                "image":"https://drive.google.com/open?id=1UEo7mpOiLJ8Djbl7bnxi0orZpYUUeLlM",
+                "image":"sonu_singla.jpg",
                 "name":"Sonu Singla",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=1Wixzfmt70DYqoLD4lGL5tK7anTQDVFLi",
+                "image":"shubham_goyal.jpg",
                 "name":"Shubham Goyal",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=15Wqgn8sym5xnFiglR290P0HykDEO_BBM",
+                "image":"rishabh_pant.jpg",
                 "name":"Rishabh Pant",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=1CVRZkEyf2SU81E-wpazOXLVuB5X3J0lS",
-                "name":"Toyeesh",
+                "image":"toyeesh_sinha.jpg",
+                "name":"Toyeesh Sinha",
                 "position":"Head"
             }
 
@@ -55,46 +55,46 @@
         "name":"Discipline Team",               
         "core":[
             {
-                "image":"https://drive.google.com/open?id=1DBfHDfEotdylfksEP4kE7l1lAidTobrm",
+                "image":"harsh_porria.jpg",
                 "name":"Harsh Porria",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=18kA0QPQaqAuNKv4JDeow-Lp5MTD0dBef",
+                "image":"default.jpg",
                 "name":"Sumit Kumar Yadav",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Amisha Dubey",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=19Gt5FlRo487qkvLYSThyDdMtj5vJRkLp",
+                "image":"devangik_khanna.jpg",
                 "name":"Devangi K Khanna",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Anushka Gupta",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=1W-mkRCUYW4XpJVxWK4F6fZ38Qh6bEXKq",
+                "image":"vikrant_shokeen.jpg",
                 "name":"Vikrant Shokeen",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=13LHV7VaWFbFSgSD7v481GD2RzEUc5g5f",
-                "name":"Prashant Shooken",
+                "image":"prashant_shokeen.jpg",
+                "name":"Prashant Shokeen",
                 "position":"Head"
             },{
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Sayantam Tripathi",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=1-RerdscldK6T10PN1aTz_VTftOzXAhnd",
+                "image":"anuj.jpg",
                 "name":"Anuj",
                 "position":"Head"
             }
@@ -105,28 +105,28 @@
         "name":"Hospitality Team",                 
         "core":[
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Hritik Kashyap",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=170k63rN2oTFPc-9mf2nefLpMGSXIdkht",
+                "image":"rudransh_ratan.jpg",
                 "name":"Rudransh Ratan",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=1fRsz89FIUWFrYG1N50D7MJFIU8u-9poD",
+                "image":"mimansha_das.jpg",
                 "name":"Mimansha Das",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Faizal Saifi",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=1bf7dC-fV7-5TJv-JOC6MHBk2CIi0D1jC",
-                "name":"Sushant Halwai",
+                "image":"sushant_haluwai.jpg",
+                "name":"Sushant Haluwai",
                 "position":"Head"
             }
         ]
@@ -137,22 +137,22 @@
         "name":"Office Team",             
         "core":[
             {
-                "image":"https://drive.google.com/open?id=1NASJkuzt0WVNVcGgBxeeLRWuL4D07OZ5",
+                "image":"shubhi_madan.jpg",
                 "name":"Shubhi Madan",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=1zmcmt3Hz7A5CblOoQEXiKA7HWvofvsq8",
+                "image":"bhavesh.jpg",
                 "name":"Bhavesh",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=1HsRW-6mkHRbVYKOsMP4WP9a1W6V0Iet7",
+                "image":"ridhi_bhat.jpg",
                 "name":"Ridhi Bhat",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=1f9ZBr7nSehjxLgsE3nebYYOjH9KpVcBm",
+                "image":"ankit_updhyay.jpg",
                 "name":"Ankit Upadhyay",
                 "position":"Head"
             }
@@ -164,53 +164,54 @@
         "name":"Ground Team",            
         "core":[
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Nishant",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Rahul Balot",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=1INLmp2r_yEtG9kl8xAPnDMFTu4OcqOx0",
+                "image":"khushi_saini.jpg",
                 "name":"Khushi Saini",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Harsh Choudhary",
                 "position":"Head"
             }
         ]
 
     },
+
     "media":{                
         "name":"Media Team", 
         "core":[
             {
-                "image":"https://drive.google.com/open?id=1LkQbeM0qB074vVWUqQkXge-TRg6gapxo",
+                "image":"shivankar_joshi.jpg",
                 "name":"Shivankar Joshi",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=1IPsdeDUenAW0ZpO99STkJJTrLCQSkguR",
+                "image":"saksham_sharma.jpg",
                 "name":"Saksham",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Lavish Chandra",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Umang Tyagi",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Pragati Dhingra",
                 "position":"Head"
             }
@@ -222,19 +223,19 @@
         "name":"Events Team",                 
         "core":[
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Tanya Agarwal",
                 "position":"Dramatics Head"
             },{
-                "image":"https://drive.google.com/open?id=1GTkUhN0TGcIEiDTx3jalsi4Ussfi5mEY",
+                "image":"khushi.jpg",
                 "name":"Khushi",
                 "position":"Literary Head"
             },{
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Vani Garg",
                 "position":"Fine Arts Head"
             },{
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Stuti Singh",
                 "position":"Anchoring Head"
             }
@@ -246,52 +247,52 @@
         "name":"Core Team",                 
         "core":[
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
-                "name":"Amitesh Kashyap",
+                "image":"default.jpg",
+                "name":"amitesh_kashyap.jpg",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"kartik_chaudhary.jpg",
                 "name":"Kartik Chaudhary",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=1LkQbeM0qB074vVWUqQkXge-TRg6gapxo",
+                "image":"shivankar_joshi.jpg",
                 "name":"Shivankar Joshi",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Deepshika Panda",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=1Lx3dhdWU2QmKZANnX7dtJ0YJlzRadlrS",
+                "image":"anant_garg.jpg",
                 "name":"Anant Garg",
                 "position":"Head"
             },
             {
-                "image":"https://drive.google.com/open?id=17ndWh_6YZUpeLgqJVi3o5M9LkfNkkJfC",
+                "image":"vivek_bhatia.jpg",
                 "name":"Vivek Bhatia",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Stuti",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Muskan Godara",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Deepak Prakash",
                 "position":"Head"
             },
             {
-                "image":"https://res.cloudinary.com/dyusmsyij/image/upload/v1677475105/images/profile_image/default.jpg",
+                "image":"default.jpg",
                 "name":"Arush Garg",
                 "position":"Head"
             }

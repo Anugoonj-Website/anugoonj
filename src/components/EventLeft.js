@@ -11,7 +11,7 @@ const Event = (props) => {
 
 
       <div className='left_poster_container'>
-        <img src={`https://res.cloudinary.com/dyusmsyij/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1677436282/images/events_poster/${data.poster_url}`} className="left_posters" />
+        <img src={`https://res.cloudinary.com/dyusmsyij/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1677567933/images/events_poster/${data.poster_url}`} className="left_posters" />
       </div>
 
       <div className='left_event_content'>
