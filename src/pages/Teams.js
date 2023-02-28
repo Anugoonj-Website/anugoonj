@@ -37,7 +37,7 @@ const Team = () => {
         </div>
         <div className='team_page_options'>
         <NavLink className="navbar_link nav_link_teams" to="/team/office">Office Team</NavLink>
-          <NavLink className="navbar_link nav_link_teams" to="/team/ events_team">Events Team</NavLink>
+          <NavLink className="navbar_link nav_link_teams" to="/team/events_team">Events Team</NavLink>
           <NavLink className="navbar_link nav_link_teams" to="/team/ground">Ground Team</NavLink>
           <NavLink className="navbar_link nav_link_teams" to="/team/media">Media Team</NavLink>
         </div>
@@ -56,7 +56,7 @@ const Team = () => {
         <div className='team_page_options'>
         <NavLink className="navbar_link nav_link_teams" to="/team/web">Web Team</NavLink>
           <NavLink className="navbar_link nav_link_teams" to="/team/office">Office Team</NavLink>
-          <NavLink className="navbar_link nav_link_teams" to="/team/ events_team">Events Team</NavLink>
+          <NavLink className="navbar_link nav_link_teams" to="/team/events_team">Events Team</NavLink>
 
         </div>
         <div className='team_page_options'>
