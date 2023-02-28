@@ -21,6 +21,7 @@ function App() {
   const website_loader = useRef();
   useEffect(()=>{
     setLoading(true);
+    incSpeed();
   }, [])
 
   const loader_video = ()=>{
@@ -42,7 +43,7 @@ function App() {
       {
         loading ?
         <div className="video_div">
-        <video ref={website_loader} className="anugoonj_loader" style={{display:loader_display}} playsinline muted onLoadedData={loader_video} onEnded={()=>{setLoading(false)}}>
+        <video ref={website_loader} id="video" className="anugoonj_loader" style={{display:loader_display}} playsinline muted onLoadedData={loader_video} onEnded={()=>{setLoading(false)}}>
           <source  src={"https://res.cloudinary.com/dyusmsyij/video/upload/v1677486295/images/anugoonj/anugoonj_loader.mp4"} type="video/mp4" />
         </video>
         <h1 className="loding_text">Loading...</h1>
@@ -88,5 +89,11 @@ function App() {
     </>
   );
 }
+
+function incSpeed() {
+  let vid = document.getElementById("video");
+  vid.playbackRate = 1.5;
+}
+
 
 export default App;
