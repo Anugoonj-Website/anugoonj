@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useLocation } from 'react-router-dom';
 import { NavLink } from "react-router-dom";
 import logo from "../images/anugoonj_logo.png";
@@ -17,16 +17,16 @@ const Navbar = () => {
   useEffect(() => {
     SetNavbars(true);
   }, [location]);
-  
+
 
   return (
     <>
       <div className="navbar">
-        <img src={logo} alt="img" className="logo_img" />
+        <NavLink to="/"><img src={logo} alt="img" className="logo_img" /></NavLink>
 
         {!(navbars && isMobile) && <div className="navbar_route">
-          {isMobile && <FontAwesomeIcon className="cross_icon" icon={faTimes}  onClick={()=>{SetNavbars(!navbars)}}/>}
-          <NavLink className="navbar_link " to="/">  
+          {isMobile && <FontAwesomeIcon className="cross_icon" icon={faTimes} onClick={() => { SetNavbars(!navbars) }} />}
+          <NavLink className="navbar_link " to="/">
             Home
           </NavLink>
           <NavLink className="navbar_link " to="/events">
@@ -36,14 +36,14 @@ const Navbar = () => {
             Sponsors
           </NavLink>
           <NavLink className="navbar_link " to="/milestones">
-             Milestones
+            Milestones
           </NavLink>
           <NavLink className="navbar_link " to="/team">
             Team
           </NavLink>
-        </div>}         
+        </div>}
 
-        {(navbars && isMobile) && <FontAwesomeIcon className="navbar_bars" onClick={()=>{SetNavbars(!navbars)}} icon={faBars} />}
+        {(navbars && isMobile) && <FontAwesomeIcon className="navbar_bars" onClick={() => { SetNavbars(!navbars) }} icon={faBars} />}
 
       </div>
     </>

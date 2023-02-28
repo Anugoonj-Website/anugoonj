@@ -30,9 +30,9 @@
                 "position": "Organising Member"
             },
             {
-              "name": "Saksham Singh",
+              "name": "Saksham Sharma",
               "position": "Organising Member",
-              "image": "saksham_singh.jpg"
+              "image": "saksham_sharma.jpg"
             },
             {
               "name": "Bhumika Singh",
@@ -57,12 +57,12 @@
             {
                 "name": "Nidhi Jha",
                 "position": "Organising Member",
-                "image": "nidhi_jha.jpg"
+                "image": "default.jpg"
               },
               {
                 "name": "Surabhi Kumari",
                 "position": "Organising Member",
-                "image": "surabhi_kumari.jpg"
+                "image": "default.jpg"
               },
               {
                 "name": "Abhishek Garg",
@@ -72,7 +72,7 @@
               {
                 "name": "Anushka Gupta",
                 "position": "Organising Member",
-                "image": "anushka_gupta.jpg"
+                "image": "default.jpg"
               },
               {
                 "name": "Deepshikha Panda",
@@ -85,14 +85,14 @@
                 "image": "shivankar_joshi.jpg"
               },
               {
-                "name": "Stuti",
+                "name": "Stuti Singh",
                 "position": "Organising Member",
                 "image": "stuti.jpg"
               },
               {
                 "name": "Devangi K Khanna",
                 "position": "Organising Member",
-                "image": "devangi_khanna.jpg"
+                "image": "devangik_khanna.jpg"
               },
               {
                 "name": "Rudransh Ratan",
@@ -325,7 +325,7 @@
             },{
                 "name": "Surabhi Kumari",
                 "position": "Dance Team Head",
-                "image": "surabhi_kumari.jpg"
+                "image": "default.jpg"
             },{
                 "image":"khushi.jpg",
                 "name":"Khushi",
@@ -339,7 +339,7 @@
                 "name":"Vani Garg",
                 "position":"Fine Arts Team Head"
             },{
-                "image":"default.jpg",
+                "image":"stuti.jpg",
                 "name":"Stuti Singh",
                 "position":"Anchoring Team Head"
             }
@@ -381,8 +381,8 @@
                 "position":"Head"
             },
             {
-                "image":"default.jpg",
-                "name":"Stuti",
+                "image":"stuti.jpg",
+                "name":"Stuti Singh",
                 "position":"Head"
             },
             {

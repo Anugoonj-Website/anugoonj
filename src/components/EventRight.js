@@ -16,8 +16,8 @@ const Event = (props) => {
         </div>
         <p className='event_paragraph'>{data.description}</p>
         <div className='location_time'>
-          <div className="event_location"><FontAwesomeIcon icon={faLocationDot} /> Location : {data.location}</div>
-          <div className='event_time'><FontAwesomeIcon icon={faClock} /> Time : {data.time}</div>
+          <div className="event_location"><FontAwesomeIcon icon={faLocationDot} /> {data.location}</div>
+          <div className='event_time'><FontAwesomeIcon icon={faClock} /> {data.time}</div>
         </div>
       </div>
 

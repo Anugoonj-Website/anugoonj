@@ -131,7 +131,7 @@ const Home = () => {
     <section className="teaser-sec" style={{ height: "max-content ", overflowX: "hidden" }}>
       <div className=" h-[100vh] pt-32 pl-24 flex gap-20 items-center teaserr">
         <div className="frame rounded-3xl overflow-hidden aspect-video w-max shadow-xl teaser_vidio">
-        <iframe className=" h-[60vh] aspect-video" src="https://www.youtube.com/embed/R-R5iclybq0?autoplay=1&mute=1&loop=1" title="ANUGOONJ 2023 Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className=" h-[60vh] aspect-video" src="https://www.youtube.com/embed/R-R5iclybq0?autoplay=1&mute=1&loop=1&playlist=R-R5iclybq0" title="ANUGOONJ 2023 Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div className="cont text-white w-[30vw]">
           <h1 className="font-[Norwester] text-center">TEASER</h1>
