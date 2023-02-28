@@ -72,7 +72,7 @@
               {
                 "name": "Anushka Gupta",
                 "position": "Organising Member",
-                "image": "default.jpg"
+                "image": "anushka_gupta.jpg"
               },
               {
                 "name": "Deepshikha Panda",
@@ -161,7 +161,7 @@
                 "position":"Head"
             },
             {
-                "image":"default.jpg",
+                "image":"anushka_gupta.jpg",
                 "name":"Anushka Gupta",
                 "position":"Head"
             },
@@ -191,7 +191,7 @@
         "name":"Hospitality Team",                 
         "core":[
             {
-                "image":"default.jpg",
+                "image":"hritik_kashyap.jpg",
                 "name":"Hritik Kashyap",
                 "position":"Head"
             },
@@ -314,7 +314,7 @@
                 "image": "deepshikha_panda.jpg"
             },
             {
-                "image":"default.jpg",
+                "image":"tanya.jpg",
                 "name":"Tanya Agarwal",
                 "position":"Dramatics Team Head"
             },
@@ -332,11 +332,11 @@
                 "position":"Literary Team Head"
             },
             {
-                "image":"default.jpg",
+                "image":"vani.jpg",
                 "name":"Vani Garg",
                 "position":"Fine Arts Team Head"
             },{
-                "image":"default.jpg",
+                "image":"archana.jpg",
                 "name":"Archana",
                 "position":"Talent Show Team Head"
             },
