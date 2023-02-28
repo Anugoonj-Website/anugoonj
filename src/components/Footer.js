@@ -31,7 +31,7 @@ function Footer() {
               <a href="https://www.instagram.com/anugoonj_official/">
                 <i class="fab fa-instagram"></i>
               </a>
-              <p className="follower">4700+ followers</p>
+              <p className="follower">5500+ followers</p>
             </div>
             <div className="icon_div">
               <a href="mailto:dsw@ipu.ac.in">
