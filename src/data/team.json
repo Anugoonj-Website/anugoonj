@@ -309,21 +309,39 @@
         "name":"Events Team",                 
         "core":[
             {
+                "name": "Deepshikha Panda",
+                "position": "Mr and Ms Anugoonj Team Head",
+                "image": "deepshikha_panda.jpg"
+            },
+            {
                 "image":"default.jpg",
                 "name":"Tanya Agarwal",
-                "position":"Dramatics Head"
+                "position":"Dramatics Team Head"
+            },
+            {
+                "name": "Aparna Shukla",
+                "position": "Music Team Head",
+                "image": "default.jpg"
+            },{
+                "name": "Surabhi Kumari",
+                "position": "Dance Team Head",
+                "image": "surabhi_kumari.jpg"
             },{
                 "image":"khushi.jpg",
                 "name":"Khushi",
-                "position":"Literary Head"
+                "position":"Literary Team Head"
+            },{
+                "image":"default.jpg",
+                "name":"Archana",
+                "position":"Talent Show Team Head"
             },{
                 "image":"default.jpg",
                 "name":"Vani Garg",
-                "position":"Fine Arts Head"
+                "position":"Fine Arts Team Head"
             },{
                 "image":"default.jpg",
                 "name":"Stuti Singh",
-                "position":"Anchoring Head"
+                "position":"Anchoring Team Head"
             }
         ]
 
