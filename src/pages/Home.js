@@ -7,21 +7,21 @@ const starsArray = [
     Date: "02-03-2023",
     Name: "SUKH-E (PUNJABI NIGHT)",
     Desc: "An event featuring the popular Punjabi singer Sukh-E, known for his upbeat and energetic performances. The event promises to be a night of lively Punjabi music, dance, and entertainment. Fans can look forward to an evening of bhangra beats and dhol, as Sukh-E takes the stage with his chart-topping hits...",
-    image: "artist_image1.png",
+    image: "1.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   },
   {
     Date: "03-03-2023",
     Name: "RAVATOR (EDM NIGHT)",
     Desc: "A music event featuring the popular electronic dance music (EDM) artist Ravator. The event promises to be a high-energy night of electronic beats, laser lights, and non-stop dancing. Fans can expect an immersive audio-visual experience as Ravator takes the stage with his signature style of bass-heavy EDM. The event is perfect for those looking to dance the night away with like-minded music lovers.",
-    image: "artist_image2.png",
+    image: "2.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   },
   {
     Date: "04-03-2023",
     Name: "ARMAAN MALIK (STAR NIGHT)",
     Desc: "Live performance by the popular Indian singer and songwriter, known for his romantic and soulful melodies. Fans can expect an evening of unforgettable music, as Armaan takes the stage with his chart-topping hits from Bollywood soundtracks and his independent music releases. His captivating voice, stage presence, and passion for music promise to make the event an unforgettable experience for his fans.",
-    image: "am5.png",
+    image: "3.png",
     SubStars: ["Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan", "Mohit Chauhan"]
   }
 ]
@@ -149,7 +149,7 @@ const Home = () => {
           {starsArray.map((item) => (
             <div className="flex flex-row items-start justify-center starsarray" key={item.image}>
               <div className="left mr-16">
-                <img src={`https://res.cloudinary.com/dyusmsyij/image/upload/v1677436282/images/anugoonj/${item.image}`} className="artist_image" alt="" />
+                <img src={`https://res.cloudinary.com/dyusmsyij/image/upload/v1677574164/images/anugoonj/${item.image}`} className="artist_image" alt="" />
               </div>
               <div className="right w-[30vw] inside_starsarray">
                 <div className="date"><h1 className="font-bold">{item.Date}</h1></div>
