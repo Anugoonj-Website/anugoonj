@@ -51,7 +51,7 @@ const Sponsor = () => {
           const element_data = createGroups(element.data, Math.ceil(array_length/gls));
           return (
             <div className="sponsors_all">
-              <div className="SponsorTitle">{element.title}</div>
+              <div className="font-[Norwester] SponsorTitle">{element.title}</div>
               <div className="eachSponsorMain">
                 {element_data.map((ele) => {
                   return (
