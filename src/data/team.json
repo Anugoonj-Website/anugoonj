@@ -27,13 +27,13 @@
         "name":"Web Team",                              
         "core":[
             {
-                "image":"shubham_goyal.jpg",
-                "name":"Shubham Goyal",
+                "image":"sonu_singla.jpg",
+                "name":"Sonu Singla",
                 "position":"Head"
             },
             {
-                "image":"sonu_singla.jpg",
-                "name":"Sonu Singla",
+                "image":"shubham_goyal.jpg",
+                "name":"Shubham Goyal",
                 "position":"Head"
             },
             {
