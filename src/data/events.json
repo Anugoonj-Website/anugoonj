@@ -58,14 +58,14 @@
       },
       {
         "name": "ON THE SPOT PAINTING",
-        "description": "Unleash your creativity and paint a masterpiece on the spot with limited time and materials.",
+        "description": "Express your creativity and imagination with On the Spot Painting. Test your artistic skills and win exciting prizes in this competitive event.",
         "location": "C-Block Auditorium",
         "time": "2:00 PM",
         "poster_url": "1_9.png"
       },
       {
         "name": "GROUP SONG (INDIAN)",
-        "description": "Sing a popular Indian song with your group and showcase your harmony, rhythm, and melody.",
+        "description": "An opportunity to showcase your singing skills with your friends. Come, sing your hearts out to Indian melodies and compete to win exciting prizes.",
         "location": "E-Block Auditorium",
         "time":"2:00 PM",
         "poster_url":"1_10.png"
@@ -123,7 +123,7 @@
     },
     {
       "name":"QUIZ",
-      "description":"A knowledge-based competition where participants will be tested on various topics.",
+      "description":"Get your thinking hats on and join us for an exciting quiz challenge. Test your knowledge and win exciting prizes!",
       "location":"D-Block Auditorium",
       "time":"9:30 AM",
       "poster_url":"2_4.png"
@@ -137,28 +137,28 @@
     },
     {
       "name":"CLAY MODELLING",
-      "description":"A creative competition where participants will have to make sculptures using clay.",
+      "description":"Unleash your creativity with Clay Modelling! This event provides a platform to showcase your artistic skills and create beautiful structures with clay.",
       "location":"Library Courtyard",
       "time":"10:00 AM",
       "poster_url":"2_6.png"
     },
     {
       "name":"DEBATE (HINDI)",
-      "description":"A debating competition where participants will have to defend or oppose a given motion in Hindi.",
+      "description":"Engage in a thought-provoking debate in Hindi on a relevant topic and showcase your persuasion and critical thinking skills.",
       "location":"D-Block Auditorium",
       "time":"12:00 PM",
       "poster_url":"2_7.png"
     },
     {
       "name":"DJ DHAMAAL",
-      "description":"An energetic DJ session where participants can dance and enjoy the music.",
+      "description":"Get ready to groove to the beats of our top DJs playing the latest party anthems and dance tracks all night long!",
       "location":"Basketball Court",
       "time":"1:00 PM",
       "poster_url":"2_8.png"
     },
     {
       "name":"GROUP SONG (WESTERN)",
-      "description":"A group singing competition where teams will have to sing western songs in harmony.",
+      "description":"Groove to the beat of western music with our talented participants performing their hearts out in this electrifying group song event.",
       "location":"E-Block Auditorium",
       "time":"2:00 PM",
       "poster_url":"2_9.png"
@@ -172,7 +172,7 @@
     },
     {
       "name":"COLLAGE MAKING",
-      "description":"A creative competition where participants will have to create collages using different materials.",
+      "description":"Competition provides an opportunity to showcase your artistic skills by creating a unique piece of art with a mixture of materials.",
       "location":"Library Court",
       "time":"2:00 PM",
       "poster_url":"2_11.png"
@@ -192,14 +192,14 @@
       },
       {
       "name": "A MUSICAL BY RAS-RANG",
-      "description": "Experience the soulful music.",
+      "description": "Experience the magic of music with RAS-RANG, as they present a soulful and captivating musical performance that is sure to leave you mesmerized.",
       "location": "Amphitheatre",
       "time": "6:00 PM",
       "poster_url": "2_14.png"
       },
       {
       "name": "EDM NIGHT (RAVATOR)",
-      "description": "Get ready to dance the night away with RAVATOR's electrifying mix of EDM and techno beats.",
+      "description": "Join us for a high-energy EDM Night featuring Ravator's electrifying beats, sure to get you on your feet and dancing all night long!",
       "location": "Main Stage",
       "time": "6:30 PM",
       "poster_url": "2_15.png"
@@ -208,63 +208,63 @@
   "day_3": [
     {
       "name": "MR. & MS. ANUGOONJ",
-      "description": "Watch the battle of the sexes in the biggest talent competition of Anugoonj.",
+      "description": "Mr. & Ms. Anugoonj is a highly anticipated competition where students showcase their talent, confidence, and personality on stage.",
       "location": "Main Stage",
       "time": "9:00 AM",
       "poster_url": "3_1.png"
       },
       {
       "name": "POETRY (HINDI)",
-      "description": "Get ready to experience the magic of Hindi poetry in an electrifying session.",
+      "description": "Experience the magic of Hindi poetry in an electrifying session that will touch your soul and leave you mesmerized.",
       "location": "C-Block Auditorium",
       "time": "9:00 AM",
       "poster_url": "3_2.png"
       },
       {
       "name": "INDIAN LIGHT VOCALS",
-      "description": "Join us for a soulful morning of Indian light vocals.",
+      "description": "Indian Light Vocals is a soulful musical event that will take you on a melodious journey of Indian music.",
       "location": "D-Block Auditorium",
       "time": "9:00 AM",
       "poster_url": "3_3.png"
       },
       {
       "name": "FOOTLOOSE",
-      "description": "Step up to the challenge and show off your best dance moves in Footloose.",
+      "description": "Footloose is a dance competition where participants can showcase their best moves on the stage and compete against each other.",
       "location": "Stage-2",
       "time": "10:00 AM",
       "poster_url": "3_4.png"
       },
       {
       "name": "CREATIVE WRITING (HINDI)",
-      "description": "Unleash your creativity in this Hindi creative writing competition.",
+      "description": "Unleash your creativity in this Hindi creative writing competition and showcase your skills with the power of words.",
       "location": "C-312",
       "time": "10:00 AM",
       "poster_url": "3_5.png"
       },
       {
         "name": "CREATIVE WRITING (ENGLISH)",
-        "description": "Put your writing skills to the test in this exciting English creative writing competition.",
+        "description": "Unleash your creativity in this exciting English creative writing competition and put your writing skills to the test.",
         "location": "C-314",
         "time": "10:00 AM",
         "poster_url": "3_6.png"
         },
         {
         "name": "DJ DHAMAAL",
-        "description": "Get ready to groove to the beats of the hottest DJs in town at the basketball court.",
+        "description": "Get ready to groove to the beats of the hottest DJs in town and experience an electrifying event of music at DJ Dhamaal.",
         "location": "Basketball Court",
         "time": "1:00 PM",
         "poster_url": "3_7.png"
         },
         {
         "name": "CARTOONING",
-        "description": "Bring your favorite characters to life in this fun and exciting cartooning competition.",
+        "description": "Unleash your creativity and bring your favorite characters to life in a fun and exciting cartooning workshop.",
         "location": "D-Block Auditorium",
         "time": "2:00 PM",
         "poster_url": "3_8.png"
         },
         {
         "name": "MONO ACTING",
-        "description": "Get ready to showcase your acting skills and win big in this mono acting competition.",
+        "description": "Step into the shoes of a character and showcase your acting skills in Mono Acting, a solo theatrical performance competition.",
         "location": "C-Block Auditorium",
         "time": "2:00 PM",
         "poster_url": "3_9.png"
@@ -283,7 +283,7 @@
       "poster_url":"3_11.png"
       }, {
       "name":"STAR NIGHT(ARMAAN MALIK)",
-      "description":"A night of mesmerizing music by Armaan Malik, one of the leading playback singers in Bollywood.",
+      "description":"Experience an unforgettable musical journey with the sensational Armaan Malik, as he performs live at Anugoonj.",
       "location":"Main Stage",
       "time":"6:30 PM",
       "poster_url":"3_12.png"
