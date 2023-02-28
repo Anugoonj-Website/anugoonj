@@ -62,7 +62,7 @@
               {
                 "name": "Surabhi Kumari",
                 "position": "Organising Member",
-                "image": "default.jpg"
+                "image": "surabhi_kumari.jpg"
               },
               {
                 "name": "Abhishek Garg",
@@ -146,12 +146,12 @@
                 "position":"Head"
             },
             {
-                "image":"default.jpg",
+                "image":"sumit_yadav.jpg",
                 "name":"Sumit Kumar Yadav",
                 "position":"Head"
             },
             {
-                "image":"default.jpg",
+                "image":"amisha_dubey.jpg",
                 "name":"Amisha Dubey",
                 "position":"Head"
             },
@@ -175,8 +175,8 @@
                 "name":"Prashant Shokeen",
                 "position":"Head"
             },{
-                "image":"default.jpg",
-                "name":"Sayantam Tripathi",
+                "image":"sayantan_tripathi.jpg",
+                "name":"Sayantan Tripathi",
                 "position":"Head"
             },
             {
@@ -292,12 +292,12 @@
                 "position":"Head"
             },
             {
-                "image":"default.jpg",
+                "image":"umang_tyagi.jpg",
                 "name":"Umang Tyagi",
                 "position":"Head"
             },
             {
-                "image":"default.jpg",
+                "image":"pragati_dhingra.jpg",
                 "name":"Pragati Dhingra",
                 "position":"Head"
             }
@@ -319,28 +319,30 @@
                 "position":"Dramatics Team Head"
             },
             {
-                "name": "Aparna Shukla",
+                "name": "Unnat",
                 "position": "Music Team Head",
                 "image": "default.jpg"
             },{
                 "name": "Surabhi Kumari",
                 "position": "Dance Team Head",
-                "image": "default.jpg"
+                "image": "surabhi_kumari.jpg"
             },{
                 "image":"khushi.jpg",
                 "name":"Khushi",
                 "position":"Literary Team Head"
-            },{
-                "image":"default.jpg",
-                "name":"Archana",
-                "position":"Talent Show Team Head"
-            },{
+            },
+            {
                 "image":"default.jpg",
                 "name":"Vani Garg",
                 "position":"Fine Arts Team Head"
             },{
-                "image":"stuti.jpg",
-                "name":"Stuti Singh",
+                "image":"default.jpg",
+                "name":"Archana",
+                "position":"Talent Show Team Head"
+            },
+            {
+                "image":"default.jpg",
+                "name":"Vishwas",
                 "position":"Anchoring Team Head"
             }
         ]
@@ -396,7 +398,7 @@
                 "position":"Head"
             },
             {
-                "image":"default.jpg",
+                "image":"arush_garg.jpg",
                 "name":"Arush Garg",
                 "position":"Head"
             }

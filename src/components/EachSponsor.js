@@ -8,7 +8,7 @@ const EachSponsor = (props) => {
 
     <div className="eachSponsorComponent">
    
-      <img src={`https://res.cloudinary.com/dyusmsyij/image/upload/v1677592560/images/sponsors_image/${image}`} alt="img" className='spon_image' />     
+      <img src={`https://res.cloudinary.com/dyusmsyij/image/upload/v1677606630/images/sponsors_image/${image}`} alt="img" className='spon_image' />     
       <p className="image_name text-[white]">{names}</p>
     </div>
 

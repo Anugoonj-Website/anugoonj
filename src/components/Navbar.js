@@ -32,14 +32,14 @@ const Navbar = () => {
           <NavLink className="navbar_link " to="/events">
             Events
           </NavLink>
-          <NavLink className="navbar_link " to="/sponsors">
-            Sponsors
-          </NavLink>
           <NavLink className="navbar_link " to="/milestones">
             Milestones
           </NavLink>
           <NavLink className="navbar_link " to="/team">
             Team
+          </NavLink>
+          <NavLink className="navbar_link " to="/sponsors">
+            Sponsors
           </NavLink>
         </div>}
 
