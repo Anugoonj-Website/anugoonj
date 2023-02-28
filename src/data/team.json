@@ -18,7 +18,93 @@
                 "image":"nitin.jpg",
                 "name":"Nitin",
                 "position":"General Secretary"
-            }
+            },
+            {
+                "image": "kartik_chaudhary.jpg",
+                "name": "Kartik Chaudhary",
+                "position": "Organising Member"
+            },
+            {
+                "image": "harsh_porria.jpg",
+                "name": "Harsh Porria",
+                "position": "Organising Member"
+            },
+            {
+              "name": "Saksham Singh",
+              "position": "Organising Member",
+              "image": "saksham_singh.jpg"
+            },
+            {
+              "name": "Bhumika Singh",
+              "position": "Organising Member",
+              "image": "bhumika_singh.jpg"
+            },
+            {
+              "name": "Kushal Uttam",
+              "position": "Organising Member",
+              "image": "kushal_uttam.jpg"
+            },
+            {
+              "name": "Arush Garg",
+              "position": "Organising Member",
+              "image": "arush_garg.jpg"
+            },
+            {
+              "name": "Dev Sareen",
+              "position": "Organising Member",
+              "image": "dev_sareen.jpg"
+            },
+            {
+                "name": "Nidhi Jha",
+                "position": "Organising Member",
+                "image": "nidhi_jha.jpg"
+              },
+              {
+                "name": "Surabhi Kumari",
+                "position": "Organising Member",
+                "image": "surabhi_kumari.jpg"
+              },
+              {
+                "name": "Abhishek Garg",
+                "position": "Organising Member",
+                "image": "abhishek_garg.jpg"
+              },
+              {
+                "name": "Anushka Gupta",
+                "position": "Organising Member",
+                "image": "anushka_gupta.jpg"
+              },
+              {
+                "name": "Deepshikha Panda",
+                "position": "Organising Member",
+                "image": "deepshikha_panda.jpg"
+              },
+              {
+                "name": "Shivankar Joshi",
+                "position": "Organising Member",
+                "image": "shivankar_joshi.jpg"
+              },
+              {
+                "name": "Stuti",
+                "position": "Organising Member",
+                "image": "stuti.jpg"
+              },
+              {
+                "name": "Devangi K Khanna",
+                "position": "Organising Member",
+                "image": "devangi_khanna.jpg"
+              },
+              {
+                "name": "Rudransh Ratan",
+                "position": "Organising Member",
+                "image": "rudransh_ratan.jpg"
+              },
+              {
+                "name": "Vipul Tanwar",
+                "position": "Organising Member",
+                "image": "vipul_tanwar.jpg"
+              }
+
         ]
 
     },
@@ -223,21 +309,39 @@
         "name":"Events Team",                 
         "core":[
             {
+                "name": "Deepshikha Panda",
+                "position": "Mr and Ms Anugoonj Team Head",
+                "image": "deepshikha_panda.jpg"
+            },
+            {
                 "image":"default.jpg",
                 "name":"Tanya Agarwal",
-                "position":"Dramatics Head"
+                "position":"Dramatics Team Head"
+            },
+            {
+                "name": "Aparna Shukla",
+                "position": "Music Team Head",
+                "image": "default.jpg"
+            },{
+                "name": "Surabhi Kumari",
+                "position": "Dance Team Head",
+                "image": "surabhi_kumari.jpg"
             },{
                 "image":"khushi.jpg",
                 "name":"Khushi",
-                "position":"Literary Head"
+                "position":"Literary Team Head"
+            },{
+                "image":"default.jpg",
+                "name":"Archana",
+                "position":"Talent Show Team Head"
             },{
                 "image":"default.jpg",
                 "name":"Vani Garg",
-                "position":"Fine Arts Head"
+                "position":"Fine Arts Team Head"
             },{
                 "image":"default.jpg",
                 "name":"Stuti Singh",
-                "position":"Anchoring Head"
+                "position":"Anchoring Team Head"
             }
         ]
 

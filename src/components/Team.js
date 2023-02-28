@@ -44,7 +44,7 @@ function Team(props) {
         <>
             <div className='team'>
              
-              <h4 className='core_team_heading'>{props.data.name}</h4>
+              <h4 className='font-[Norwester] core_team_heading'>{props.data.name}</h4>
                 {
                     core_data.map((element) => {
                         return (
