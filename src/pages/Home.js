@@ -141,14 +141,16 @@ const Home = () => {
         </div>
       </div>
     </section>
+
     <section className="chef_gest">
     <h1 className="font-[Norwester] text-white text-center mb-20" style={{fontSize:"4rem"}}>Our Chief Guest</h1>
-    <EventLeft data={{"name": "STREET PLAY",
-        "description": "Raise awareness on a social issue and convey a powerful message through this theatrical performance on the street.",
-        "location": "Near Library Stairs",
-        "time": "12:00 PM",
+    <EventLeft data={{"name": "Madhur Bhandarkar",
+        "description": "Madhur Bhandarkar is a prominent Indian film director and screenwriter known for his realistic and hard-hitting films that explore the darker aspects of society. He began his career as a video cassette delivery boy and then worked as an assistant director before making his directorial debut with the film 'Trishakti' in 1999. Some of his notable films include 'Chandni Bar', 'Page 3', 'Traffic Signal', 'Fashion', and 'Heroine'. Bhandarkar's films often tackle controversial and taboo topics such as prostitution, corruption, and the fashion industry. He has won several awards for his work, including the National Film Award for Best Feature Film in Hindi for 'Chandni Bar' and the Filmfare Award for Best Director for 'Traffic Signal'.",
+        "location": "Main Stage",
+        "time": "4:00 PM",
         "poster_url": "madhur.jpg"}}/>
     </section>
+    
     <section className="stars" style={{ height: "max-content ", overflowX: "hidden",overflowY:"hidden" }}>
     <h1 className="font-[Norwester] text-white text-center  mt-20" style={{fontSize:"4rem"}}>Our Guests</h1>
       <div className="h-max items-center flex flex-row-reverse pt-10 pb-10 starsmain">

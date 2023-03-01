@@ -35,6 +35,11 @@
               "image": "saksham_sharma.jpg"
             },
             {
+              "name": "Arush Garg",
+              "position": "Organising Member",
+              "image": "arush_garg.jpg"
+            },
+            {
               "name": "Bhumika Singh",
               "position": "Organising Member",
               "image": "bhumika_singh.jpg"
@@ -43,11 +48,6 @@
               "name": "Kushal Uttam",
               "position": "Organising Member",
               "image": "kushal_uttam.jpg"
-            },
-            {
-              "name": "Arush Garg",
-              "position": "Organising Member",
-              "image": "arush_garg.jpg"
             },
             {
               "name": "Dev Sareen",
@@ -405,6 +405,11 @@
                 "position":"Head"
             },
             {
+                "image":"arush_garg.jpg",
+                "name":"Arush Garg",
+                "position":"Head"
+            },
+            {
                 "image":"anant_garg.jpg",
                 "name":"Anant Garg",
                 "position":"Head"
@@ -427,11 +432,6 @@
             {
                 "image":"default.jpg",
                 "name":"Deepak Prakash",
-                "position":"Head"
-            },
-            {
-                "image":"arush_garg.jpg",
-                "name":"Arush Garg",
                 "position":"Head"
             }
         ]
