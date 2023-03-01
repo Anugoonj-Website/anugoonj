@@ -21,6 +21,9 @@ function App() {
   useEffect(()=>{
     setLoading(true);
     incSpeed();
+    setTimeout(() => {
+      setLoading(false)
+    },5000);
   }, [])
 
 
@@ -88,7 +91,7 @@ function App() {
 
 function incSpeed() {
   let vid = document.getElementById("video");
-  vid.playbackRate = 1.5;
+  vid.playbackRate = 1.7;
 }
 
 
