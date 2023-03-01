@@ -1,7 +1,7 @@
 {
   "day_1": [
       {
-        "name": "DEBATE",
+        "name": "DEBATE (ENGLISH)",
         "description": "Engage in a formal discussion on a topic of interest and develop critical thinking skills while advocating for your point of view.",
         "location": "C-Block Auditorium",
         "time": "9:00 AM",
@@ -9,7 +9,7 @@
       },
       {
         "name": "J.A.M (ENGLISH)",
-        "description": "Put your English language skills to the test in this fast-paced competition where contestants have to speak for one minute without hesitation, repetition or deviation.",
+        "description": "An English speaking activity where participants speak on a given topic for a minute without hesitation, repetition or deviation. It helps improve communication and speaking skills.",
         "location": "D-Block Auditorium",
         "time": "10:00 AM",
         "poster_url": "1_2.png"
@@ -108,12 +108,13 @@
       "poster_url":"2_1.png"
     },
     {
-      "name":"ONE ACT PLAY",
-      "description":"A theatrical competition where teams will perform a short play that will be judged on the basis of various parameters like script, acting, direction, etc.",
+      "name":"JAM (HINDI)",
+      "description":"A Hindi public speaking exercise where participants are given a topic and asked to speak on it for one minute without hesitation, repetition, or deviation.",
       "location":"C-Block Auditorium",
-      "time":"9:00 AM",
-      "poster_url":"2_2.png"
-    },
+      "time":"9:00 PM",
+      "poster_url":"2_12.png"
+      },
+      
     {
       "name":"CHOREOGRAPHY",
       "description":"A dance competition where teams will showcase their creativity and talent through choreographed performances.",
@@ -121,6 +122,7 @@
       "time":"9:30 AM",
       "poster_url":"2_3.png"
     },
+    
     {
       "name":"QUIZ",
       "description":"Get your thinking hats on and join us for an exciting quiz challenge. Test your knowledge and win exciting prizes!",
@@ -132,7 +134,7 @@
       "name":"CLASSICAL VOCAL SOLO",
       "description":"A classical vocal music competition where participants will perform solo pieces in front of a panel of judges.",
       "location":"E-Block Auditorium",
-      "time":"9:00 AM",
+      "time":"10:00 AM",
       "poster_url":"2_5.png"
     },
     {
@@ -157,6 +159,13 @@
       "poster_url":"2_8.png"
     },
     {
+      "name":"ONE ACT PLAY",
+      "description":"A theatrical competition where teams will perform a short play that will be judged on the basis of various parameters like script, acting, direction, etc.",
+      "location":"C-Block Auditorium",
+      "time":"2:00 PM",
+      "poster_url":"2_2.png"
+    },
+    {
       "name":"GROUP SONG (WESTERN)",
       "description":"Groove to the beat of western music with our talented participants performing their hearts out in this electrifying group song event.",
       "location":"E-Block Auditorium",
@@ -166,24 +175,18 @@
     {
       "name":"FOLK DANCE",
       "description":"A cultural dance competition where teams will showcase their skills in performing traditional folk dances.",
-      "location":"Stage-1",
+      "location":"Main Stage",
       "time":"2:00 PM",
       "poster_url":"2_10.png"
     },
     {
       "name":"COLLAGE MAKING",
       "description":"Competition provides an opportunity to showcase your artistic skills by creating a unique piece of art with a mixture of materials.",
-      "location":"Library Court",
+      "location":"Library Courtyard",
       "time":"2:00 PM",
       "poster_url":"2_11.png"
     },
     {
-      "name":"JAM (HINDI)",
-      "description":"An on-the-spot Hindi music competition in which participants will have to sing a song with a band provided by the organizers.",
-      "location":"C-Block Auditorium",
-      "time":"3:00 PM",
-      "poster_url":"2_12.png"
-      },{
       "name": "BAND PERFORMANCE",
       "description": "Experience an energetic and dynamic musical performance that will have you dancing and singing along to their original tunes and popular covers.",
       "location": "Stage-II",
@@ -237,17 +240,24 @@
       {
       "name": "CREATIVE WRITING (HINDI)",
       "description": "Unleash your creativity in this Hindi creative writing competition and showcase your skills with the power of words.",
-      "location": "C-312",
+      "location": "D-313",
       "time": "10:00 AM",
       "poster_url": "3_5.png"
       },
       {
         "name": "CREATIVE WRITING (ENGLISH)",
         "description": "Unleash your creativity in this exciting English creative writing competition and put your writing skills to the test.",
-        "location": "C-314",
+        "location": "D-314",
         "time": "10:00 AM",
         "poster_url": "3_6.png"
         },
+        {
+          "name": "LIGHT VOCALS",
+          "description": "Unleash your creativity in this exciting English creative writing competition and put your writing skills to the test.",
+          "location": "E-Block Auditorium",
+          "time": "10:00 AM",
+          "poster_url": "light_vocals.png"
+          },
         {
         "name": "DJ DHAMAAL",
         "description": "Get ready to groove to the beats of the hottest DJs in town and experience an electrifying event of music at DJ Dhamaal.",

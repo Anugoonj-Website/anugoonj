@@ -22,7 +22,7 @@ const Event = (props) => {
       </div>
 
       <div className='right_poster_container'>
-        <img src={`https://res.cloudinary.com/dyusmsyij/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1677606026/images/events_poster/${data.poster_url}`}  className="right_posters" />
+        <img src={`https://res.cloudinary.com/dyusmsyij/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1677662784/images/events_poster/${data.poster_url}`}  className="right_posters" />
       </div>
 
     </div>
