@@ -17,17 +17,13 @@ import Cardcarousel from "./components/Carousel";
 function App() {
 
   const [loading, setLoading] = useState(true);
-  const [loader_display ,setLoaderDisplay]= useState("none");
   const website_loader = useRef();
   useEffect(()=>{
     setLoading(true);
     incSpeed();
   }, [])
 
-  const loader_video = ()=>{
-    setLoaderDisplay("block");
-    website_loader.current.play();
-  }
+
   
 
   const Milestones_Data =[
@@ -43,7 +39,7 @@ function App() {
       {
         loading ?
         <div className="video_div">
-        <video ref={website_loader} id="video" className="anugoonj_loader" style={{display:loader_display}} playsinline muted onLoadedData={loader_video} onEnded={()=>{setLoading(false)}}>
+        <video ref={website_loader} id="video" className="anugoonj_loader"  playsinline muted autoPlay onEnded={()=>{setLoading(false)}}>
           <source  src={"https://res.cloudinary.com/dyusmsyij/video/upload/v1677486295/images/anugoonj/anugoonj_loader.mp4"} type="video/mp4" />
         </video>
         <h1 className="loding_text">Loading...</h1>
