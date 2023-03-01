@@ -132,29 +132,31 @@
                 "name":"Toyeesh Sinha",
                 "position":"Head"
             },
+            
             {
-                "image":"pranshu_gupta.jpg",
-                "name":"Pranshu Gupta",
-                "position":"Member"
+                "name": "Anjali Singh",
+                "image": "anjali_singh.jpg",
+                "position": "Member"
             },
             {
                 "name": "Ayush Baliyan",
                 "image": "ayush_baliyan.jpg",
                 "position": "Member"
             },
-            {
-                "name": "Yash Khattar",
-                "image": "yash_khattar.jpg",
-                "position": "Member"
-            },
+            
             {
                 "name": "Shivesh Nandan",
                 "image": "shivesh_nandan.jpg",
                 "position": "Member"
             },
             {
-                "name": "Anjali Singh",
-                "image": "anjali_singh.jpg",
+                "image":"pranshu_gupta.jpg",
+                "name":"Pranshu Gupta",
+                "position":"Member"
+            },
+            {
+                "name": "Yash Khattar",
+                "image": "yash_khattar.jpg",
                 "position": "Member"
             },
             {
