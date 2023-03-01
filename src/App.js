@@ -14,6 +14,7 @@ import Milestones from "./pages/Milestones";
 import Team from "./components/Team";
 import Cardcarousel from "./components/Carousel";
 
+
 function App() {
 
   const [loading, setLoading] = useState(true);

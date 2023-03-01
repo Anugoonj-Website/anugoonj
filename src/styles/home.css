@@ -609,3 +609,14 @@ font-family: 'Batangas';
 font-size: 4rem;
 text-shadow: 0 0 30px white;
 }
+
+.chef_gest
+{
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 28%, rgba(72, 0, 96, 1) 100%);
+    /* display: flex; */
+    justify-content: center;
+	padding-left: 10vh;
+	padding-right: 10vh;
+	padding-top:30px;
+	padding-bottom: 80px;
+}

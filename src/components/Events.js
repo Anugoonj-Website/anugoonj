@@ -1,7 +1,7 @@
 import React, {useEffect } from "react";
 import { useLocation } from 'react-router-dom';
 import EventLeft from './EventLeft';
-import EventRight from './EventRight'
+import EventRight from './EventRight';
 import "../styles/events.css";
 import { useMediaQuery } from '@react-hook/media-query';
 
