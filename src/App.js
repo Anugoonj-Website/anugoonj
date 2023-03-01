@@ -39,9 +39,9 @@ function App() {
       {
         loading ?
         <div className="video_div">
-        <video ref={website_loader} id="video" className="anugoonj_loader" autoPlay="autoPlay" playsinline muted onEnded={()=>{setLoading(false)}}>
-          <source  src={"https://res.cloudinary.com/dyusmsyij/video/upload/v1677486295/images/anugoonj/anugoonj_loader.mp4"} type="video/mp4" />
-          <source  src={"https://res.cloudinary.com/dyusmsyij/video/upload/v1677486295/images/anugoonj/anugoonj_loader.mp4"} type="video/ogg"/>
+        <video ref={website_loader} id="video" className="anugoonj_loader" autoPlay="autoplay" playsInLine="playsinline" muted onEnded={()=>{setLoading(false)}} src= "https://res.cloudinary.com/dyusmsyij/video/upload/v1677486295/images/anugoonj/anugoonj_loader.mp4">
+          {/* <source  src={"https://res.cloudinary.com/dyusmsyij/video/upload/v1677486295/images/anugoonj/anugoonj_loader.mp4"} type="video/mp4" />
+          <source  src={"https://res.cloudinary.com/dyusmsyij/video/upload/v1677486295/images/anugoonj/anugoonj_loader.mp4"} type="video/ogg"/> */}
         </video>
         <h1 className="loding_text">Loading...</h1>
         </div>
