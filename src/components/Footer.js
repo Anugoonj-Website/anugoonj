@@ -10,9 +10,13 @@ function Footer() {
       <div class="footer-container">
         <div class="left-col">
           <div class="footer-icons">
-            <img src={icon} alt="" className="logo_footer" />
-            <img src={ipu_icon} alt="" className="logo_footer" />
-            <img src={year25_icon} alt="" className="logo_footer" />
+          
+          <a href="https://anugoonj.org" target="_blank" rel="noopener noreferrer"><img src={icon} alt="" className="logo_footer" /></a>
+
+          <a href="http://www.ipu.ac.in" target="_blank" rel="noopener noreferrer"><img src={ipu_icon} alt="" className="logo_footer" /></a>
+          <a href="http://www.ipu.ac.in" target="_blank" rel="noopener noreferrer"><img src={year25_icon} alt="" className="logo_footer" /></a>
+            
+            
           </div>
           <div class="social-media">
             <div className="icon_div">
@@ -31,7 +35,7 @@ function Footer() {
               <a href="https://www.instagram.com/anugoonj_official/">
                 <i class="fab fa-instagram"></i>
               </a>
-              <p className="follower">5500+ followers</p>
+              <p className="follower">6000+ followers</p>
             </div>
             <div className="icon_div">
               <a href="mailto:dsw@ipu.ac.in">

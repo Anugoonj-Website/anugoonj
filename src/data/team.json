@@ -57,7 +57,7 @@
             {
                 "name": "Nidhi Jha",
                 "position": "Organising Member",
-                "image": "default.jpg"
+                "image": "nidhi.jpg"
               },
               {
                 "name": "Surabhi Kumari",
@@ -131,6 +131,38 @@
                 "image":"toyeesh_sinha.jpg",
                 "name":"Toyeesh Sinha",
                 "position":"Head"
+            },
+            
+            {
+                "name": "Anjali Singh",
+                "image": "anjali_singh.jpg",
+                "position": "Member"
+            },
+            {
+                "name": "Ayush Baliyan",
+                "image": "ayush_baliyan.jpg",
+                "position": "Member"
+            },
+            
+            {
+                "name": "Shivesh Nandan",
+                "image": "shivesh_nandan.jpg",
+                "position": "Member"
+            },
+            {
+                "image":"pranshu_gupta.jpg",
+                "name":"Pranshu Gupta",
+                "position":"Member"
+            },
+            {
+                "name": "Yash Khattar",
+                "image": "yash_khattar.jpg",
+                "position": "Member"
+            },
+            {
+                "name": "Aryavir Malik",
+                "image": "aryavir_malik.jpg",
+                "position": "Member"
             }
 
         ]
@@ -287,7 +319,7 @@
                 "position":"Head"
             },
             {
-                "image":"default.jpg",
+                "image":"lavish.jpg",
                 "name":"Lavish Chandra",
                 "position":"Head"
             },
@@ -319,7 +351,7 @@
                 "position":"Dramatics Team Head"
             },
             {
-                "name": "Unnat",
+                "name": "Unnat Malkoti",
                 "position": "Music Team Head",
                 "image": "default.jpg"
             },{
@@ -341,8 +373,8 @@
                 "position":"Talent Show Team Head"
             },
             {
-                "image":"default.jpg",
-                "name":"Vishwas",
+                "image":"vishwas_atri.jpg",
+                "name":"Vishwas Atri",
                 "position":"Anchoring Team Head"
             }
         ]
