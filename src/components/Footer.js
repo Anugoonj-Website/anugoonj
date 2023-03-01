@@ -65,6 +65,9 @@ function Footer() {
           </div>
         </div>
       </div>
+      <p class="rights-text font-bold">
+      Entry Time: 9:00 AM to 4:00 PM
+      </p>
       <p class="rights-text">
         © 2023 Organised and Managed by <b>Directorate of Student's Welfare.</b> All Rights Reserved.
       </p>
