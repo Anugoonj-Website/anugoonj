@@ -29,6 +29,9 @@ function Events(props) {
       <div className="sponsors_content">
           <p className="sponsors_title_line">Join us for a spectacular showcase of talent and entertainment - Experience the excitement with our diverse range of events!</p>
           <p className="sponsors_paragraph">Experience 3 days of non-stop entertainment with over 40 events including music, dance, theater, and much more. Witness the best talent from across the country competing for the top honors in various categories. Enjoy the soulful melodies of Armaan Malik, the electrifying beats of DJ Session, and the foot-tapping rhythms of Sukh-E in a night dedicated to Punjabi music. With something for everyone, this event promises to be a feast for the senses. Don't miss out on this extravaganza!</p>
+          <p className="sponsors_paragraph">
+            FOR MORE UPDATES, Please go to <a href="http://www.ipu.ac.in/dsw_anugoonj.php" className="text-white font-bold z-10 relative" target="_blank" rel="noopener noreferrer">www.ipu.ac.in/dsw_anugoonj.php</a>
+          </p>
       </div>
 
       <div className='events_events'>

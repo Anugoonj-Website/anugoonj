@@ -260,6 +260,11 @@
                 "position":"Head"
             },
             {
+                "image":"ankit_updhyay.jpg",
+                "name":"Ankit Upadhyay",
+                "position":"Head"
+            },
+            {
                 "image":"bhavesh.jpg",
                 "name":"Bhavesh",
                 "position":"Head"
@@ -267,11 +272,6 @@
             {
                 "image":"ridhi_bhat.jpg",
                 "name":"Ridhi Bhat",
-                "position":"Head"
-            },
-            {
-                "image":"ankit_updhyay.jpg",
-                "name":"Ankit Upadhyay",
                 "position":"Head"
             }
         ]
